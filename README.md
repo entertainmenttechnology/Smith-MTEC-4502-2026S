@@ -21,28 +21,37 @@ Nothing here is considered final in an absolute sense. Instead, this repository 
 
 ---
 
-## Assignments (Top-Level Navigation)
+## How to Navigate This Repository
 
-Assignments are listed here for quick orientation. Full details live in their respective folders.
+Each folder has a specific purpose:
 
-- **Assignment 1 – Strategic Framework for Career Planning**  
-  Research-based analysis of career pathways, competencies, gaps, and long-term positioning.
+### **`/assignments`**
+Assignment briefs and prompts. This is where you'll find detailed instructions for each deliverable.
 
-- **Assignment 2 – Visualization of Career Strategy**  
-  Visual representations (mind maps, timelines, Gantt charts, etc.) that model your career thinking and adaptability.
+### **`/course-materials`**
+Lesson plans, slides, readings, and other instructional content provided by the instructor.
 
-- **Assignment 3 – Portfolio Platforms & Professional Presence**  
-  Evaluation of portfolio systems, monetization models, and platform alignment with career goals.
+### **`/resources`**
+Reference materials, templates, guides, and curated research (career taxonomy, emerging roles, portfolio platforms, etc.).
 
-- **Assignment 4 – AI-Integrated Portfolio Development**  
-  Structured experimentation with AI as a collaborator for analysis, refinement, evaluation, and ideation.
+### **`/student-work`**
+**Your workspace.** When you fork this repository, create a personal folder here (e.g., `firstname-lastname/`) and use it as your professional archive for:
+- Assignment submissions
+- Reflections and research notes
+- Portfolio experiments
+- Career planning documents
 
-- **Assignment 5 – Resume & Cover Letter Development**  
-  Professional translation of skills, projects, and identity into industry-facing documents.
+See [student-work/STUDENT-FOLDER-TEMPLATE.md](student-work/STUDENT-FOLDER-TEMPLATE.md) for folder structure guidelines.
 
----
+## Getting Started
 
-## Philosophy of the Course
+1. **Fork this repository** to your personal GitHub account
+2. **Clone your fork** to your local machine
+3. **Create a folder** in `/student-work` with your name (e.g., `student-work/firstname-lastname/`)
+4. **Read assignments** in `/assignments` and submit work in your personal folder
+5. **Commit and push regularly** — your process is part of the evaluation
+
+See [course-materials/05-Lesson_Plan_MTEC-4502_2025F.md](course-materials/05-Lesson_Plan_MTEC-4502_2025F.md) for the full course outline and schedule.
 
 ### Careers Are Not Static
 
@@ -103,17 +112,19 @@ You are not expected to already be fluent in GitHub. Learning to work comfortabl
 
 ---
 
-## Repository Structure (High-Level)
+---
 
-> **Note:** Detailed folder documentation may be auto-generated or expanded using AI tools.
+## Repository Structure
 
-Typical contents include:
+```
+├── assignments/          # Assignment prompts and deliverables
+├── course-materials/     # Syllabus, lesson plans, slides, readings
+├── resources/            # Guides, templates, reference materials
+├── student-work/         # Student workspaces (fork this repo, create your folder here)
+└── README.md            # This file
+```
 
-- `/assignments` – Assignment prompts and deliverables
-- `/documents` – Shared readings, references, and templates
-- `/reflections` – Structured reflection materials
-- `/portfolio-research` – Platform evaluations and notes
-- `/visualizations` – Career maps, diagrams, and planning tools
+All course materials are open for reference. Your personal work lives in your folder within `/student-work`.
 
 ---
 
