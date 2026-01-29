@@ -45,8 +45,8 @@ See [student-work/STUDENT-FOLDER-TEMPLATE.md](student-work/STUDENT-FOLDER-TEMPLA
 
 ## Getting Started
 
-1. **Fork this repository** to your personal GitHub account
-2. **Clone your fork** to your local machine
+1. **Create a branch of this repository** 
+2. **Clone the repo** to your local machine
 3. **Create a folder** in `/student-work` with your name (e.g., `student-work/firstname-lastname/`)
 4. **Read assignments** in `/assignments` and submit work in your personal folder
 5. **Commit and push regularly** — your process is part of the evaluation
