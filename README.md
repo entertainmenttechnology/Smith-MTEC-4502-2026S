@@ -1,5 +1,14 @@
 # MTEC 4502 – Career and Portfolio Seminar
 
+## 📋 Current Assignments
+
+Students are currently working on:
+
+1. [**Exploring and Evaluating Portfolio Platforms**](assignments/05-Assignment_Evaluating_Portfolio_Platforms.md) – Research and compare professional portfolio platforms
+2. [**Resume Development Assignment**](assignments/11_Session Resume Development Assignment.md) – Develop a professional resume with supporting materials
+
+---
+
 ## Course Repository README
 
 This repository serves as the **living workspace** for MTEC 4502: *Career and Portfolio Seminar*. It is not simply a submission container, but a **professional development environment** designed to mirror how creative technologists, designers, engineers, and media professionals actually work.
@@ -45,8 +54,8 @@ See [student-work/STUDENT-FOLDER-TEMPLATE.md](student-work/STUDENT-FOLDER-TEMPLA
 
 ## Getting Started
 
-1. **Create a branch of this repository** 
-2. **Clone the repo** to your local machine
+1. **Fork this repository** to your personal GitHub account
+2. **Clone your fork** to your local machine
 3. **Create a folder** in `/student-work` with your name (e.g., `student-work/firstname-lastname/`)
 4. **Read assignments** in `/assignments` and submit work in your personal folder
 5. **Commit and push regularly** — your process is part of the evaluation
