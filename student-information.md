@@ -4,7 +4,7 @@
 
 | Name | LMS Username | Student ID | Role | Email | GitHub | Discord | Phone |
 |------|--------------|-----------|------|-------|--------|---------|-------|
-| Presley Falkenburg | presley.falkenburg17 | 23720117 | Learner | | | | |
+| Presley Falkenburg | presley.falkenburg17 | 23720117 | Learner | |PresleyFalkenburg | | |
 | Jay Kim | jay.kim98 | 24090498 | Learner | | | | |
 | Noel Nova | noel.nova97 | 24310497 | Learner | | Noelnova23 | | |
 | Aaron Sanchez | aaron.sanchez95 | 24252595 | Learner | | AaronAcc117 | | |
