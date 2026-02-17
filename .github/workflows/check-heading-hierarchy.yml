@@ -1,0 +1,24 @@
+name: Markdown Heading Hierarchy Check
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check-heading-hierarchy:
+    runs-on: ubuntu-latest
+    name: Check Markdown Heading Hierarchy
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Run heading hierarchy check
+        run: |
+          chmod +x .github/scripts/check-heading-hierarchy.sh
+          .github/scripts/check-heading-hierarchy.sh
