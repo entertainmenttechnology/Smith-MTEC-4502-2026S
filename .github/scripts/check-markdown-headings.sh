@@ -24,8 +24,9 @@ for file in "${CRITICAL_FILES[@]}"; do
     
     CHECKED=$((CHECKED + 1))
     
-    # Check if file has a line starting with "# " (level-one heading)
-    if ! grep -qE '^\s*#\s+' "$file"; then
+    # Check if file has a line starting with "# " (level-one heading only)
+    # Pattern: ^ = start of line, # = single hash, \s+ = one or more spaces, [^#] = not another hash
+    if ! grep -qE '^#\s+[^#]' "$file"; then
         echo "❌ FAIL: $file - No level-one heading found"
         FAIL=$((FAIL + 1))
     else
