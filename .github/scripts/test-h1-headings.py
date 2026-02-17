@@ -23,7 +23,8 @@ def has_level_one_heading(filepath):
                 stripped = line.strip()
                 if stripped:  # First non-empty line
                     # Match: starts with # followed by space, but not ##
-                    if re.match(r'^# [^#]', line):
+                    # Using negative lookahead to ensure it's not ##
+                    if re.match(r'^# (?!#)', line):
                         return True, f"Found H1: {line[:60]}"
                     else:
                         return False, f"First non-empty line is not H1: {line[:60]}"
