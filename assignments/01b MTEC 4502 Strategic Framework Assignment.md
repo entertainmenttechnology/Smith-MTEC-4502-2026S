@@ -47,8 +47,6 @@ This is where your week 2 assignment should end: we will continue with parts 3 \
 
 \======
 
-### 
-
 ### Part 3: Personal Alignment
 
 Reflect on how your career path aligns with your personal values, long-term aspirations, and strengths.
