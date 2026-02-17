@@ -25,4 +25,4 @@ jobs:
       
       - name: Check heading order in markdown files
         run: |
-          python3 .github/scripts/check-heading-order.sh
+          python3 .github/scripts/check-heading-order.py

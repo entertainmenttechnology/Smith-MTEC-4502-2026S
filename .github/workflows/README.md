@@ -114,7 +114,7 @@ The `heading-order-check.yml` workflow automatically validates that all markdown
 You can also run the heading order checker locally:
 
 ```bash
-python3 .github/scripts/check-heading-order.sh
+python3 .github/scripts/check-heading-order.py
 ```
 
 ### Example issues caught:
