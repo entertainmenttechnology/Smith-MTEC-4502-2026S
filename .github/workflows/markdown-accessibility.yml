@@ -1,0 +1,25 @@
+name: Markdown Accessibility Check
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:  # Allow manual triggering
+
+permissions:
+  contents: read
+
+jobs:
+  check-h1-headings:
+    runs-on: ubuntu-latest
+    name: Check H1 Headings in Markdown Files
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check for level-one headings
+        run: |
+          chmod +x .github/scripts/check-h1-headings.sh
+          ./.github/scripts/check-h1-headings.sh
+        shell: bash
