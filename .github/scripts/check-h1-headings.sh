@@ -7,19 +7,23 @@ set -e
 FAILED=0
 ERRORS=""
 
+# Directories to exclude from validation
+EXCLUDE_PATTERN="node_modules|\.git|vendor|dist|build"
+
 echo "Checking markdown files for level-one headings..."
 
-# Find all markdown files (excluding node_modules and .git)
+# Find all markdown files (excluding common non-source directories)
 while IFS= read -r file; do
-    # Check if file has a level-one heading (line starting with single #)
-    if ! grep -q "^# " "$file"; then
+    # Check if file has a level-one heading (line starting with # followed by space)
+    # Note: Requires space after # for consistency with common markdown style
+    if ! grep -q "^#[[:space:]]" "$file"; then
         FAILED=$((FAILED + 1))
         ERRORS="${ERRORS}\n❌ Missing level-one heading: $file"
         echo "❌ FAIL: $file (no level-one heading found)"
     else
         echo "✅ PASS: $file"
     fi
-done < <(find . -name "*.md" -type f | grep -v -E "(node_modules|\.git)" | sort)
+done < <(find . -name "*.md" -type f | grep -v -E "$EXCLUDE_PATTERN" | sort)
 
 echo ""
 echo "===================="

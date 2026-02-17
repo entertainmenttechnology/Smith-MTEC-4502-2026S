@@ -1,10 +1,13 @@
-name: Check Level-One Headings
+name: Check H1 Headings
 
 on:
   push:
     branches: [main]
   pull_request:
     branches: [main]
+
+permissions:
+  contents: read
 
 jobs:
   check-h1-headings:
