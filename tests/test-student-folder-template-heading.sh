@@ -16,7 +16,7 @@ fi
 # Get first non-empty line
 first_line=$(head -20 "$FILE" | grep -v '^[[:space:]]*$' | head -1)
 
-if [[ "$first_line" =~ ^#[[:space:]] ]]; then
+if [[ "$first_line" =~ ^#[[:space:]]+ ]]; then
     echo "✅ $FILE has a level-one heading"
     echo "   Heading: $first_line"
     exit 0

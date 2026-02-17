@@ -28,7 +28,7 @@ while IFS= read -r -d '' file; do
     # Check if first non-empty line starts with "# " (level-one heading)
     first_line=$(head -20 "$file" | grep -v '^[[:space:]]*$' | head -1)
     
-    if [[ "$first_line" =~ ^#[[:space:]] ]]; then
+    if [[ "$first_line" =~ ^#[[:space:]]+ ]]; then
         echo "✅ $file"
         FILES_PASSED=$((FILES_PASSED + 1))
     else
