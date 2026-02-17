@@ -1,6 +1,6 @@
-# Student Work Template
+## Student Work Template
 
-## How to Use This Folder
+### How to Use This Folder
 
 Each student who forks this repository should:
 
@@ -9,7 +9,7 @@ Each student who forks this repository should:
 3. **Keep this folder organized** with subfolders for different assignments or project types
 4. **Commit and push regularly** — your work is visible in version history
 
-### Example Structure (for your folder):
+#### Example Structure (for your folder):
 
 ```
 student-work/
@@ -25,7 +25,7 @@ student-work/
     └── portfolio-experiments/
 ```
 
-### Guidelines
+#### Guidelines
 
 - **All work is your responsibility** — this is your professional archive
 - **Commit messages should be clear** — describe what you've changed and why
