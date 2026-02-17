@@ -1,6 +1,8 @@
 #!/bin/bash
 # Script to check heading hierarchy in markdown files
 # Ensures headings follow proper nesting (H1 -> H2 -> H3, etc.) without skipping levels
+# Per WCAG 2.1, heading levels should only INCREASE by one level at a time
+# Decreasing levels (e.g., H3 -> H2) is acceptable as it represents closing sections
 
 set -e
 
