@@ -1,10 +1,10 @@
-### **MTEC 4502 \- Resume Development Assignment**
+## **MTEC 4502 \- Resume Development Assignment**
 
 **Initial Resume Assignment – Preparing for the Draft** 
 
 ---
 
-#### **Objective**
+### **Objective**
 
 Students will gather and organize their professional materials and experiences, conduct research on effective resumes, and create an initial draft of their resume for review in the next class. AI tools may be used to refine and enhance the resume after the initial draft.
 
@@ -14,7 +14,7 @@ We also wish to consider the difference between a resume and a CV (curriculum vi
 
 ---
 
-### **Assignment Instructions**
+## **Assignment Instructions**
 
 1. **Gather Materials:**  
    * Compile a list of your experiences, including education, work experience, internships, volunteer work, and projects.  
@@ -43,7 +43,7 @@ We also wish to consider the difference between a resume and a CV (curriculum vi
 
 ---
 
-### **Deliverable:**
+## **Deliverable:**
 
 * **Resume Draft:** Be prepared to upload next class.  
 * **Resume Analysis:** Brief summaries explaining what makes one resume effective and another ineffective.  
