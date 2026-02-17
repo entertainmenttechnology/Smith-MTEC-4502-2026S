@@ -1,4 +1,4 @@
-# MTEC 4502 – Career and Portfolio Seminar  
+# MTEC 4502 – Career and Portfolio Seminar
 ## Week 9: Portfolio Planning & Student Presentations  
 **Assignment Context:** Assignment 3.2 – The Portfolio  
 **Instructor:** Dr. David B. Smith  
