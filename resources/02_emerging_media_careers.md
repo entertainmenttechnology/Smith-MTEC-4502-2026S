@@ -1,4 +1,4 @@
-# 02_Emerging Media Technology Careers – Draft Guide
+# Emerging Media Technology Careers – Draft Guide
 
 This guide organizes career pathways in Emerging Media by **skill-based categories**, with explicit subsections for **AI & Generative Media** and **Sustainability**. Each entry provides a description, most important skills, and job search keywords to help students connect academic learning with real-world opportunities. Attention has been paid to attempt to anticipate FUTURE LOOKING careers, some which may be ergent yet: recall that 
 
