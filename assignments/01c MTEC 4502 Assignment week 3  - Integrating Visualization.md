@@ -1,16 +1,16 @@
-### **MTEC 4502 \- Career and Portfolio Seminar.  Assignment Week 3\.**
+## **MTEC 4502 \- Career and Portfolio Seminar.  Assignment Week 3\.**
 
 **Integrating visualization resources into your project**
 
-### **Part 0: Read and consider about the future of work**
+## **Part 0: Read and consider about the future of work**
 
 [https://workofthefuture-taskforce.mit.edu/](https://workofthefuture-taskforce.mit.edu/)
 
 You may wish to speculate with the AI of your choice about how your particular career path will be changing over the next decade.
 
-### **Part 1: Research on Visualization Platforms**
+## **Part 1: Research on Visualization Platforms**
 
-#### **Steps:**
+### **Steps:**
 
 1. **Explore Different Platforms**:  
    * Research at least **three** visualization tools (e.g., **MindMeister**, **Trello**, **Lucidchart**, **Google Sheets**, **Coggle**, **Draw.io**).  
@@ -26,9 +26,9 @@ You may wish to speculate with the AI of your choice about how your particular c
 
 ---
 
-### **Part 2: Design the Structure of Your Visualization**
+## **Part 2: Design the Structure of Your Visualization**
 
-#### **Steps:**
+### **Steps:**
 
 1. **Choose Your Visualization Type**:  
    * Based on your research, decide whether you will use a **mind map**, **flow chart**, **Gantt chart**, or another visualization tool to organize your career strategy.  
@@ -43,9 +43,9 @@ You may wish to speculate with the AI of your choice about how your particular c
 
 ---
 
-### **Part 3: Produce Your First Rough Draft**
+## **Part 3: Produce Your First Rough Draft**
 
-#### **Steps:**
+### **Steps:**
 
 1. **Build Your Rough Draft**:  
    * Use your chosen platform to produce a rough draft of your **Strategic Framework** visualization. This should include:  
@@ -61,13 +61,13 @@ You may wish to speculate with the AI of your choice about how your particular c
 
 ---
 
-### **Next Steps and Submission:**
+## **Next Steps and Submission:**
 
 * **Submission Format**: Submit your **comparison analysis**, **draft structure**, and **rough draft visualization** in a shareable Google Doc or PDF. Make sure your visualization is accessible via link or file.  
 * **Due Date**: \[Insert due date here\]
 
 ---
 
-### **Optional Extra Credit:**
+## **Optional Extra Credit:**
 
 * For extra credit, **test another platform** that you didn’t choose and submit a short **review (100 words)** on how it compares to the one you selected for your final visualization.
