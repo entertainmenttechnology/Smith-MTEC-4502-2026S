@@ -12,22 +12,26 @@ import re
 from pathlib import Path
 
 def has_level_one_heading(filepath):
-    """Check if a markdown file has a level-one heading."""
+    """
+    Check if a markdown file has a level-one heading.
+    
+    For accessibility compliance, checks if the first non-empty line is an H1.
+    """
     try:
         with open(filepath, 'r', encoding='utf-8') as f:
             content = f.read()
             lines = content.split('\n')
             
-            # Check for a level-one heading (# but not ##, ###, etc.)
+            # Check if first non-empty line is a level-one heading
             for line in lines:
                 stripped = line.strip()
                 if stripped:  # First non-empty line
                     # Match: starts with # followed by space, but not ##
                     # Using negative lookahead to ensure it's not ##
-                    if re.match(r'^# (?!#)', line):
-                        return True, f"Found H1: {line[:60]}"
+                    if re.match(r'^# (?!#)', stripped):
+                        return True, f"Found H1: {stripped[:60]}"
                     else:
-                        return False, f"First non-empty line is not H1: {line[:60]}"
+                        return False, f"First non-empty line is not H1: {stripped[:60]}"
     except Exception as e:
         return False, f"Error reading file: {e}"
     
