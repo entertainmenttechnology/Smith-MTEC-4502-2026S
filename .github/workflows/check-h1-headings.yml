@@ -1,0 +1,23 @@
+name: Check H1 Headings
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  check-h1-headings:
+    runs-on: ubuntu-latest
+    name: Verify Markdown Files Have Level-One Headings
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Run heading check
+        run: |
+          bash .github/scripts/check-h1-headings.sh
