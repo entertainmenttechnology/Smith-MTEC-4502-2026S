@@ -17,7 +17,7 @@ PASS=0
 FAIL=0
 TOTAL=0
 
-# Find all markdown files, excluding .git directory
+# Find all markdown files, excluding common directories that should be ignored
 while IFS= read -r -d '' file; do
     TOTAL=$((TOTAL + 1))
     
@@ -25,15 +25,16 @@ while IFS= read -r -d '' file; do
     rel_path="${file#./}"
     
     # Check if file has a level-one heading (line starting with single #)
-    # Must be at the start of a line, followed by space
-    if grep -q '^# ' "$file"; then
+    # Must be at the start of a line, followed by whitespace
+    # Using POSIX character class for more robust matching
+    if grep -q '^#[[:space:]]' "$file"; then
         echo -e "${GREEN}✓${NC} $rel_path"
         PASS=$((PASS + 1))
     else
         echo -e "${RED}✗${NC} $rel_path - Missing level-one heading"
         FAIL=$((FAIL + 1))
     fi
-done < <(find . -name "*.md" -type f -not -path "./.git/*" -print0 | sort -z)
+done < <(find . -name "*.md" -type f -not -path "./.git/*" -not -path "./node_modules/*" -not -path "./.venv/*" -not -path "./vendor/*" -not -path "./dist/*" -not -path "./build/*" -print0 | sort -z)
 
 echo ""
 echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
