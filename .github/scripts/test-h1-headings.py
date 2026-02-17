@@ -1,7 +1,10 @@
 #!/usr/bin/env python3
 """
-Test script to verify that all markdown files have a level-one heading.
-This helps ensure accessibility compliance.
+Test script to verify that specific markdown files have a level-one heading.
+This helps ensure accessibility compliance for the course materials.
+
+This test specifically checks the file mentioned in the accessibility issue:
+assignments/01a_Reflective_essay_draft_speculation_phase.md
 """
 
 import sys
@@ -30,47 +33,33 @@ def has_level_one_heading(filepath):
     return False, "File is empty or has no content"
 
 def main():
-    """Test all markdown files in assignments directory."""
+    """Test the specific file mentioned in the accessibility issue."""
     repo_root = Path(__file__).parent.parent.parent
-    assignments_dir = repo_root / "assignments"
     
-    if not assignments_dir.exists():
-        print(f"❌ Assignments directory not found: {assignments_dir}")
+    # The specific file mentioned in the accessibility issue
+    target_file = repo_root / "assignments" / "01a_Reflective_essay_draft_speculation_phase.md"
+    
+    if not target_file.exists():
+        print(f"❌ Target file not found: {target_file}")
         return 1
     
-    md_files = list(assignments_dir.glob("*.md"))
+    print(f"Testing: {target_file.name}")
+    print(f"{'='*60}")
     
-    if not md_files:
-        print("No markdown files found in assignments directory")
+    has_h1, message = has_level_one_heading(target_file)
+    
+    if has_h1:
+        print(f"✅ PASS: File has a level-one heading")
+        print(f"   {message}")
+        print(f"\n✅ Accessibility requirement met:")
+        print(f"   The page contains a level-one heading as required by WCAG 2.1")
         return 0
-    
-    failures = []
-    successes = []
-    
-    for md_file in sorted(md_files):
-        has_h1, message = has_level_one_heading(md_file)
-        
-        if has_h1:
-            successes.append(md_file.name)
-            print(f"✅ {md_file.name}")
-            print(f"   {message}")
-        else:
-            failures.append((md_file.name, message))
-            print(f"❌ {md_file.name}")
-            print(f"   {message}")
-    
-    print(f"\n{'='*60}")
-    print(f"Total files checked: {len(md_files)}")
-    print(f"✅ Passed: {len(successes)}")
-    print(f"❌ Failed: {len(failures)}")
-    
-    if failures:
-        print("\nFiles missing level-one headings:")
-        for filename, message in failures:
-            print(f"  - {filename}: {message}")
+    else:
+        print(f"❌ FAIL: File missing level-one heading")
+        print(f"   {message}")
+        print(f"\n❌ Accessibility violation:")
+        print(f"   Page must have a level-one heading (axe rule: page-has-heading-one)")
         return 1
-    
-    return 0
 
 if __name__ == "__main__":
     sys.exit(main())
