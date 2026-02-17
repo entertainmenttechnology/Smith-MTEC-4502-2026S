@@ -1,4 +1,4 @@
-#  Assignment: Exploring and Evaluating Portfolio Platforms  
+# Assignment: Exploring and Evaluating Portfolio Platforms
 **MTEC 4502 – Career and Portfolio Seminar**  
 **Instructor:** Dr. David B. Smith  
 
