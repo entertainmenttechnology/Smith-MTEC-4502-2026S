@@ -10,65 +10,14 @@ City University of New York
 
 **Table of Contents**
 
-[**Objective	1**](#objective)
+| Section | Page |
+|:--------|-----:|
+| [**Part 1a: Reflective Essay Draft on Career Strategy and Skill Assessment**](#part-1a-reflective-essay-draft-on-career-strategy-and-skill-assessment) | 3 |
+| [**Part 1b: Creating a Strategic Framework for Career Path Planning**](#part-1b-creating-a-strategic-framework-for-career-path-planning) | 4 |
+| [**Part 1c: Using Visual Aids in Your Assignment**](#part-1c-using-visual-aids-in-your-assignment) | 6 |
+| [**Part 1d: Using Artificial Intelligence in Your Assignment**](#part-1d-using-artificial-intelligence-in-your-assignment) | 8 |
 
-[Submission Dates	2](#target-submission-dates)
-
-[**Resources	2**](#resources)
-
-[Part 1: Reflective Essay Draft on Career Strategy and Skill Assessment	3](#heading=h.vs19kq3wwvtg)
-
-[Objective	3](#objective-1)
-
-[Guidelines	3](#guidelines)
-
-[Submission Requirements	3](#submission-requirements)
-
-[Part 2: Creating a Strategic Framework for Career Path Planning	4](#part-1b:-creating-a-strategic-framework-for-career-path-planning)
-
-[Objective	4](#objective-2)
-
-[Guidelines	4](#guidelines-1)
-
-[Draft Submission:	5](#draft-submission:)
-
-[Final Submission of Part 2:	5](#final-submission-of-part-2:)
-
-[Part 3: Using Visual Aids in Your Assignment	6](#part-1c:-using-visual-aids-in-your-assignment)
-
-[Career Pathway Diagrams	6](#career-pathway-diagrams)
-
-[Skills Gap Analysis Charts	6](#skills-gap-analysis-charts)
-
-[SWOT Analysis	6](#swot-analysis)
-
-[Action Plan Timelines or Gantt Charts	6](#action-plan-timelines-or-gantt-charts)
-
-[Networking and Relationship Maps	6](#networking-and-relationship-maps)
-
-[Learning and Development Roadmaps	7](#learning-and-development-roadmaps)
-
-[Part 4: Using Artificial Intelligence in Your Assignment	8](#part-1d:-using-artificial-intelligence-in-your-assignment)
-
-[Objective	8](#objective-3)
-
-[Guidelines for Using AI in Your Assignment	8](#guidelines-for-using-ai-in-your-assignment)
-
-[Research, Ideation, and Drafting	8](#research,-ideation,-and-drafting)
-
-[Feedback and Revision	8](#feedback-and-revision)
-
-[Documentation of AI Use	8](#documentation-of-ai-use)
-
-[Ethical Consideration and Academic Integrity:	9](#ethical-consideration-and-academic-integrity:)
-
-[Guidance for Reflection:	9](#guidance-for-reflection:)
-
-[No AI Use	9](#no-ai-use)
-
-[Documentation of AI Use for creating this Assignment	10](#documentation-of-ai-use-for-creating-this-assignment)
-
-## **Objective** {#objective}
+## Objective {#objective}
 
 This set of exercises is designed to help you **articulate a clear vision for your future**, identify strengths, desires, and skill-set gaps, and to develop a strategic plan for bridging these gaps as you prepare to enter the professional world.
 
@@ -76,7 +25,7 @@ This set of exercises is designed to help you **articulate a clear vision for yo
 
 In these linked assignments you will critically assess your career aspirations, the skills and knowledge you will need to achieve these goals, and evaluate the level of expertise you have acquired in these areas. After this you will **conceptualize and generate a strategic plan** that describes your path forward to the career of your choice.  
 
-## **Target Submission Dates** {#target-submission-dates}
+## Target Submission Dates {#target-submission-dates}
 
 Part 1a: Reflective Essay Draft	Week 2 
 
@@ -136,7 +85,7 @@ Conclusion with Initial Strategic Thoughts
 * Draft your essay using an online, shareable document format (Google Docs, OneDrive, etc.) and be prepared to share the link in class.  
 * Be prepared to discuss your essay's contents, your progress, and any questions or insights you wish to share.
 
-## **Part 1b: Creating a Strategic Framework for Career Path Planning** {#part-1b:-creating-a-strategic-framework-for-career-path-planning}
+## **Part 1b: Creating a Strategic Framework for Career Path Planning** {#part-1b-creating-a-strategic-framework-for-career-path-planning}
 
 ### **Objective** {#objective-2}
 
@@ -177,7 +126,7 @@ After submitting your draft for Part 2, further instructions will be provided fo
 
 ## 
 
-## **Part 1c: Using Visual Aids in Your Assignment** {#part-1c:-using-visual-aids-in-your-assignment}
+## **Part 1c: Using Visual Aids in Your Assignment** {#part-1c-using-visual-aids-in-your-assignment}
 
 Different people intake information in different ways. Incorporating diagrams or charts into the Strategic Framework for Career Path Planning can significantly enhance comprehension and effectiveness. Visual aids help in organizing information, illustrating complex ideas simply, and highlighting relationships between different components of your plan. They can serve as a powerful tool for the communication of your strategic ideas. Here are several types of diagrams or charts that could be useful graphics for this assignment:
 
@@ -220,7 +169,7 @@ Incorporating these visual aids into your Strategic Framework not only aids in y
 
 ## 
 
-## **Part 1d: Using Artificial Intelligence in Your Assignment** {#part-1d:-using-artificial-intelligence-in-your-assignment}
+## **Part 1d: Using Artificial Intelligence in Your Assignment** {#part-1d-using-artificial-intelligence-in-your-assignment}
 
 ### **Objective** {#objective-3}
 
