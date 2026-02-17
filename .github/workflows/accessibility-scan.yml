@@ -20,6 +20,12 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Check for level-one headings in markdown files
+        shell: bash
+        run: |
+          chmod +x .github/scripts/check-markdown-headings.sh
+          .github/scripts/check-markdown-headings.sh
+
       - name: Auto-discover all markdown files
         id: discover
         shell: bash
