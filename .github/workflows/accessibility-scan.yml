@@ -20,30 +20,41 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Auto-discover all markdown files
+        id: discover
+        shell: bash
+        run: |
+          # Find all markdown files and convert to GitHub.com URLs
+          REPO="${{ github.repository }}"
+          BRANCH="${{ github.ref_name }}"
+          BASE_URL="https://github.com/${REPO}/blob/${BRANCH}"
+          
+          # Generate URL list (excluding .git directory)
+          URLS=$(find . -name "*.md" -type f | grep -v ".git" | sed 's|^\./||' | sort | while read -r file; do
+            # URL encode spaces and special characters
+            encoded_file=$(echo "$file" | sed 's/ /%20/g')
+            echo "${BASE_URL}/${encoded_file}"
+          done | tr '\n' '|')
+          
+          # Remove trailing pipe and convert to newline-delimited
+          URLS=${URLS%|}
+          URLS=$(echo "$URLS" | tr '|' '\n')
+          
+          # Output for debugging
+          echo "Found markdown files:"
+          echo "$URLS"
+          
+          # Set output using multiline format
+          echo "urls<<EOF" >> $GITHUB_OUTPUT
+          echo "$URLS" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
       - name: Scan accessibility on GitHub.com URLs
         uses: github/accessibility-scanner@v2
         with:
-          # All course material URLs (GitHub.com rendered pages)
-          urls: |
-            https://github.com/entertainmenttechnology/Smith-MTEC-4502-2026S/blob/main/README.md
-            https://github.com/entertainmenttechnology/Smith-MTEC-4502-2026S/blob/main/assignments/01a-d%20Scaffolded%20Assignment_%20Reflective%20and%20analytical%20essay.md
-            https://github.com/entertainmenttechnology/Smith-MTEC-4502-2026S/blob/main/assignments/01a_Reflective_essay_draft_speculation_phase.md
-            https://github.com/entertainmenttechnology/Smith-MTEC-4502-2026S/blob/main/assignments/01b%20MTEC%204502%20Strategic%20Framework%20Assignment.md
-            https://github.com/entertainmenttechnology/Smith-MTEC-4502-2026S/blob/main/assignments/01c%20MTEC%204502%20Assignment%20week%203%20%20-%20Integrating%20Visualization.md
-            https://github.com/entertainmenttechnology/Smith-MTEC-4502-2026S/blob/main/assignments/01d_%20Using%20Artificial%20Intelligence%20in%20your%20Analysis.md
-            https://github.com/entertainmenttechnology/Smith-MTEC-4502-2026S/blob/main/assignments/05-Assignment_Evaluating_Portfolio_Platforms.md
-            https://github.com/entertainmenttechnology/Smith-MTEC-4502-2026S/blob/main/assignments/11_Session%20Resume%20Development%20Assignment.md
-            https://github.com/entertainmenttechnology/Smith-MTEC-4502-2026S/blob/main/course-materials/05-Lesson_Plan_MTEC-4502%20_2025F.md
-            https://github.com/entertainmenttechnology/Smith-MTEC-4502-2026S/blob/main/course-materials/README.md
-            https://github.com/entertainmenttechnology/Smith-MTEC-4502-2026S/blob/main/resources/02_Resources.md
-            https://github.com/entertainmenttechnology/Smith-MTEC-4502-2026S/blob/main/resources/02_emerging_media_careers.md
-            https://github.com/entertainmenttechnology/Smith-MTEC-4502-2026S/blob/main/resources/09_portfolio_planning.md
-            https://github.com/entertainmenttechnology/Smith-MTEC-4502-2026S/blob/main/resources/11_resume_development_guide.md
-            https://github.com/entertainmenttechnology/Smith-MTEC-4502-2026S/blob/main/resources/Living%20Job%20Taxonomy.md
-            https://github.com/entertainmenttechnology/Smith-MTEC-4502-2026S/blob/main/resources/speculative_future_careers.md
-            https://github.com/entertainmenttechnology/Smith-MTEC-4502-2026S/blob/main/student-information.md
-            https://github.com/entertainmenttechnology/Smith-MTEC-4502-2026S/blob/main/student-work/STUDENT-FOLDER-TEMPLATE.md
-          repository: entertainmenttechnology/Smith-MTEC-4502-2026S
+          # Dynamically generated URLs from all markdown files in the repository
+          urls: ${{ steps.discover.outputs.urls }}
+          repository: ${{ github.repository }}
           token: ${{ secrets.GH_TOKEN }}
           cache_key: a11y-scan-mtec4502-${{ github.ref_name }}
           skip_copilot_assignment: false  # Set to true if you don't want Copilot to propose fixes

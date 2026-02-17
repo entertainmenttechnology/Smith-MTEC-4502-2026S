@@ -6,10 +6,21 @@ The `accessibility-scan.yml` workflow automatically scans all course materials f
 
 ### What it does:
 
+- **Automatically discovers** all markdown files in the repository (no manual URL list needed!)
 - Scans all markdown files as rendered on GitHub.com
 - Checks for WCAG 2 AA compliance issues
 - Creates GitHub issues for accessibility findings
 - Assigns issues to GitHub Copilot for AI-powered fix suggestions (if enabled)
+
+### Dynamic file discovery:
+
+The workflow automatically finds and scans:
+- ✅ New markdown files you add
+- ✅ Renamed/moved files
+- ✅ Files in any subdirectory
+- ❌ Files in `.git` directory (excluded)
+
+**You never need to update the URL list manually!**
 
 ### When it runs:
 
