@@ -45,6 +45,7 @@ for i, line in enumerate(lines, 1):
         # Check if heading level increases by more than 1
         if prev_level > 0 and level > prev_level + 1:
             errors.append(f"Line {i}: Heading jumped from H{prev_level} to H{level}")
+        # Update prev_level to current level (handles both increases and decreases)
         prev_level = level
 
 if errors:
@@ -64,9 +65,11 @@ while IFS= read -r -d '' file; do
     
     FILES_CHECKED=$((FILES_CHECKED + 1))
     
-    if check_heading_order "$file" 2>&1 | grep -q "Line"; then
+    # Capture output once to avoid duplicate execution
+    output=$(check_heading_order "$file" 2>&1)
+    if echo "$output" | grep -q "Line"; then
         echo "❌ $file"
-        check_heading_order "$file" 2>&1 | sed 's/^/   /'
+        echo "$output" | sed 's/^/   /'
         EXIT_CODE=1
     else
         echo "✅ $file"
