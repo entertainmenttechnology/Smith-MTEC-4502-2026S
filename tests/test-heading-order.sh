@@ -21,15 +21,18 @@ FILES_PASSED=0
 # Python script to check heading order
 check_heading_order() {
     local file="$1"
-    python3 << EOF
+    python3 - "$file" << 'EOF'
 import re
 import sys
 
 errors = []
 prev_level = 0
 
+# Get file path from command line argument
+file_path = sys.argv[1]
+
 try:
-    with open("$file", "r") as f:
+    with open(file_path, "r") as f:
         lines = f.readlines()
 except (IOError, OSError) as e:
     print(f"Error reading file: {e}")
@@ -37,7 +40,7 @@ except (IOError, OSError) as e:
 
 for i, line in enumerate(lines, 1):
     # Check if heading is nested in a list (starts with list marker then heading)
-    if re.match(r'^\s*[\*\-\+]\s+#{1,6}\s+', line):
+    if re.match(r'^\s*[*+\-]\s+#{1,6}\s+', line):
         errors.append(f"Line {i}: Heading nested in list item")
         continue
     
