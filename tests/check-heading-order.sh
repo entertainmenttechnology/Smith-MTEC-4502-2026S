@@ -46,8 +46,8 @@ while IFS= read -r -d '' file; do
             continue
         fi
         
-        # Skip lines inside code blocks and bullet points with headings
-        if $in_code_block || [[ "$line" =~ ^[[:space:]]*\*[[:space:]]*### ]]; then
+        # Skip lines inside code blocks and bullet points/lists with headings
+        if $in_code_block || [[ "$line" =~ ^[[:space:]]*[\*\-][[:space:]]+### ]]; then
             continue
         fi
         
@@ -82,7 +82,7 @@ while IFS= read -r -d '' file; do
         FILES_PASSED=$((FILES_PASSED + 1))
     fi
     
-done < <(find . -name "*.md" -type f -print0 | grep -zv ".git")
+done < <(find . -name "*.md" -type f -print0)
 
 echo ""
 echo "=================================================="

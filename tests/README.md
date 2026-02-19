@@ -58,7 +58,7 @@ These tests help ensure compliance with WCAG 2.1 requirements:
 1. **Level-one headings** (Level A): Pages should have a level-one heading for proper document structure
 2. **Heading order** (Level A): Headings should only increase by one level at a time
 
-This is important for:
+These requirements are important for:
 - Screen reader navigation
 - Document structure and semantics
 - Accessibility scanning tools
