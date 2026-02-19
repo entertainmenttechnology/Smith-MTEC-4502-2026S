@@ -25,7 +25,7 @@ fi
 first_line=$(head -20 "$FILE" | grep -v '^[[:space:]]*$' | head -1)
 
 # Check if it's a level-one heading (starts with "# " followed by content)
-if [[ "$first_line" =~ ^#[[:space:]] ]]; then
+if [[ "$first_line" =~ ^#\  ]]; then
     heading_text=$(echo "$first_line" | sed 's/^# //')
     echo "✅ PASS: File has level-one heading"
     echo "   Heading: $heading_text"
