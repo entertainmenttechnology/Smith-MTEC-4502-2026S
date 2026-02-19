@@ -74,7 +74,7 @@ while IFS= read -r -d '' file; do
         echo "❌ $file"
         EXIT_CODE=1
     fi
-done < <(find . -name "*.md" -type f -print0 | grep -zv ".git")
+done < <(find . -name "*.md" -type f -print0)
 
 echo ""
 echo "=================================================="
