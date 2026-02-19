@@ -21,7 +21,6 @@ python3 << PYTHON_SCRIPT
 import re
 import sys
 
-file_path = "$FILE"
 with open("$FILE") as f:
     lines = f.readlines()
 

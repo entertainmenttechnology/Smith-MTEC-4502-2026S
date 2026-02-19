@@ -54,7 +54,7 @@ The accessibility scan detects issues on the **rendered GitHub.com page**, which
 The `<h4>` element mentioned in the issue ("Sign in to GitHub") is part of GitHub's authentication UI, not the markdown file itself. The markdown file has always had correct heading order.
 
 Possible explanations for the flagged issue:
-1. The scan was performed on a specific branch/commit that may no longer exist (URL referenced `/blob/78/merge/`)
+1. The scan was performed on a specific branch/commit that may no longer exist (the original issue URL referenced a path containing `78/merge`)
 2. GitHub's page structure combined with the markdown creates a violation in the overall page context
 3. The accessibility scanner detected GitHub UI elements in combination with the content
 
