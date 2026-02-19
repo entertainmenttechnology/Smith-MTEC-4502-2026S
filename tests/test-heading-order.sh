@@ -28,8 +28,12 @@ import sys
 errors = []
 prev_level = 0
 
-with open("$file", "r") as f:
-    lines = f.readlines()
+try:
+    with open("$file", "r") as f:
+        lines = f.readlines()
+except (IOError, OSError) as e:
+    print(f"Error reading file: {e}")
+    sys.exit(1)
 
 for i, line in enumerate(lines, 1):
     # Check if heading is nested in a list (starts with list marker then heading)
@@ -45,7 +49,7 @@ for i, line in enumerate(lines, 1):
         # Check if heading level increases by more than 1
         if prev_level > 0 and level > prev_level + 1:
             errors.append(f"Line {i}: Heading jumped from H{prev_level} to H{level}")
-        # Update prev_level to current level (handles both increases and decreases)
+        # Update to track current heading level
         prev_level = level
 
 if errors:
