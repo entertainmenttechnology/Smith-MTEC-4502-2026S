@@ -91,9 +91,7 @@ Conclusion with Initial Strategic Thoughts
 
 The objective of this part of the exercise is to **design an actionable plan to help guide you to where you want to be in your professional future**. This framework is designed to build upon the self-reflection and insights gained in Part 1, focusing on how to strategically acquire necessary skills, navigate potential career paths, increase networking, and align your professional goals with your personal strengths and sources of fulfillment.  Your framework should attempt to address the following
 
-* 
-
-* ### **Guidelines** {#guidelines-1}
+### **Guidelines** {#guidelines-1}
 
 * **Strategic Planning:**   
 * Articulate a clear, detailed strategy that outlines the steps you will take to achieve your career goals. This involves setting specific, measurable objectives; identifying necessary skills and knowledge; and planning how to acquire or develop these competencies within a defined timeline.  
