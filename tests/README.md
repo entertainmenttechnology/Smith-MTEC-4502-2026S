@@ -17,6 +17,19 @@ Tests that `student-work/STUDENT-FOLDER-TEMPLATE.md` contains a level-one headin
 ✅ student-work/STUDENT-FOLDER-TEMPLATE.md has a level-one heading
 ```
 
+### test-assignment-01d-heading.sh
+Tests that `assignments/01d_ Using Artificial Intelligence in your Analysis.md` contains a level-one heading as required by WCAG 2.1 (page-has-heading-one rule).
+
+**Usage:**
+```bash
+./tests/test-assignment-01d-heading.sh
+```
+
+**Expected Output:**
+```
+✅ assignments/01d_ Using Artificial Intelligence in your Analysis.md has a level-one heading
+```
+
 ### check-markdown-accessibility.sh
 Checks all markdown files in the repository for level-one headings.
 
@@ -31,6 +44,7 @@ To run all accessibility tests:
 ```bash
 cd /path/to/repository
 ./tests/test-student-folder-template-heading.sh
+./tests/test-assignment-01d-heading.sh
 ./tests/check-markdown-accessibility.sh
 ```
 
