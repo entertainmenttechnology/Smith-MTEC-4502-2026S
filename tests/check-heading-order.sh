@@ -73,7 +73,7 @@ while IFS= read -r -d '' file; do
         FILES_WITH_ISSUES=$((FILES_WITH_ISSUES + 1))
         EXIT_CODE=1
     fi
-done < <(find . -name "*.md" -type f -print0 | grep -zv ".git")
+done < <(find . -name "*.md" -type f -print0)
 
 echo ""
 echo "===================================================="
@@ -85,7 +85,8 @@ else
     echo "❌ Some markdown files have heading order violations"
     echo ""
     echo "To fix: Ensure heading levels only increase by one at a time"
-    echo "Valid: h1 → h2 → h3 or h3 → h2 → h1"
+    echo "Valid increasing sequence: h1 → h2 → h3"
+    echo "Decreasing is allowed: h3 → h2 or h3 → h1"
     echo "Invalid: h1 → h3 (skipping h2) or h2 → h4 (skipping h3)"
     echo ""
     echo "This is required for WCAG 2.1 accessibility compliance (heading-order rule)"
