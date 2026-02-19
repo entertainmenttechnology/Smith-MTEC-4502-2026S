@@ -19,11 +19,6 @@ FILES_CHECKED=0
 FILES_PASSED=0
 
 while IFS= read -r -d '' file; do
-    # Skip hidden directories (like .git)
-    if [[ "$file" == *"/.git/"* ]]; then
-        continue
-    fi
-    
     FILES_CHECKED=$((FILES_CHECKED + 1))
     
     # Extract heading levels from the file (ignoring headings in code blocks)
@@ -47,12 +42,12 @@ while IFS= read -r -d '' file; do
         fi
         
         # Skip lines inside code blocks and bullet points/lists with headings
-        if $in_code_block || [[ "$line" =~ ^[[:space:]]*[\*\-][[:space:]]+### ]]; then
+        if $in_code_block || [[ "$line" =~ ^[[:space:]]*[\*\-][[:space:]]+#{1,6} ]]; then
             continue
         fi
         
         # Check if line is a heading (starts with one or more #)
-        if [[ "$line" =~ ^(#+)[[:space:]]+ ]]; then
+        if [[ "$line" =~ ^(#+)[[:space:]]* ]]; then
             level=${#BASH_REMATCH[1]}
             
             # First heading should be level 1
