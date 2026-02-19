@@ -1,4 +1,4 @@
-## Student Work Template
+# Student Work Template
 
 ### How to Use This Folder
 
