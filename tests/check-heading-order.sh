@@ -57,11 +57,6 @@ check_heading_order() {
 
 # Find all markdown files (excluding .git directory)
 while IFS= read -r -d '' file; do
-    # Skip hidden directories (like .git)
-    if [[ "$file" == *"/.git/"* ]]; then
-        continue
-    fi
-    
     FILES_CHECKED=$((FILES_CHECKED + 1))
     REL_PATH="${file#$REPO_ROOT/}"
     REL_PATH="${REL_PATH#./}"
@@ -75,7 +70,7 @@ while IFS= read -r -d '' file; do
         echo "$violations" | sed 's/^/   /'
         EXIT_CODE=1
     fi
-done < <(find . -name "*.md" -type f -print0 | grep -zv ".git")
+done < <(find . -path "*/.git" -prune -o -name "*.md" -type f -print0)
 
 echo ""
 echo "=================================================="
