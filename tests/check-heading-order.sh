@@ -74,7 +74,7 @@ while IFS= read -r -d '' file; do
         EXIT_CODE=1
     fi
     echo ""
-done < <(find . -name "*.md" -type f -print0 | grep -zv ".git")
+done < <(find . -name "*.md" -type f -print0)
 
 echo "=================================================="
 echo "Summary: $FILES_PASSED/$FILES_CHECKED files have proper heading order"
