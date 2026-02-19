@@ -67,7 +67,7 @@ while IFS= read -r -d '' file; do
         echo "✅ $file"
         FILES_PASSED=$((FILES_PASSED + 1))
     fi
-done < <(find . -name "*.md" -type f -print0 | grep -zv ".git")
+done < <(find . -name "*.md" -type f -print0 | grep -zv '/\.git/')
 
 echo ""
 echo "=================================================="
