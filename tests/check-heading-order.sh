@@ -37,9 +37,11 @@ check_heading_order() {
             # First heading should be H1
             if [[ $prev_level -eq 0 && $current_level -ne 1 ]]; then
                 violations+=("Line $line_num: First heading is H$current_level, should be H1")
-            # Subsequent headings should not skip levels
+            # Subsequent headings should not skip levels when increasing
+            # Note: Decreasing by any amount is allowed (e.g., H4 to H2 is OK)
             elif [[ $prev_level -gt 0 && $current_level -gt $((prev_level + 1)) ]]; then
                 violations+=("Line $line_num: Heading jumps from H$prev_level to H$current_level (skipping levels)")
+            # Headings at same level or decreasing are valid (no action needed)
             fi
             
             prev_level=$current_level
