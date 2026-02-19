@@ -14,10 +14,12 @@ if [ ! -f "$FILE" ]; then
     exit 1
 fi
 
-# Get first non-empty line
+# Get first non-empty line (checking first 20 lines to allow for front matter)
 first_line=$(head -20 "$FILE" | grep -v '^[[:space:]]*$' | head -1)
 
-if [[ "$first_line" =~ ^#[[:space:]]+ ]]; then
+# Match exactly one # followed by a space (level-one heading only)
+# The pattern ensures we don't match ## (level-two) or ### (level-three) etc.
+if [[ "$first_line" =~ ^#[[:space:]].*$ ]] && [[ ! "$first_line" =~ ^##.*$ ]]; then
     echo "✅ $FILE has a level-one heading"
     echo "   Heading: $first_line"
     exit 0
