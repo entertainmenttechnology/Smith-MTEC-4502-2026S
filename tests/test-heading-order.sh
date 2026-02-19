@@ -65,9 +65,11 @@ while IFS= read -r -d '' file; do
     
     FILES_CHECKED=$((FILES_CHECKED + 1))
     
-    # Capture output once to avoid duplicate execution
+    # Capture output and exit code to avoid duplicate execution
     output=$(check_heading_order "$file" 2>&1)
-    if echo "$output" | grep -q "Line"; then
+    exit_code=$?
+    
+    if [ $exit_code -ne 0 ]; then
         echo "❌ $file"
         echo "$output" | sed 's/^/   /'
         EXIT_CODE=1
@@ -75,7 +77,7 @@ while IFS= read -r -d '' file; do
         echo "✅ $file"
         FILES_PASSED=$((FILES_PASSED + 1))
     fi
-done < <(find . -name "*.md" -type f -print0 | grep -zv ".git")
+done < <(find . -name "*.md" -type f -print0)
 
 echo ""
 echo "========================================================"
