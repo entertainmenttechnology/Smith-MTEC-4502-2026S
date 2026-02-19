@@ -25,6 +25,24 @@ Checks all markdown files in the repository for level-one headings.
 ./tests/check-markdown-accessibility.sh
 ```
 
+### check-heading-order.sh
+Validates that heading levels in markdown files only increase by one at a time, ensuring proper heading hierarchy as required by WCAG 2.1 (heading-order rule).
+
+**Usage:**
+```bash
+./tests/check-heading-order.sh
+```
+
+**Expected Output:**
+```
+✅ All markdown files have proper heading order
+```
+
+**What it checks:**
+- Ensures heading levels increase sequentially (h1 → h2 → h3, not h1 → h3)
+- Detects skipped heading levels that violate accessibility guidelines
+- Reports line numbers and content of violations
+
 ## Running Tests
 
 To run all accessibility tests:
@@ -32,16 +50,24 @@ To run all accessibility tests:
 cd /path/to/repository
 ./tests/test-student-folder-template-heading.sh
 ./tests/check-markdown-accessibility.sh
+./tests/check-heading-order.sh
 ```
 
 ## WCAG 2.1 Compliance
 
-These tests help ensure compliance with WCAG 2.1 Level A requirement that pages should have a level-one heading. This is important for:
+These tests help ensure compliance with WCAG 2.1 Level A requirements:
+
+1. **page-has-heading-one**: Pages should have a level-one heading (h1)
+2. **heading-order**: Heading levels should only increase by one at a time
+
+This is important for:
 - Screen reader navigation
 - Document structure and semantics
 - Accessibility scanning tools
+- Proper content hierarchy
 
 ## References
 
 - [Deque University: Page Has Heading One](https://dequeuniversity.com/rules/axe/4.11/page-has-heading-one)
+- [Deque University: Heading Order](https://dequeuniversity.com/rules/axe/4.11/heading-order)
 - [WCAG 2.1 Guidelines](https://www.w3.org/WAI/WCAG21/quickref/)
