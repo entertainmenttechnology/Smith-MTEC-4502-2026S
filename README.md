@@ -62,7 +62,7 @@ See [student-work/STUDENT-FOLDER-TEMPLATE.md](student-work/STUDENT-FOLDER-TEMPLA
 
 See [course-materials/05-Lesson_Plan_MTEC-4502_2025F.md](course-materials/05-Lesson_Plan_MTEC-4502_2025F.md) for the full course outline and schedule.
 
-### Careers Are Not Static
+## Careers Are Not Static
 
 Many of the roles you may hold **do not yet exist**, and others will change dramatically over the next decade. This course emphasizes:
 
@@ -75,7 +75,7 @@ Your goal is not to “lock in” a job title, but to **position yourself for ch
 
 ---
 
-### Portfolios Are Living Documents
+## Portfolios Are Living Documents
 
 Portfolios are treated as:
 
@@ -87,7 +87,7 @@ They are never complete — only *current*.
 
 ---
 
-### AI as a Collaborative Partner
+## AI as a Collaborative Partner
 
 AI is integrated into this course as a **collaborative partner** that can:
 
