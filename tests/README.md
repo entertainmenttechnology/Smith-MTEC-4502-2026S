@@ -17,6 +17,19 @@ Tests that `student-work/STUDENT-FOLDER-TEMPLATE.md` contains a level-one headin
 ✅ student-work/STUDENT-FOLDER-TEMPLATE.md has a level-one heading
 ```
 
+### test-merge-readme-heading.sh
+Tests that `merge/README.md` contains a level-one heading as required by WCAG 2.1 (page-has-heading-one rule).
+
+**Usage:**
+```bash
+./tests/test-merge-readme-heading.sh
+```
+
+**Expected Output:**
+```
+✅ merge/README.md has a level-one heading
+```
+
 ### check-markdown-accessibility.sh
 Checks all markdown files in the repository for level-one headings.
 
@@ -31,6 +44,7 @@ To run all accessibility tests:
 ```bash
 cd /path/to/repository
 ./tests/test-student-folder-template-heading.sh
+./tests/test-merge-readme-heading.sh
 ./tests/check-markdown-accessibility.sh
 ```
 
