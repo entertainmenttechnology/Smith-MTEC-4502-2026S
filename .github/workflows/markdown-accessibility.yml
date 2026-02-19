@@ -23,3 +23,17 @@ jobs:
           chmod +x .github/scripts/check-h1-headings.sh
           ./.github/scripts/check-h1-headings.sh
         shell: bash
+
+  check-heading-order:
+    runs-on: ubuntu-latest
+    name: Check Heading Order in Markdown Files
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check for proper heading order
+        run: |
+          chmod +x tests/check-heading-order.sh
+          ./tests/check-heading-order.sh
+        shell: bash
