@@ -59,7 +59,7 @@ For each source, provide:
   - What trend or shift it identifies
   - How it may affect your career trajectory
 
-### Deliverable (200–300 words total synthesis)
+## Deliverable (200–300 words total synthesis)
 
 Write a structured synthesis explaining:
 - How your intended role may evolve, hybridize, or fragment
@@ -115,7 +115,7 @@ First, classify your key gaps using the following expanded definitions:
 
 ---
 
-### Foundational Gaps
+## Foundational Gaps
 
 Definition:
 These are structural prerequisites. If unresolved, they limit access to multiple roles and slow all advancement.
@@ -136,7 +136,7 @@ If I do not develop this skill, does my entire pathway narrow significantly?
 
 ---
 
-### Differentiating Gaps
+## Differentiating Gaps
 
 Definition:
 These increase competitiveness within a chosen pathway. They are not always required, but they distinguish candidates.
@@ -157,7 +157,7 @@ Does this skill significantly increase my competitiveness within a defined role?
 
 ---
 
-### Adjacent Gaps
+## Adjacent Gaps
 
 Definition:
 These expand flexibility and allow movement into hybrid or neighboring roles.
