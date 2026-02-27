@@ -159,7 +159,7 @@ Be prepared to discuss one major trend from your independent research in class n
 
 ## Part 2 – Visualization Requirement (Tiered)
 
-## If You Have NOT Completed a Visualization
+### If You Have NOT Completed a Visualization
 
 You must create your first visualization that includes:
 
@@ -174,7 +174,7 @@ Acceptable formats:
 - Gantt chart
 - Flow chart
 
-## If You HAVE Completed a Visualization
+### If You HAVE Completed a Visualization
 
 You must create a **second visualization using a different structural format**.
 
