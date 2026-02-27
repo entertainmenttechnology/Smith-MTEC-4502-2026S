@@ -1,10 +1,8 @@
 # MTEC 4502 – Career and Portfolio Seminar
 ## Assignment 1C – Part 2
 ### Future Modeling, Advanced Visualization, and Adaptive Planning
-
 *(Cumulative Strategic Framework Development – builds directly on Assignment 1C)*
 
----
 
 # Overview
 
@@ -36,18 +34,15 @@ You will:
 - Ground your plan in credible future-of-work research
 - Expand or complete your visualization work
 - Convert gaps into prioritized goals
-- Use AI intentionally and critically
 - Prepare for shared Zotero research integration next week
 
----
 
-# Technical Requirement
+# Technical Requirement (Zotero)
 
 All students must install the **Zotero Connector** before next class.
 
-We will join the shared course Zotero library together in class next week.
+We will join the [shared course Zotero library](https://www.zotero.org/groups/6416274/mtec/library) together in class next week.
 
----
 
 # Part 1 – Future of Work Research Expansion (Core Component)
 
@@ -152,7 +147,6 @@ These independently sourced articles will be added to our shared Zotero library 
 
 Be prepared to discuss one major trend from your independent research in class next week.
 
----
 
 # Part 2 – Visualization Requirement (Tiered)
 
@@ -169,7 +163,6 @@ Acceptable formats:
 - Gantt chart
 - Flow chart
 
----
 
 ## If You HAVE Completed a Visualization
 
@@ -189,7 +182,6 @@ Provide a written comparison explaining:
 - What structural weaknesses emerged
 - Which format better supports adaptive planning
 
----
 
 # Part 3 – Prioritized Adaptive Action Plan (Informed by Future Modeling)
 
@@ -197,7 +189,6 @@ Move from gap identification to ordered execution.
 
 First, classify your key gaps using the following expanded definitions:
 
----
 
 ### Foundational Gaps
 
@@ -331,7 +322,6 @@ Adjacent Gap:
 - Technical literacy in immersive or AI systems
   → Allows transition into hybrid technical-director roles.
 
----
 
 These examples are illustrative only. Your classification must reflect your specific pathway and be justified structurally, not aspirationally.
 
@@ -354,7 +344,6 @@ Provide a written explanation describing how your sequencing reflects:
 - Structural dependencies
 
 Your revised visualization should reflect this prioritization.
-
 ---
 
 # Part 4 – AI as Strategic Tool (Required)
@@ -390,7 +379,6 @@ Next week we will:
 - Cluster emerging themes
 - Perform cross-industry synthesis
 
----
 
 # Submission Requirements
 
@@ -405,7 +393,6 @@ Suggested overall length: approximately 800–1200 words total. Exact distributi
 
 Depth, clarity, and structural reasoning are more important than precise word count.
 
-This assignment remains cumulative and iterative.
-
-Design for change, not stability.
+This assignment remains cumulative and iterative.  
+Design for change, not stability.  
 
