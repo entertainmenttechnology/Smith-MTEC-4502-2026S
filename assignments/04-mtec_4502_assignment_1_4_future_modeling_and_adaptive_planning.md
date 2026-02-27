@@ -1,10 +1,9 @@
 # MTEC 4502 – Career and Portfolio Seminar
 ## Assignment 1.4 – Continuation of Strategic Framework 1C
-### Future Modeling, Advanced Visualization, and Adaptive Planning
-
+### Future Modeling, Advanced Visualization, and Adaptive Planning  
+last updated 2026-02-27  
 *(Cumulative Strategic Framework Development – builds directly on Assignment 1C)*
 
----
 
 # Overview
 
@@ -26,18 +25,15 @@ You will:
 - Ground your plan in credible future-of-work research
 - Expand or complete your visualization work
 - Convert gaps into prioritized goals
-- Use AI intentionally and critically
 - Prepare for shared Zotero research integration next week
 
----
 
-# Technical Requirement
+# Technical Requirement (Zotero)
 
 All students must install the **Zotero Connector** before next class.
 
-We will join the shared course Zotero library together in class next week.
+We will join the [shared course Zotero library](https://www.zotero.org/groups/6416274/mtec/library) together in class next week.
 
----
 
 # Part 1 – Future of Work Research Expansion
 
@@ -68,7 +64,6 @@ Write a structured synthesis explaining:
 
 Be prepared to discuss one major trend in class next week.
 
----
 
 # Part 2 – Visualization Requirement (Tiered)
 
@@ -85,7 +80,6 @@ Acceptable formats:
 - Gantt chart
 - Flow chart
 
----
 
 ## If You HAVE Completed a Visualization
 
@@ -105,7 +99,6 @@ Explain:
 - What structural weaknesses emerged
 - Which format better supports adaptive planning
 
----
 
 # Part 3 – Prioritized Adaptive Action Plan
 
@@ -113,7 +106,6 @@ Move from gap identification to ordered execution.
 
 First, classify your key gaps using the following expanded definitions:
 
----
 
 ### Foundational Gaps
 
@@ -247,7 +239,6 @@ Adjacent Gap:
 - Technical literacy in immersive or AI systems
   → Allows transition into hybrid technical-director roles.
 
----
 
 These examples are illustrative only. Your classification must reflect your specific pathway and be justified structurally, not aspirationally.
 
@@ -271,26 +262,6 @@ Explain how your sequencing reflects:
 
 Your revised visualization should reflect this prioritization.
 
----
-
-# Part 4 – AI as Strategic Tool (Required)
-
-You must use AI intentionally for one of the following:
-
-- Future role scenario generation
-- Structural critique of your sequencing
-- Competency expansion analysis
-
-Then write a 150–200 word reflection addressing:
-
-- What AI contributed
-- What was generic
-- What you rejected
-- How AI will function in your planning process going forward
-
-AI should function as a critical partner, not as an unexamined authority.
-
----
 
 # Discussion Preparation (Next Class)
 
@@ -306,7 +277,6 @@ Next week we will:
 - Cluster emerging themes
 - Perform cross-industry synthesis
 
----
 
 # Submission Requirements
 
@@ -319,7 +289,6 @@ Submit a revised Strategic Framework draft including:
 
 Approximate total length: 900–1200 words
 
-This assignment remains cumulative and iterative.
-
-Design for change, not stability.
+This assignment remains cumulative and iterative.  
+Design for change, not stability.  
 
