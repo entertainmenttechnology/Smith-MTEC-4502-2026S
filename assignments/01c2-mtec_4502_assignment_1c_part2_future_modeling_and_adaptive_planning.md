@@ -1,5 +1,5 @@
 # MTEC 4502 – Career and Portfolio Seminar
-## Assignment 1.4 – Continuation of Strategic Framework 1C
+## Assignment 1C – Part 2
 ### Future Modeling, Advanced Visualization, and Adaptive Planning
 
 *(Cumulative Strategic Framework Development – builds directly on Assignment 1C)*
@@ -10,17 +10,27 @@
 
 This assignment is a direct continuation of **Strategic Framework 1C**.
 
+Refer to Assignment 1C here:  
+[Assignment 1C – Integrating Visualization](./01c%20MTEC%204502%20Assignment%20week%203%20%20-%20Integrating%20Visualization.md)
+
+Before beginning Assignment 1C – Part 2, re-read your own 1C submission. Identify:
+- Where your gap analysis was strongest
+- Where your reasoning was weakest or underdeveloped
+- Whether your visualization accurately reflected your written analysis
+
+Assignment 1C – Part 2 builds directly on those strengths and weaknesses.
+
 In 1C you:
 - Conducted Job Requirements Analysis
 - Completed Skills Gap Analysis
 - Began (or were expected to begin) visualization of your framework
 
-Assignment 1.4 extends that work.
+Assignment 1C – Part 2 extends that work by placing your entire framework under a **Future of Work stress test**.
 
 You are now moving from:
-Diagnosis → Structural Testing → Future Modeling → Adaptive Design.
+Diagnosis → Structural Testing → **Future Stress Testing** → Adaptive Design.
 
-This assignment moves from diagnosis to adaptive design.
+This is not simply a planning exercise. It is an evaluation of whether your current career strategy survives projected industry change.
 
 You will:
 - Ground your plan in credible future-of-work research
@@ -39,34 +49,108 @@ We will join the shared course Zotero library together in class next week.
 
 ---
 
-# Part 1 – Future of Work Research Expansion
+# Part 1 – Future of Work Research Expansion (Core Component)
 
-In addition to the links already provided in prior assignments, you must independently identify and evaluate **at least three additional sources** discussing the future of work in your field.
+This is the structural backbone of Assignment 1C – Part 2.
 
-These must include:
+Your Strategic Framework must now be tested against credible projections about how work is changing.
 
-1. One macro-level labor or workforce forecast
-2. One industry-specific forecast or analysis relevant to your intended career path
-3. One discipline-specific or professional publication source
+## Required Reading (Previously Shared Sources)
 
-For each source, provide:
+You must engage the following materials as part of your Future-of-Work stress test.
+
+### Core Structural Readings (Mandatory)
+These provide macro-level analysis of labor markets, automation, and AI transformation.
+
+- MIT Work of the Future Task Force  
+  https://workofthefuture-taskforce.mit.edu/
+
+- World Economic Forum – *The Future of Jobs Report 2025*  
+  https://www.weforum.org/publications/the-future-of-jobs-report-2025/
+
+- Autor, Korinek & Sarin (2026). *What if Labor Becomes Unnecessary?* (NYT Opinion)  
+  https://www.nytimes.com/2026/02/04/opinion/ai-jobs-employment-industry.html  
+  *(CUNY students can access NYT through the academic subscription portal: https://www.nytimes.com/subscription/education?campaignId=8QHL8 — search for CUNY and register using your CUNY email.)*
+
+Your synthesis must reference **at least one** of these macro-level sources.
+
+---
+
+### Supplementary Context (Use Strategically)
+These readings provide historical analogies, examples of emerging roles, and interpretive perspectives.
+
+- Capps et al. (2025). *A.I. Might Take Your Job. Here Are 22 New Ones It Could Give You.*  
+  https://www.nytimes.com/2025/06/17/magazine/ai-new-jobs.html
+
+- Douthat (2026). *How Fast Can A.I. Change the Workplace?*  
+  https://www.nytimes.com/2026/02/14/opinion/ai-jobs-employment.html
+
+- *Are You the Buggy Whip Manufacturer of Today?*  
+  https://www.inspire.scot/blog/2018/07/24/are-you-the-buggy-whip-manufacturer-of-today-288
+
+- *Lost Industries* (New Hartford Historical Society)  
+  https://newhartfordcthistory.org/2013/05/29/lost-industries/
+
+- MIT IPC – Work of the Future research hub  
+  https://ipc.mit.edu/research/work-of-the-future/
+
+- FutureSpaces  
+  https://futurespaces.com/
+
+You may reference these in addition to the Core readings.
+
+---
+
+Your written synthesis must explicitly reference:
+- At least one Core reading
+- At least two independently sourced URLs (see below)
+
+Unsupported forecasting or purely speculative claims will not receive full credit.
+
+---
+
+## Independent Research Requirement (New Sources – Mandatory)
+
+In addition to the required readings above, you must independently identify and evaluate **2–3 additional credible sources** discussing the future of work in your field.
+
+These sources should collectively reference themes such as:
+
+- Macro-level labor or workforce shifts
+- Industry-specific transformation
+- Discipline- or role-specific change
+- Automation or displacement risk
+- Hybrid or emerging roles
+- AI augmentation of professional practice
+
+You do not need one article for each category. However, your selected 2–3 sources must together demonstrate that you have examined multiple structural dimensions of change.
+
+These sources must be different from the previously assigned readings.
+
+For each independently sourced article, provide:
 
 - Working URL
 - Publication date
 - Author or institutional source
 - A 2–3 sentence annotation explaining:
   - Why the source is credible
-  - What trend or shift it identifies
+  - What trend or structural shift it identifies
   - How it may affect your career trajectory
 
-### Deliverable (200–300 words total synthesis)
+### Deliverable
 
 Write a structured synthesis explaining:
 - How your intended role may evolve, hybridize, or fragment
 - What new competencies may become essential
-- What vulnerabilities or automation risks may exist
+- What roles may contract or disappear
+- What automation or platform risks may exist
 
-Be prepared to discuss one major trend in class next week.
+Your synthesis must explicitly reference:
+- At least one previously assigned Core reading
+- At least two of your independently sourced URLs
+
+These independently sourced articles will be added to our shared Zotero library next week.
+
+Be prepared to discuss one major trend from your independent research in class next week.
 
 ---
 
@@ -98,16 +182,16 @@ Examples:
 
 The goal is to test whether your strategy survives a change in structural representation.
 
-### Deliverable (150–200 words comparison)
+### Deliverable
 
-Explain:
+Provide a written comparison explaining:
 - What changed between formats
 - What structural weaknesses emerged
 - Which format better supports adaptive planning
 
 ---
 
-# Part 3 – Prioritized Adaptive Action Plan
+# Part 3 – Prioritized Adaptive Action Plan (Informed by Future Modeling)
 
 Move from gap identification to ordered execution.
 
@@ -262,9 +346,9 @@ Goals must be:
 - Measurable
 - Time-aware
 
-### Deliverable (150–200 words explanation)
+### Deliverable
 
-Explain how your sequencing reflects:
+Provide a written explanation describing how your sequencing reflects:
 - Industry realities
 - Future trends
 - Structural dependencies
@@ -281,7 +365,7 @@ You must use AI intentionally for one of the following:
 - Structural critique of your sequencing
 - Competency expansion analysis
 
-Then write a 150–200 word reflection addressing:
+Then write a reflective analysis addressing:
 
 - What AI contributed
 - What was generic
@@ -317,7 +401,9 @@ Submit a revised Strategic Framework draft including:
 - Prioritized adaptive action plan
 - AI reflection
 
-Approximate total length: 900–1200 words
+Suggested overall length: approximately 800–1200 words total. Exact distribution across sections is flexible.
+
+Depth, clarity, and structural reasoning are more important than precise word count.
 
 This assignment remains cumulative and iterative.
 
