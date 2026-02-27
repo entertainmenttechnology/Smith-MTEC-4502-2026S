@@ -104,6 +104,9 @@ You are not expected to present a polished strategy here. This section simply si
 ## Assessment Note
 
 This draft is not evaluated for correctness, ambition, or market alignment. It is assessed based on:
+
+### Grading Criteria
+
 - Completeness
 - Clarity of thought
 - Evidence of genuine reflection
