@@ -153,9 +153,7 @@ Assessment focuses on:
 
 Polish matters, but **process matters more**.
 
----
-
-## A Final Note
+### A Final Note
 
 This repository is not an endpoint.
 
