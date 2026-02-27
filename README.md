@@ -35,16 +35,21 @@ Nothing here is considered final in an absolute sense. Instead, this repository 
 Each folder has a specific purpose:
 
 ### **`/assignments`**
+
 Assignment briefs and prompts. This is where you'll find detailed instructions for each deliverable.
 
 ### **`/course-materials`**
+
 Lesson plans, slides, readings, and other instructional content provided by the instructor.
 
 ### **`/resources`**
+
 Reference materials, templates, guides, and curated research (career taxonomy, emerging roles, portfolio platforms, etc.).
 
 ### **`/student-work`**
+
 **Your workspace.** When you fork this repository, create a personal folder here (e.g., `firstname-lastname/`) and use it as your professional archive for:
+
 - Assignment submissions
 - Reflections and research notes
 - Portfolio experiments
@@ -125,7 +130,7 @@ You are not expected to already be fluent in GitHub. Learning to work comfortabl
 
 ## Repository Structure
 
-```
+```text
 ├── assignments/          # Assignment prompts and deliverables
 ├── course-materials/     # Syllabus, lesson plans, slides, readings
 ├── resources/            # Guides, templates, reference materials
