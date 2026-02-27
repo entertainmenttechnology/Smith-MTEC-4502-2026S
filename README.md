@@ -4,8 +4,8 @@
 
 Students are currently working on:
 
-1. [**Exploring and Evaluating Portfolio Platforms**](assignments/05-Assignment_Evaluating_Portfolio_Platforms.md) – Research and compare professional portfolio platforms
-2. [**Resume Development Assignment**](assignments/11_Session Resume Development Assignment.md) – Develop a professional resume with supporting materials
+1. [**Assignment 1C – Integrating Visualization**](assignments/01c%20MTEC%204502%20Assignment%20week%203%20%20-%20Integrating%20Visualization.md) – Build and refine a strategic framework with gap analysis and visualization
+2. [**Assignment 1C – Part 2: Future Modeling and Adaptive Planning**](assignments/01c2-mtec_4502_assignment_1c_part2_future_modeling_and_adaptive_planning.md) – Stress-test the framework using future-of-work research, prioritized goals, and adaptive planning
 
 ---
 
