@@ -25,12 +25,26 @@ Checks all markdown files in the repository for level-one headings.
 ./tests/check-markdown-accessibility.sh
 ```
 
+### test-speculative-careers-heading-order.sh
+Tests that `resources/speculative_future_careers.md` has a valid heading order where levels only increase by one, complying with WCAG 2.1 (heading-order rule). This prevents axe accessibility violations caused by skipped heading levels (e.g., jumping from h2 to h4).
+
+**Usage:**
+```bash
+./tests/test-speculative-careers-heading-order.sh
+```
+
+**Expected Output:**
+```
+✅ resources/speculative_future_careers.md has valid heading order (no levels skipped)
+```
+
 ## Running Tests
 
 To run all accessibility tests:
 ```bash
 cd /path/to/repository
 ./tests/test-student-folder-template-heading.sh
+./tests/test-speculative-careers-heading-order.sh
 ./tests/check-markdown-accessibility.sh
 ```
 
