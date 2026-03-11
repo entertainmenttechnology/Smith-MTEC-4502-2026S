@@ -25,6 +25,25 @@ Checks all markdown files in the repository for level-one headings.
 ./tests/check-markdown-accessibility.sh
 ```
 
+### check-heading-order.sh
+Checks all markdown files in the repository for proper heading order (hierarchical structure).
+Ensures heading levels only increase by one at a time to comply with WCAG 2.1 accessibility requirements.
+
+**Usage:**
+```bash
+./tests/check-heading-order.sh
+```
+
+**Expected Output:**
+```
+✅ All markdown files have proper heading order
+```
+
+**What it checks:**
+- Heading levels should increment sequentially (h1 → h2 → h3, not h1 → h3)
+- Prevents violations of the axe "heading-order" rule
+- Reference: https://dequeuniversity.com/rules/axe/4.11/heading-order
+
 ## Running Tests
 
 To run all accessibility tests:
@@ -32,6 +51,7 @@ To run all accessibility tests:
 cd /path/to/repository
 ./tests/test-student-folder-template-heading.sh
 ./tests/check-markdown-accessibility.sh
+./tests/check-heading-order.sh
 ```
 
 ## WCAG 2.1 Compliance
