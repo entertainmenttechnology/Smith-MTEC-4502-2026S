@@ -1,3 +1,5 @@
+<main>
+
 #  Assignment: Exploring and Evaluating Portfolio Platforms  
 **MTEC 4502 – Career and Portfolio Seminar**  
 **Instructor:** Dr. David B. Smith  
@@ -82,3 +84,5 @@ Based on what you learned, you’ll soon:
 ---
 
 > “Exploring platforms isn’t about picking a template — it’s about discovering which space best tells your story.”
+
+</main>
