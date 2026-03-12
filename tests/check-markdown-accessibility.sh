@@ -25,8 +25,9 @@ while IFS= read -r -d '' file; do
     
     FILES_CHECKED=$((FILES_CHECKED + 1))
     
-    # Check if first non-empty line starts with "# " (level-one heading)
-    first_line=$(head -20 "$file" | grep -v '^[[:space:]]*$' | head -1)
+    # Check if first non-empty, non-HTML-tag line starts with "# " (level-one heading)
+    # Skip HTML tags (lines starting with '<') to allow for HTML landmark wrappers like <main>
+    first_line=$(head -20 "$file" | grep -v '^[[:space:]]*$' | grep -v '^<' | head -1)
     
     if [[ "$first_line" =~ ^#[[:space:]]+ ]]; then
         echo "✅ $file"

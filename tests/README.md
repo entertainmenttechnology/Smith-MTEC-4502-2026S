@@ -17,6 +17,19 @@ Tests that `student-work/STUDENT-FOLDER-TEMPLATE.md` contains a level-one headin
 ✅ student-work/STUDENT-FOLDER-TEMPLATE.md has a level-one heading
 ```
 
+### check-main-landmark.sh
+Checks that `resources/11_resume_development_guide.md` contains a `<main>` HTML landmark element as required by WCAG 2.1 (`landmark-one-main` rule). This ensures screen readers can navigate to the primary content of the document.
+
+**Usage:**
+```bash
+./tests/check-main-landmark.sh
+```
+
+**Expected Output:**
+```
+✅ resources/11_resume_development_guide.md has a <main> landmark
+```
+
 ### check-markdown-accessibility.sh
 Checks all markdown files in the repository for level-one headings.
 
@@ -32,6 +45,7 @@ To run all accessibility tests:
 cd /path/to/repository
 ./tests/test-student-folder-template-heading.sh
 ./tests/check-markdown-accessibility.sh
+./tests/check-main-landmark.sh
 ```
 
 ## WCAG 2.1 Compliance

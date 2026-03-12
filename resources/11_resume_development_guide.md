@@ -1,3 +1,5 @@
+<main>
+
 # 🧭 Best Practices in Resume Development  
 **For MTEC 4502 – Career and Portfolio Seminar**  
 
@@ -109,3 +111,4 @@ For inclusion in AI Collaboration Report or journal:
 ---
 
 > “Your resume should read like a story of momentum — not a list of what you’ve done, but a map of where you’re going.”
+</main>
