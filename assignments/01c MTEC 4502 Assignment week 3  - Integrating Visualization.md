@@ -14,7 +14,7 @@ You may wish to speculate with the AI of your choice about how your particular c
 
 1. **Explore Different Platforms**:  
    * Research at least **three** visualization tools (e.g., **MindMeister**, **Trello**, **Lucidchart**, **Google Sheets**, **Coggle**, **Draw.io**).  
-   * You may feel free to [use this document](https://docs.google.com/document/d/1vR_qsRI_Jwelel1fbkBkFMks7o1ZEZLYYV_02eeUOmM/edit) which has a list of resources.  
+   * You may feel free to **[use this document](https://docs.google.com/document/d/1vR_qsRI_Jwelel1fbkBkFMks7o1ZEZLYYV_02eeUOmM/edit)** which has a list of resources.  
    * Identify the features, ease of use, and limitations of each platform. Consider factors like:  
      * Collaboration features  
      * Flexibility in design  

@@ -23,3 +23,17 @@ jobs:
           chmod +x .github/scripts/check-h1-headings.sh
           ./.github/scripts/check-h1-headings.sh
         shell: bash
+
+  check-link-distinguishability:
+    runs-on: ubuntu-latest
+    name: Check Link Distinguishability (WCAG 2.1 link-in-text-block)
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check inline links have distinguishing formatting
+        run: |
+          chmod +x tests/check-link-distinguishability.sh
+          ./tests/check-link-distinguishability.sh
+        shell: bash

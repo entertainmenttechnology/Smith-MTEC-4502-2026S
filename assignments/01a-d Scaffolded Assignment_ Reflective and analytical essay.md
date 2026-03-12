@@ -206,14 +206,14 @@ The integration of Artificial Intelligence (AI) into your assignment offers a un
 
 ### **Guidance for Reflection:** {#guidance-for-reflection:}
 
-* Utilization of Specific Prompts: Detail the specific AI prompts that were most beneficial to your project. Explain why these prompts were chosen and how they contributed to the development of your ideas or the completion of your assignment. This reflection should provide insight into how AI tools served as a catalyst for your creative process or problem-solving.  If you are not sure how to work with prompts, [this link](https://writesonic.com/blog/chatgpt-prompts#what-are-chatgpt-prompts) may give you some ideas    
+* Utilization of Specific Prompts: Detail the specific AI prompts that were most beneficial to your project. Explain why these prompts were chosen and how they contributed to the development of your ideas or the completion of your assignment. This reflection should provide insight into how AI tools served as a catalyst for your creative process or problem-solving.  If you are not sure how to work with prompts, **[this link](https://writesonic.com/blog/chatgpt-prompts#what-are-chatgpt-prompts)** may give you some ideas    
 * Extent of Editing and Personal Contribution: Describe the amount of editing and personalization you applied to the AI-generated content. Note how much time you spent refining the AI's contributions and the nature of the revisions made. This may include enhancing the argumentative depth, ensuring coherence, or better aligning the content with your personal insights. The goal here is to demonstrate your active role in shaping the AI's output into a piece that reflects your unique perspective and meets academic standards.  
 * Insights Gained and Challenges Encountered: Reflect on any new understandings you acquired through using AI, including its impact on your creative process or research methods. Identify any limitations or difficulties you encountered while integrating AI into your work, and share how you navigated these challenges. This reflection is important for recognizing the benefits and limitations of AI as a tool in your academic and creative endeavors.  
 * Overall Evaluation of AI Assistance: Evaluate the overall effectiveness of AI in assisting with your assignment. Consider its value and limitations within an academic context, pondering the ethical considerations of AI use, the balance between AI-generated content and original thought, and the lessons learned for future projects. This evaluation encourages you to critically assess the role of AI in your work and its potential implications for your academic and professional development.
 
 ### **No AI Use** {#no-ai-use}
 
-If you decide that you do not wish to use the AI part of this assignment, then, state this clearly, as well as your reason for doing so. There will be no grade penalty, but of course it still falls under the principles outlined in the [CUNY Academic Integrity Policy for Artificial Intelligence](https://www1.cuny.edu/sites/cunyufs/2023/06/08/ufs-passes-academic-integrity-update-for-artificial-intelligence/), emphasizing the need for originality and proper citation.
+If you decide that you do not wish to use the AI part of this assignment, then, state this clearly, as well as your reason for doing so. There will be no grade penalty, but of course it still falls under the principles outlined in the **[CUNY Academic Integrity Policy for Artificial Intelligence](https://www1.cuny.edu/sites/cunyufs/2023/06/08/ufs-passes-academic-integrity-update-for-artificial-intelligence/)**, emphasizing the need for originality and proper citation.
 
 ## 
 
@@ -221,7 +221,7 @@ If you decide that you do not wish to use the AI part of this assignment, then, 
 
 In developing this assignment, I utilized ChatGPT, an AI language model, as a collaborative tool to enhance the assignment's design and structure. 
 
-The entire conversation can be accessed at [this link](https://chat.openai.com/share/f3ee4d53-a0dc-43f8-a5ed-79733858beee).
+The entire conversation can be accessed at **[this link](https://chat.openai.com/share/f3ee4d53-a0dc-43f8-a5ed-79733858beee)**.
 
 My interaction with ChatGPT involved several key steps:
 

@@ -32,7 +32,7 @@ This assignment provides you with opportunities to integrate Artificial Intellig
 
 **Submission Requirements:**
 
-* For each type of AI Activity, please fill out this [form](https://docs.google.com/forms/d/e/1FAIpQLSfTEMt7B2PZTV4lwCjujazKcuW7LZ088SgvcSXdseJwf_igxA/viewform?usp=sf_link): you may need to do more than one, if you were using AI for more than one part of your project.  
+* For each type of AI Activity, please fill out this **[form](https://docs.google.com/forms/d/e/1FAIpQLSfTEMt7B2PZTV4lwCjujazKcuW7LZ088SgvcSXdseJwf_igxA/viewform?usp=sf_link)**: you may need to do more than one, if you were using AI for more than one part of your project.  
 * A completed project using AI tools for brainstorming, drafting, feedback, and revision.  
 * A detailed log of AI interactions, prompts, and platform usage.  
 * A 1-2 page reflection on the use of AI, discussing benefits, limitations, and ethical considerations.  
