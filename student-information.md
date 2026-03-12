@@ -1,5 +1,7 @@
 # Student Information
 
+This page lists contact details and system usernames for all course participants in MTEC 4502. Use this reference to find classmates' learning management system (LMS) handles, GitHub profiles, and other communication channels.
+
 ## Contact & System Usernames
 
 | Name | LMS Username | Student ID | Role | Email | GitHub | Discord | Phone |
