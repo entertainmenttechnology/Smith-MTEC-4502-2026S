@@ -25,6 +25,19 @@ Checks all markdown files in the repository for level-one headings.
 ./tests/check-markdown-accessibility.sh
 ```
 
+### test-living-job-taxonomy-color-contrast.sh
+Tests that `resources/Living Job Taxonomy.md` contains no Markdown blockquote lines that would render with insufficient color contrast (WCAG 2.1 AA color-contrast rule). GitHub renders blockquote `<p>` elements with foreground color `#7b7c7d` on background `#f6f8fa`, which produces a contrast ratio of ~3.92:1 — below the required 4.5:1.
+
+**Usage:**
+```bash
+./tests/test-living-job-taxonomy-color-contrast.sh
+```
+
+**Expected Output:**
+```
+✅ No blockquotes found — 'resources/Living Job Taxonomy.md' meets color-contrast requirements.
+```
+
 ## Running Tests
 
 To run all accessibility tests:
@@ -32,6 +45,7 @@ To run all accessibility tests:
 cd /path/to/repository
 ./tests/test-student-folder-template-heading.sh
 ./tests/check-markdown-accessibility.sh
+./tests/test-living-job-taxonomy-color-contrast.sh
 ```
 
 ## WCAG 2.1 Compliance
