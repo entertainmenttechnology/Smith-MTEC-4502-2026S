@@ -25,6 +25,19 @@ Checks all markdown files in the repository for level-one headings.
 ./tests/check-markdown-accessibility.sh
 ```
 
+### check-link-accessibility.sh
+Checks all markdown files in the repository for links with discernible text, ensuring compliance with WCAG 2.1 (link-name rule). Detects empty link text (`[](url)`) and image links without alt text (`[![](img)](url)`).
+
+**Usage:**
+```bash
+./tests/check-link-accessibility.sh
+```
+
+**Expected Output:**
+```
+✅ All markdown files have links with discernible text
+```
+
 ## Running Tests
 
 To run all accessibility tests:
@@ -32,6 +45,7 @@ To run all accessibility tests:
 cd /path/to/repository
 ./tests/test-student-folder-template-heading.sh
 ./tests/check-markdown-accessibility.sh
+./tests/check-link-accessibility.sh
 ```
 
 ## WCAG 2.1 Compliance
@@ -44,4 +58,5 @@ These tests help ensure compliance with WCAG 2.1 Level A requirement that pages 
 ## References
 
 - [Deque University: Page Has Heading One](https://dequeuniversity.com/rules/axe/4.11/page-has-heading-one)
+- [Deque University: Link Name](https://dequeuniversity.com/rules/axe/4.11/link-name)
 - [WCAG 2.1 Guidelines](https://www.w3.org/WAI/WCAG21/quickref/)
