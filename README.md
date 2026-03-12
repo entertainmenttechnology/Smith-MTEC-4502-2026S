@@ -130,13 +130,13 @@ You are not expected to already be fluent in GitHub. Learning to work comfortabl
 
 ## Repository Structure
 
-```text
-├── assignments/          # Assignment prompts and deliverables
-├── course-materials/     # Syllabus, lesson plans, slides, readings
-├── resources/            # Guides, templates, reference materials
-├── student-work/         # Student workspaces (fork this repo, create your folder here)
-└── README.md            # This file
-```
+| Path | Description |
+|------|-------------|
+| `assignments/` | Assignment prompts and deliverables |
+| `course-materials/` | Syllabus, lesson plans, slides, readings |
+| `resources/` | Guides, templates, reference materials |
+| `student-work/` | Student workspaces (fork this repo, create your folder here) |
+| `README.md` | This file |
 
 All course materials are open for reference. Your personal work lives in your folder within `/student-work`.
 
