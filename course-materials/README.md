@@ -1,3 +1,6 @@
+---
+lang: en
+---
 Course Materials
 
 [Brightspace Site](https://brightspace.cuny.edu/d2l/home/1147503)  

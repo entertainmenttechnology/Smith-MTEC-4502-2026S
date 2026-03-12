@@ -1,3 +1,6 @@
+---
+lang: en
+---
 # MTEC 4502 – Career and Portfolio Seminar
 
 ## 📋 Current Assignments

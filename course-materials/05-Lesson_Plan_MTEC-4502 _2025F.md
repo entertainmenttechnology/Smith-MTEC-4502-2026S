@@ -1,3 +1,6 @@
+---
+lang: en
+---
 # MTEC 4502 – Career and Portfolio Seminar  
 ## Week 5: Strategic Framework Consolidation & Visualization Review  
 **Instructor:** Dr. David B. Smith  

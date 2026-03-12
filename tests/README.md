@@ -1,3 +1,6 @@
+---
+lang: en
+---
 # Accessibility Tests
 
 This directory contains tests to ensure WCAG 2.1 accessibility compliance for markdown files in the repository.

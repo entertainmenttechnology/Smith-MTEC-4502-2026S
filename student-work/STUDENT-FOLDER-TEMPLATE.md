@@ -1,3 +1,6 @@
+---
+lang: en
+---
 ## Student Work Template
 
 ### How to Use This Folder

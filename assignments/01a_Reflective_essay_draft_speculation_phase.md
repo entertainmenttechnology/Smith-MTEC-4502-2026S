@@ -1,3 +1,6 @@
+---
+lang: en
+---
 # MTEC 4502 – Career and Portfolio Seminar
 ## Assignment 1a: Reflective Essay Draft on Career Strategy and Skill Assessment
 

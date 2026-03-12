@@ -1,3 +1,6 @@
+---
+lang: en
+---
 # Accessibility Fix: Level-One Heading for student-information.md
 
 ## Issue Summary
