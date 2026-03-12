@@ -1,10 +1,10 @@
-### **MTEC 4502 \- Resume Development Assignment**
+# MTEC 4502 – Resume Development Assignment
 
 **Initial Resume Assignment – Preparing for the Draft** 
 
 ---
 
-#### **Objective**
+## Objective
 
 Students will gather and organize their professional materials and experiences, conduct research on effective resumes, and create an initial draft of their resume for review in the next class. AI tools may be used to refine and enhance the resume after the initial draft.
 
