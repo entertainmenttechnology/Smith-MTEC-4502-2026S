@@ -23,3 +23,17 @@ jobs:
           chmod +x .github/scripts/check-h1-headings.sh
           ./.github/scripts/check-h1-headings.sh
         shell: bash
+
+  check-lang-attribute:
+    runs-on: ubuntu-latest
+    name: Check Lang Attribute in Assignment 01c2 Front Matter
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check lang attribute in front matter
+        run: |
+          chmod +x tests/test-assignment-01c2-lang.sh
+          ./tests/test-assignment-01c2-lang.sh
+        shell: bash
