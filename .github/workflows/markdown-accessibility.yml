@@ -23,3 +23,17 @@ jobs:
           chmod +x .github/scripts/check-h1-headings.sh
           ./.github/scripts/check-h1-headings.sh
         shell: bash
+
+  check-html-lang:
+    runs-on: ubuntu-latest
+    name: Check HTML Lang Attribute (WCAG 3.1.1 / html-has-lang)
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check HTML files for lang attribute on <html> element
+        run: |
+          chmod +x tests/check-html-lang.sh
+          ./tests/check-html-lang.sh
+        shell: bash
