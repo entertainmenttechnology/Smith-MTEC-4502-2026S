@@ -1,5 +1,3 @@
-<!-- markdownlint-disable MD013 -->
-
 # MTEC 4502 – Career and Portfolio Seminar
 
 ## Assignment 1C – Part 2
