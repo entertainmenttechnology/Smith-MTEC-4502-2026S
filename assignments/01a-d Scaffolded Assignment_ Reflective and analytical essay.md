@@ -1,3 +1,7 @@
+---
+lang: en
+---
+
 # **Assignment 1: Reflective Essay and Strategic Career Planning**
 
 MTEC-4502 Career and Portfolio Seminar  

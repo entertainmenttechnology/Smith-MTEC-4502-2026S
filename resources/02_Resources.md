@@ -1,3 +1,7 @@
+---
+lang: en
+---
+
 # CLASS SESSION 2 RESOURCES  
 These links provide additional material for your assignment  
 

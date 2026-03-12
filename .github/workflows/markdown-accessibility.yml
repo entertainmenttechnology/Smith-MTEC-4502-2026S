@@ -23,3 +23,17 @@ jobs:
           chmod +x .github/scripts/check-h1-headings.sh
           ./.github/scripts/check-h1-headings.sh
         shell: bash
+
+  check-lang-attribute:
+    runs-on: ubuntu-latest
+    name: Check lang Attribute in Markdown Files
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check for lang attribute in front matter
+        run: |
+          chmod +x .github/scripts/check-lang-attribute.sh
+          ./.github/scripts/check-lang-attribute.sh
+        shell: bash
