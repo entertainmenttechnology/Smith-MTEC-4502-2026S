@@ -23,3 +23,9 @@ jobs:
           chmod +x .github/scripts/check-h1-headings.sh
           ./.github/scripts/check-h1-headings.sh
         shell: bash
+
+      - name: Check student-information.md for lang front matter attribute
+        run: |
+          chmod +x tests/test-student-information-lang.sh
+          ./tests/test-student-information-lang.sh
+        shell: bash
