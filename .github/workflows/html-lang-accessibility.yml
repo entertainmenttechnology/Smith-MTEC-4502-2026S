@@ -1,0 +1,25 @@
+name: HTML Lang Attribute Check
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:  # Allow manual triggering
+
+permissions:
+  contents: read
+
+jobs:
+  check-html-lang:
+    runs-on: ubuntu-latest
+    name: Check lang Attribute on HTML Files
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check HTML files for lang attribute
+        run: |
+          chmod +x .github/scripts/check-html-lang.sh
+          ./.github/scripts/check-html-lang.sh
+        shell: bash
