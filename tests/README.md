@@ -25,12 +25,29 @@ Checks all markdown files in the repository for level-one headings.
 ./tests/check-markdown-accessibility.sh
 ```
 
+### test-color-contrast-student-folder-template.sh
+Checks `student-work/STUDENT-FOLDER-TEMPLATE.md` for WCAG 2.1 AA color contrast compliance by verifying:
+1. The file starts with a level-one heading (`# Title`) so GitHub renders it with full-contrast styling.
+2. No inline HTML `style` attributes with known low-contrast foreground colors are present.
+
+**Usage:**
+```bash
+./tests/test-color-contrast-student-folder-template.sh
+```
+
+**Expected Output:**
+```
+✅ File has a level-one heading: # Student Work Template
+✅ No low-contrast inline color styles found
+```
+
 ## Running Tests
 
 To run all accessibility tests:
 ```bash
 cd /path/to/repository
 ./tests/test-student-folder-template-heading.sh
+./tests/test-color-contrast-student-folder-template.sh
 ./tests/check-markdown-accessibility.sh
 ```
 
