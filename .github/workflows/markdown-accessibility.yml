@@ -23,3 +23,9 @@ jobs:
           chmod +x .github/scripts/check-h1-headings.sh
           ./.github/scripts/check-h1-headings.sh
         shell: bash
+
+      - name: Check for lang attribute in front matter (STUDENT-FOLDER-TEMPLATE)
+        run: |
+          chmod +x tests/test-student-folder-template-lang.sh
+          ./tests/test-student-folder-template-lang.sh
+        shell: bash

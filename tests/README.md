@@ -25,12 +25,26 @@ Checks all markdown files in the repository for level-one headings.
 ./tests/check-markdown-accessibility.sh
 ```
 
+### test-student-folder-template-lang.sh
+Tests that `student-work/STUDENT-FOLDER-TEMPLATE.md` contains a `lang` attribute in its YAML front matter, as required by WCAG 2.1 (html-has-lang rule).
+
+**Usage:**
+```bash
+./tests/test-student-folder-template-lang.sh
+```
+
+**Expected Output:**
+```
+✅ student-work/STUDENT-FOLDER-TEMPLATE.md has lang attribute: en
+```
+
 ## Running Tests
 
 To run all accessibility tests:
 ```bash
 cd /path/to/repository
 ./tests/test-student-folder-template-heading.sh
+./tests/test-student-folder-template-lang.sh
 ./tests/check-markdown-accessibility.sh
 ```
 
