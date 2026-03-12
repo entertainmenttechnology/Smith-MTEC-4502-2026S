@@ -17,6 +17,21 @@ Tests that `student-work/STUDENT-FOLDER-TEMPLATE.md` contains a level-one headin
 ✅ student-work/STUDENT-FOLDER-TEMPLATE.md has a level-one heading
 ```
 
+### check-lang-attribute.sh
+Checks that markdown files listed in the script have a `lang:` entry in their YAML front matter.
+This satisfies the `html-has-lang` axe/WCAG 2.1 accessibility rule, which requires every HTML
+document to declare a language on the `<html>` element.
+
+**Usage:**
+```bash
+./tests/check-lang-attribute.sh
+```
+
+**Expected Output:**
+```
+✅ assignments/01a-d Scaffolded Assignment_ Reflective and analytical essay.md
+```
+
 ### check-markdown-accessibility.sh
 Checks all markdown files in the repository for level-one headings.
 
@@ -32,6 +47,7 @@ To run all accessibility tests:
 cd /path/to/repository
 ./tests/test-student-folder-template-heading.sh
 ./tests/check-markdown-accessibility.sh
+./tests/check-lang-attribute.sh
 ```
 
 ## WCAG 2.1 Compliance

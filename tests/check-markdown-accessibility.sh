@@ -25,16 +25,14 @@ while IFS= read -r -d '' file; do
     
     FILES_CHECKED=$((FILES_CHECKED + 1))
     
-    # Check if first non-empty line starts with "# " (level-one heading)
-    first_line=$(head -20 "$file" | grep -v '^[[:space:]]*$' | head -1)
-    
-    if [[ "$first_line" =~ ^#[[:space:]]+ ]]; then
+    # Check if file has a level-one heading (# ) anywhere in the first 30 lines.
+    # This handles files that start with YAML front matter (--- ... ---) before the heading.
+    if head -n 30 "$file" | grep -q "^# "; then
         echo "✅ $file"
         FILES_PASSED=$((FILES_PASSED + 1))
     else
         echo "❌ $file"
-        echo "   First non-empty line: ${first_line:0:80}"
-        echo "   Expected: Line starting with '# ' (level-one heading)"
+        echo "   Expected: A line starting with '# ' (level-one heading) in first 30 lines"
         EXIT_CODE=1
     fi
 done < <(find . -name "*.md" -type f -print0 | grep -zv ".git")
