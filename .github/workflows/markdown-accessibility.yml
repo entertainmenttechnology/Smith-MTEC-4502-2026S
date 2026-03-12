@@ -23,3 +23,17 @@ jobs:
           chmod +x .github/scripts/check-h1-headings.sh
           ./.github/scripts/check-h1-headings.sh
         shell: bash
+
+  check-link-names:
+    runs-on: ubuntu-latest
+    name: Check Link Names in Markdown Files (link-name axe rule)
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check for links with discernible text
+        run: |
+          chmod +x .github/scripts/check-link-names.sh
+          ./.github/scripts/check-link-names.sh
+        shell: bash
