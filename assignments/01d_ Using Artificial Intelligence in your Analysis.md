@@ -1,6 +1,6 @@
-### **MTEC 4502 Career and Portfolio Seminar**
+# MTEC 4502 Career and Portfolio Seminar
 
-### **Assignment 1d: Integrating Artificial Intelligence in Your Project**
+## Assignment 1d: Integrating Artificial Intelligence in Your Project
 
 **Objective:**  
 This assignment provides you with opportunities to integrate Artificial Intelligence (AI) as a creative and analytical tool in various stages of your project development. From brainstorming to final revisions, the goal is to explore how AI can enhance your work while ensuring ethical usage and maintaining the integrity of your personal analysis and creativity.
@@ -32,7 +32,7 @@ This assignment provides you with opportunities to integrate Artificial Intellig
 
 **Submission Requirements:**
 
-* For each type of AI Activity, please fill out this [form](https://docs.google.com/forms/d/e/1FAIpQLSfTEMt7B2PZTV4lwCjujazKcuW7LZ088SgvcSXdseJwf_igxA/viewform?usp=sf_link): you may need to do more than one, if you were using AI for more than one part of your project.  
+* For each type of AI Activity, please fill out the [AI Activity Submission Form](https://docs.google.com/forms/d/e/1FAIpQLSfTEMt7B2PZTV4lwCjujazKcuW7LZ088SgvcSXdseJwf_igxA/viewform?usp=sf_link): you may need to do more than one, if you were using AI for more than one part of your project.  
 * A completed project using AI tools for brainstorming, drafting, feedback, and revision.  
 * A detailed log of AI interactions, prompts, and platform usage.  
 * A 1-2 page reflection on the use of AI, discussing benefits, limitations, and ethical considerations.  
