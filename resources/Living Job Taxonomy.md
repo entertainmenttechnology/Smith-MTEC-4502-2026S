@@ -1,5 +1,7 @@
 # Living Taxonomy of Human-AI Roles in the BBS Framework
 
+<main>
+
 This evolving document explores emerging and speculative roles in a world shaped by **Balanced Blended Space (BBS)**, **Collaborative AI**, and **Holistic Integration**. Many of these roles reflect the unique blending of physical, virtual, and conceptual environments enabled by CHI meta-projects.
 
 > 🧭 **Purpose**: To identify, name, and describe new forms of labor, research, and design that arise from co-agency between human and machine intelligences.
@@ -105,3 +107,5 @@ Students, collaborators, and AI agents are invited to contribute:
 - Suggest or update tags, visual models, or related links
 
 This document is meant to evolve. The future of labor, meaning, and creative intelligence is shared — and co-authored.
+
+</main>
