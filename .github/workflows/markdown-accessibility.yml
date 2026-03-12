@@ -23,3 +23,17 @@ jobs:
           chmod +x .github/scripts/check-h1-headings.sh
           ./.github/scripts/check-h1-headings.sh
         shell: bash
+
+  check-landmark-one-main:
+    runs-on: ubuntu-latest
+    name: Check landmark-one-main (No Duplicate Main Landmarks)
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check for duplicate main landmarks
+        run: |
+          chmod +x tests/check-landmark-one-main.sh
+          ./tests/check-landmark-one-main.sh
+        shell: bash
