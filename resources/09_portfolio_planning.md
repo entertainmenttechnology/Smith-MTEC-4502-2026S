@@ -1,3 +1,5 @@
+<main>
+
 # MTEC 4502 – Career and Portfolio Seminar  
 ## Week 9: Portfolio Planning & Student Presentations  
 **Assignment Context:** Assignment 3.2 – The Portfolio  
@@ -110,3 +112,4 @@ Capture notes on the board or shared doc (for example, “Best tools for customi
 
 > “A strong portfolio isn’t finished — it’s designed to evolve with you.”
 
+</main>
