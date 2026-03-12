@@ -1,3 +1,7 @@
+---
+lang: en
+title: "Speculative Future Careers in a Blended Reality / AI World"
+---
 # Speculative Future Careers in a Blended Reality / AI World
 
 This living document presents a curated and evolving list of speculative careers that may emerge in the near future as Artificial Intelligence, Blended Reality, and Collaborative Design reshape the labor landscape. Some of these roles build on emerging signals in the industry (e.g., NYT article on AI-driven jobs), while others are grounded in CHI/BBS research and project-based foresight.

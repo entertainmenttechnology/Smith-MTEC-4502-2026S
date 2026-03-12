@@ -1,0 +1,17 @@
+# GitHub Pages / Jekyll Configuration
+# Sets the default language for all pages to ensure WCAG 2.1 html-has-lang compliance
+
+lang: en
+title: "MTEC 4502 - Entertainment Technology"
+description: "Smith MTEC 4502 Spring 2026 Course Materials"
+
+# Jekyll settings
+markdown: kramdown
+theme: minima
+
+# Default front matter for all pages
+defaults:
+  - scope:
+      path: ""
+    values:
+      lang: en
