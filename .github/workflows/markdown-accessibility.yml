@@ -23,3 +23,17 @@ jobs:
           chmod +x .github/scripts/check-h1-headings.sh
           ./.github/scripts/check-h1-headings.sh
         shell: bash
+
+  check-link-names:
+    runs-on: ubuntu-latest
+    name: Check Links Have Discernible Text in Markdown Files
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check links have discernible text
+        run: |
+          chmod +x .github/scripts/check-link-names.sh
+          ./.github/scripts/check-link-names.sh
+        shell: bash
