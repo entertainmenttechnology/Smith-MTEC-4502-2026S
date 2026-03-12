@@ -1,3 +1,7 @@
+---
+lang: en
+---
+
 ### **MTEC 4502 Career and Portfolio Seminar**
 
 ### **Assignment 1d: Integrating Artificial Intelligence in Your Project**

@@ -1,3 +1,7 @@
+---
+lang: en
+---
+
 # 🧭 Best Practices in Resume Development  
 **For MTEC 4502 – Career and Portfolio Seminar**  
 

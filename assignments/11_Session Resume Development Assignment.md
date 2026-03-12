@@ -1,3 +1,7 @@
+---
+lang: en
+---
+
 ### **MTEC 4502 \- Resume Development Assignment**
 
 **Initial Resume Assignment – Preparing for the Draft** 
