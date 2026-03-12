@@ -25,6 +25,23 @@ Checks all markdown files in the repository for level-one headings.
 ./tests/check-markdown-accessibility.sh
 ```
 
+### test-lesson-plan-region-accessibility.sh
+Tests that `course-materials/12-Lesson_Plan_Future_Careers_AI_Skill_Mapping_2026-03-12.md` is structured correctly so all content renders within landmark regions when served by GitHub (axe `region` rule, WCAG 2.1).
+
+**Usage:**
+```bash
+./tests/test-lesson-plan-region-accessibility.sh
+```
+
+**Expected Output:**
+```
+✅ File exists: course-materials/12-Lesson_Plan_Future_Careers_AI_Skill_Mapping_2026-03-12.md
+✅ Has level-one heading: # MTEC 4502 - Career and Portfolio Seminar
+✅ File has sufficient content (196 non-empty lines)
+✅ No bare top-level HTML block elements that could render outside landmarks
+✅ course-materials/12-Lesson_Plan_Future_Careers_AI_Skill_Mapping_2026-03-12.md passes region/landmark accessibility checks
+```
+
 ## Running Tests
 
 To run all accessibility tests:
@@ -32,6 +49,7 @@ To run all accessibility tests:
 cd /path/to/repository
 ./tests/test-student-folder-template-heading.sh
 ./tests/check-markdown-accessibility.sh
+./tests/test-lesson-plan-region-accessibility.sh
 ```
 
 ## WCAG 2.1 Compliance
@@ -44,4 +62,5 @@ These tests help ensure compliance with WCAG 2.1 Level A requirement that pages 
 ## References
 
 - [Deque University: Page Has Heading One](https://dequeuniversity.com/rules/axe/4.11/page-has-heading-one)
+- [Deque University: Region Rule](https://dequeuniversity.com/rules/axe/4.11/region?application=playwright)
 - [WCAG 2.1 Guidelines](https://www.w3.org/WAI/WCAG21/quickref/)
