@@ -26,9 +26,11 @@ while IFS= read -r -d '' file; do
 
     FILES_CHECKED=$((FILES_CHECKED + 1))
 
-    # Check if the file contains an <html> element with a lang attribute
+    # Check if the first 10 lines contain an <html> element with a lang attribute.
+    # The <html> tag always appears near the top of a valid HTML document.
+    # Using head -10 avoids false positives from lang= appearing in body content.
     # Matches patterns like: <html lang="en">, <html lang='en'>, <html lang=en>, etc.
-    if grep -qi '<html[^>]*lang=' "$file"; then
+    if head -10 "$file" | grep -qi '<html[^>]*lang='; then
         echo "✅ $file"
         FILES_PASSED=$((FILES_PASSED + 1))
     else
@@ -37,7 +39,7 @@ while IFS= read -r -d '' file; do
         echo "   Expected: <html lang=\"en\"> (or appropriate language code)"
         EXIT_CODE=1
     fi
-done < <(find . -name "*.html" -type f -print0 | grep -zv ".git")
+done < <(find . -name "*.html" -type f -print0)
 
 echo ""
 echo "============================================================"
