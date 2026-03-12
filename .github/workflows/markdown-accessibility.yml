@@ -23,3 +23,9 @@ jobs:
           chmod +x .github/scripts/check-h1-headings.sh
           ./.github/scripts/check-h1-headings.sh
         shell: bash
+
+      - name: Check landmark-one-main compliance
+        run: |
+          chmod +x tests/check-landmark-main.sh
+          tests/check-landmark-main.sh
+        shell: bash

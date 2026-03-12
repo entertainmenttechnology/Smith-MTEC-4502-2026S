@@ -25,6 +25,18 @@ Checks all markdown files in the repository for level-one headings.
 ./tests/check-markdown-accessibility.sh
 ```
 
+### check-landmark-main.sh
+Checks all markdown files in the repository for landmark-one-main compliance (axe rule `landmark-one-main`).
+
+On GitHub.com, the main landmark is provided by GitHub's layout when rendering Markdown. This script verifies that each file has a level-one heading, which ensures GitHub renders the file in its standard layout (which includes the `<main>` landmark required by the axe `landmark-one-main` rule).
+
+**Usage:**
+```bash
+./tests/check-landmark-main.sh
+```
+
+**Reference:** [Deque University: landmark-one-main](https://dequeuniversity.com/rules/axe/4.11/landmark-one-main)
+
 ## Running Tests
 
 To run all accessibility tests:
@@ -32,6 +44,7 @@ To run all accessibility tests:
 cd /path/to/repository
 ./tests/test-student-folder-template-heading.sh
 ./tests/check-markdown-accessibility.sh
+./tests/check-landmark-main.sh
 ```
 
 ## WCAG 2.1 Compliance
