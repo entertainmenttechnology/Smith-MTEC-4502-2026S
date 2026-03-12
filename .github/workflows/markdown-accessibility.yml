@@ -23,3 +23,9 @@ jobs:
           chmod +x .github/scripts/check-h1-headings.sh
           ./.github/scripts/check-h1-headings.sh
         shell: bash
+
+      - name: Check for html lang attribute (html-has-lang)
+        run: |
+          chmod +x tests/check-html-lang-attribute.sh
+          ./tests/check-html-lang-attribute.sh
+        shell: bash
