@@ -4,6 +4,19 @@ This directory contains tests to ensure WCAG 2.1 accessibility compliance for ma
 
 ## Available Tests
 
+### test-01a-essay-accessibility.sh
+Tests that `assignments/01a_Reflective_essay_draft_speculation_phase.md` contains a level-one heading as required by WCAG 2.1. Addresses the axe `region` rule: *"All page content should be contained by landmarks."*
+
+**Usage:**
+```bash
+./tests/test-01a-essay-accessibility.sh
+```
+
+**Expected Output:**
+```
+✅ assignments/01a_Reflective_essay_draft_speculation_phase.md has a level-one heading
+```
+
 ### test-student-folder-template-heading.sh
 Tests that `student-work/STUDENT-FOLDER-TEMPLATE.md` contains a level-one heading as required by WCAG 2.1 (page-has-heading-one rule).
 
@@ -30,6 +43,7 @@ Checks all markdown files in the repository for level-one headings.
 To run all accessibility tests:
 ```bash
 cd /path/to/repository
+./tests/test-01a-essay-accessibility.sh
 ./tests/test-student-folder-template-heading.sh
 ./tests/check-markdown-accessibility.sh
 ```
