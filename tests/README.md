@@ -17,6 +17,19 @@ Tests that `student-work/STUDENT-FOLDER-TEMPLATE.md` contains a level-one headin
 ✅ student-work/STUDENT-FOLDER-TEMPLATE.md has a level-one heading
 ```
 
+### test-01d-ai-assignment-heading.sh
+Tests that `assignments/01d_ Using Artificial Intelligence in your Analysis.md` contains a level-one heading as required by WCAG 2.1 (page-has-heading-one rule). Addresses the axe `region` rule: all page content should be contained by landmarks.
+
+**Usage:**
+```bash
+./tests/test-01d-ai-assignment-heading.sh
+```
+
+**Expected Output:**
+```
+✅ 'assignments/01d_ Using Artificial Intelligence in your Analysis.md' has a level-one heading
+```
+
 ### check-markdown-accessibility.sh
 Checks all markdown files in the repository for level-one headings.
 
