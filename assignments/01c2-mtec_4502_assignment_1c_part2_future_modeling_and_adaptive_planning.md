@@ -1,3 +1,7 @@
+---
+lang: en
+---
+
 <!-- markdownlint-disable MD013 -->
 
 # MTEC 4502 – Career and Portfolio Seminar

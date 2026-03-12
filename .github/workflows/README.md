@@ -1,3 +1,7 @@
+---
+lang: en
+---
+
 # GitHub Actions Workflows
 
 ## Accessibility Scanner
