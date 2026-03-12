@@ -23,3 +23,17 @@ jobs:
           chmod +x .github/scripts/check-h1-headings.sh
           ./.github/scripts/check-h1-headings.sh
         shell: bash
+
+  check-landmark-region:
+    runs-on: ubuntu-latest
+    name: Check Landmark/Region Accessibility (axe region rule)
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check assignment 01c2 landmark accessibility
+        run: |
+          chmod +x tests/test-assignment-01c2-landmark.sh
+          ./tests/test-assignment-01c2-landmark.sh
+        shell: bash
