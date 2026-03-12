@@ -23,3 +23,9 @@ jobs:
           chmod +x .github/scripts/check-h1-headings.sh
           ./.github/scripts/check-h1-headings.sh
         shell: bash
+
+      - name: Check inline links for descriptive text (link-in-text-block)
+        run: |
+          chmod +x tests/check-link-in-text-block.sh
+          ./tests/check-link-in-text-block.sh
+        shell: bash
