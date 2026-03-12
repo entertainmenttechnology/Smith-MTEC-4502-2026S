@@ -1,20 +1,20 @@
-### **MTEC 4502 \- Resume Development Assignment**
+# MTEC 4502 - Resume Development Assignment
 
-**Initial Resume Assignment – Preparing for the Draft** 
+**Initial Resume Assignment – Preparing for the Draft**
 
 ---
 
-#### **Objective**
+## Objective
 
 Students will gather and organize their professional materials and experiences, conduct research on effective resumes, and create an initial draft of their resume for review in the next class. AI tools may be used to refine and enhance the resume after the initial draft.
 
-If you already have a resume, then you are starting ahead\! However, there is a “resume” and there is a “good resume”.  We want to make sure that our resumes tell our story in an engaging way, and at the same time conform to industry expectations for what is included or not.
+If you already have a resume, then you are starting ahead! However, there is a “resume” and there is a “good resume”.  We want to make sure that our resumes tell our story in an engaging way, and at the same time conform to industry expectations for what is included or not.
 
-We also wish to consider the difference between a resume and a CV (curriculum vitae).  The cv should list ALL your work experience and can go on for many many pages: a resume is a precise that is intended to provide a useful representation within a single page. It should look professional and articulate, and be easy to read and find important information.
+We also wish to consider the difference between a resume and a CV (curriculum vitae).  The cv should list ALL your work experience and can go on for many many pages: a resume is a precise document that is intended to provide a useful representation within a single page. It should look professional and articulate, and be easy to read and find important information.
 
 ---
 
-### **Assignment Instructions**
+## Assignment Instructions
 
 1. **Gather Materials:**  
    * Compile a list of your experiences, including education, work experience, internships, volunteer work, and projects.  
@@ -43,7 +43,7 @@ We also wish to consider the difference between a resume and a CV (curriculum vi
 
 ---
 
-### **Deliverable:**
+## Deliverable
 
 * **Resume Draft:** Be prepared to upload next class.  
 * **Resume Analysis:** Brief summaries explaining what makes one resume effective and another ineffective.  
