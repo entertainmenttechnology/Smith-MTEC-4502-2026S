@@ -23,3 +23,18 @@ jobs:
           chmod +x .github/scripts/check-h1-headings.sh
           ./.github/scripts/check-h1-headings.sh
         shell: bash
+
+  check-link-accessibility:
+    runs-on: ubuntu-latest
+    name: Check README.md Link Accessibility (WCAG 2.1 SC 1.4.1)
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check README.md links are distinguishable without color
+        run: |
+          chmod +x tests/test-readme-link-accessibility.sh
+          ./tests/test-readme-link-accessibility.sh
+        shell: bash
+

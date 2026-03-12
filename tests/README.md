@@ -25,6 +25,25 @@ Checks all markdown files in the repository for level-one headings.
 ./tests/check-markdown-accessibility.sh
 ```
 
+### test-readme-link-accessibility.sh
+Tests that links in `README.md` are distinguishable without relying on color alone, per WCAG 2.1 SC 1.4.1 (Use of Color) and the axe `link-in-text-block` rule.
+
+Specifically checks:
+1. No links use bare URLs as link text.
+2. Inline paragraph links (not in headings or lists) use bold or italic emphasis.
+
+**Usage:**
+```bash
+./tests/test-readme-link-accessibility.sh
+```
+
+**Expected Output:**
+```
+✅ All links use descriptive text (not bare URLs)
+✅ All inline paragraph links use bold or italic emphasis
+✅ README.md passes link accessibility checks (WCAG 2.1 SC 1.4.1)
+```
+
 ## Running Tests
 
 To run all accessibility tests:
@@ -32,6 +51,7 @@ To run all accessibility tests:
 cd /path/to/repository
 ./tests/test-student-folder-template-heading.sh
 ./tests/check-markdown-accessibility.sh
+./tests/test-readme-link-accessibility.sh
 ```
 
 ## WCAG 2.1 Compliance
