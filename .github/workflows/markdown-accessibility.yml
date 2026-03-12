@@ -23,3 +23,9 @@ jobs:
           chmod +x .github/scripts/check-h1-headings.sh
           ./.github/scripts/check-h1-headings.sh
         shell: bash
+
+      - name: Check markdown links for accessibility
+        run: |
+          chmod +x tests/check-link-accessibility.sh
+          ./tests/check-link-accessibility.sh
+        shell: bash
