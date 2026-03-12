@@ -58,3 +58,12 @@ jobs:
           token: ${{ secrets.GH_TOKEN }}
           cache_key: a11y-scan-mtec4502-${{ github.ref_name }}
           skip_copilot_assignment: false  # Set to true if you don't want Copilot to propose fixes
+          # Authenticate with GitHub so that GitHub's own UI (e.g. the "Signing in" link
+          # shown to unauthenticated visitors) does not appear during scanning.
+          # This prevents link-in-text-block violations caused by GitHub's own
+          # navigation/contribute UI rather than by content in this repository.
+          # To enable authentication: add GH_SCAN_USERNAME and GH_SCAN_PASSWORD as
+          # repository secrets (Settings → Secrets → Actions).
+          login_url: ${{ secrets.GH_SCAN_USERNAME && 'https://github.com/login' || '' }}
+          username: ${{ secrets.GH_SCAN_USERNAME }}
+          password: ${{ secrets.GH_SCAN_PASSWORD }}

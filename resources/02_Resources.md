@@ -1,7 +1,9 @@
 # CLASS SESSION 2 RESOURCES  
 These links provide additional material for your assignment  
 
-[SUBMIT SCAFFOLDED ESSAY PART 1](https://brightspace.cuny.edu/d2l/le/content/950238/viewContent/34397524/View?ou=950238)  This link takes you to the Brightspace site wqhere you can submit part 1 of the assignment.  
+[SUBMIT SCAFFOLDED ESSAY PART 1](https://brightspace.cuny.edu/d2l/le/content/950238/viewContent/34397524/View?ou=950238)
+
+This link takes you to the Brightspace site where you can submit part 1 of the assignment.  
 
 [**START SCAFFOLDED ESSAY PART 2**](https://docs.google.com/document/d/1UJ5Z_wg_BQTSD2i-FW3nfFpzioHpgOg0eU5kbl08OQA/edit?usp=sharing)  
 This link takes you to the second part of the assignment, which is due next week.  We are going to focus on parts 1-2 in this document, and will be further evaluating our research before moving forward.
