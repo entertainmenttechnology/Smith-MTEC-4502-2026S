@@ -1,3 +1,7 @@
+---
+lang: en
+---
+
 **MTEC 4502 Career and Portfolio Seminar**  
 *(Last update 2025-09-03 dbs)*
 

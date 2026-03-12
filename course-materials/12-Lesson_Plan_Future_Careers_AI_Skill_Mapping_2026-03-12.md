@@ -1,3 +1,7 @@
+---
+lang: en
+---
+
 # MTEC 4502 - Career and Portfolio Seminar
 ## Lesson Plan: Future Careers Discussion, AI Connections, and Skill Mapping
 **Date:** March 12, 2026  

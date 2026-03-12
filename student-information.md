@@ -1,3 +1,7 @@
+---
+lang: en
+---
+
 # Student Information
 
 ## Contact & System Usernames
