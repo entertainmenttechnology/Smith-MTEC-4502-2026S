@@ -25,6 +25,20 @@ Checks all markdown files in the repository for level-one headings.
 ./tests/check-markdown-accessibility.sh
 ```
 
+### test-color-contrast-emerging-media-careers.sh
+Tests that `resources/02_emerging_media_careers.md` uses an explicit high-contrast color override (`<font color="#24292f">`) in the intro paragraph to meet WCAG 2.1 AA color contrast requirements (4.5:1 ratio against GitHub's `#f6f8fa` background).
+
+**Usage:**
+```bash
+./tests/test-color-contrast-emerging-media-careers.sh
+```
+
+**Expected Output:**
+```
+✅ Intro paragraph has explicit high-contrast color override (<font color="#24292f">)
+✅ Intro paragraph sentence is complete (no hanging 'recall that' fragment)
+```
+
 ## Running Tests
 
 To run all accessibility tests:
@@ -32,6 +46,7 @@ To run all accessibility tests:
 cd /path/to/repository
 ./tests/test-student-folder-template-heading.sh
 ./tests/check-markdown-accessibility.sh
+./tests/test-color-contrast-emerging-media-careers.sh
 ```
 
 ## WCAG 2.1 Compliance
