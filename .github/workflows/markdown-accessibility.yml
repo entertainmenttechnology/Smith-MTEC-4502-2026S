@@ -23,3 +23,9 @@ jobs:
           chmod +x .github/scripts/check-h1-headings.sh
           ./.github/scripts/check-h1-headings.sh
         shell: bash
+
+      - name: Check landmark region compliance (axe region rule)
+        run: |
+          chmod +x tests/test-landmark-regions.sh
+          ./tests/test-landmark-regions.sh
+        shell: bash
