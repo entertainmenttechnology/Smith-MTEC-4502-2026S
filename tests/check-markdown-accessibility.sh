@@ -25,8 +25,13 @@ while IFS= read -r -d '' file; do
     
     FILES_CHECKED=$((FILES_CHECKED + 1))
     
-    # Check if first non-empty line starts with "# " (level-one heading)
-    first_line=$(head -20 "$file" | grep -v '^[[:space:]]*$' | head -1)
+    # Skip YAML front matter (--- ... ---) if present, then find first non-empty line
+    if head -1 "$file" | grep -q "^---"; then
+        # File starts with front matter; skip to content after closing ---
+        first_line=$(awk 'NR==1{fm=1; next} fm && /^---/{fm=0; next} !fm && NF{print; exit}' "$file")
+    else
+        first_line=$(head -20 "$file" | grep -v '^[[:space:]]*$' | head -1)
+    fi
     
     if [[ "$first_line" =~ ^#[[:space:]]+ ]]; then
         echo "✅ $file"
