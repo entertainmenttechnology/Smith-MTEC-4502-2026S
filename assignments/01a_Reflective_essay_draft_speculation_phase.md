@@ -1,3 +1,5 @@
+<main>
+
 # MTEC 4502 – Career and Portfolio Seminar
 ## Assignment 1a: Reflective Essay Draft on Career Strategy and Skill Assessment
 
@@ -109,4 +111,6 @@ This draft is not evaluated for correctness, ambition, or market alignment. It i
 - Evidence of genuine reflection
 
 You will revisit this document later in the semester. Its value increases over time.
+
+</main>
 
