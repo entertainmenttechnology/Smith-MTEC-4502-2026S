@@ -25,15 +25,14 @@ while IFS= read -r -d '' file; do
     
     FILES_CHECKED=$((FILES_CHECKED + 1))
     
-    # Check if first non-empty line starts with "# " (level-one heading)
-    first_line=$(head -20 "$file" | grep -v '^[[:space:]]*$' | head -1)
-    
-    if [[ "$first_line" =~ ^#[[:space:]]+ ]]; then
+    # Check if any of the first 30 lines contains a level-one heading "# "
+    # This allows for HTML landmarks (e.g., <main>) before the heading
+    if head -30 "$file" | grep -q "^# "; then
         echo "✅ $file"
         FILES_PASSED=$((FILES_PASSED + 1))
     else
         echo "❌ $file"
-        echo "   First non-empty line: ${first_line:0:80}"
+        echo "   No level-one heading found in first 30 lines"
         echo "   Expected: Line starting with '# ' (level-one heading)"
         EXIT_CODE=1
     fi
