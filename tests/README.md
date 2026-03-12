@@ -25,6 +25,19 @@ Checks all markdown files in the repository for level-one headings.
 ./tests/check-markdown-accessibility.sh
 ```
 
+### check-markdown-link-text.sh
+Checks that all links in `resources/speculative_future_careers.md` have discernible (non-empty) text, satisfying the axe `link-name` rule and WCAG 2.1 SC 2.4.4.
+
+**Usage:**
+```bash
+./tests/check-markdown-link-text.sh
+```
+
+**Expected Output:**
+```
+✅ resources/speculative_future_careers.md — all links have discernible text
+```
+
 ## Running Tests
 
 To run all accessibility tests:
@@ -32,16 +45,18 @@ To run all accessibility tests:
 cd /path/to/repository
 ./tests/test-student-folder-template-heading.sh
 ./tests/check-markdown-accessibility.sh
+./tests/check-markdown-link-text.sh
 ```
 
 ## WCAG 2.1 Compliance
 
-These tests help ensure compliance with WCAG 2.1 Level A requirement that pages should have a level-one heading. This is important for:
-- Screen reader navigation
-- Document structure and semantics
-- Accessibility scanning tools
+These tests help ensure compliance with WCAG 2.1 accessibility requirements:
+
+- **Level-one headings** (page-has-heading-one): Pages must have a level-one heading for screen reader navigation and document structure.
+- **Link discernible text** (link-name): Every link must have non-empty, meaningful text so screen readers can describe its purpose. This is required by WCAG 2.1 Success Criterion 2.4.4 (Link Purpose).
 
 ## References
 
 - [Deque University: Page Has Heading One](https://dequeuniversity.com/rules/axe/4.11/page-has-heading-one)
+- [Deque University: Links Must Have Discernible Text](https://dequeuniversity.com/rules/axe/4.11/link-name)
 - [WCAG 2.1 Guidelines](https://www.w3.org/WAI/WCAG21/quickref/)
