@@ -71,7 +71,7 @@ These provide macro-level analysis of labor markets, automation, and AI transfor
 
 - Autor, Korinek & Sarin (2026). *What if Labor Becomes Unnecessary?* (NYT Opinion)  
   <https://www.nytimes.com/2026/02/04/opinion/ai-jobs-employment-industry.html>  
-  *(CUNY students can access NYT through the academic subscription portal: <https://www.nytimes.com/subscription/education?campaignId=8QHL8> — search for CUNY and register using your CUNY email.)*
+  (CUNY students can access NYT through the academic subscription portal: <https://www.nytimes.com/subscription/education?campaignId=8QHL8> — search for CUNY and register using your CUNY email.)
 
 Your synthesis must reference **at least one** of these macro-level sources.
 
