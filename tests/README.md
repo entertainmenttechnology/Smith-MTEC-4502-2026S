@@ -4,6 +4,19 @@ This directory contains tests to ensure WCAG 2.1 accessibility compliance for ma
 
 ## Available Tests
 
+### test-readme-main-landmark.sh
+Tests that `README.md` contains a `<main>` landmark element as required by WCAG 2.1 (landmark-one-main rule).
+
+**Usage:**
+```bash
+./tests/test-readme-main-landmark.sh
+```
+
+**Expected Output:**
+```
+✅ README.md has a <main> landmark element
+```
+
 ### test-student-folder-template-heading.sh
 Tests that `student-work/STUDENT-FOLDER-TEMPLATE.md` contains a level-one heading as required by WCAG 2.1 (page-has-heading-one rule).
 
@@ -30,13 +43,18 @@ Checks all markdown files in the repository for level-one headings.
 To run all accessibility tests:
 ```bash
 cd /path/to/repository
+./tests/test-readme-main-landmark.sh
 ./tests/test-student-folder-template-heading.sh
 ./tests/check-markdown-accessibility.sh
 ```
 
 ## WCAG 2.1 Compliance
 
-These tests help ensure compliance with WCAG 2.1 Level A requirement that pages should have a level-one heading. This is important for:
+These tests help ensure compliance with WCAG 2.1 accessibility requirements:
+- Pages should have a level-one heading (page-has-heading-one rule)
+- Documents should have one main landmark (landmark-one-main rule)
+
+This is important for:
 - Screen reader navigation
 - Document structure and semantics
 - Accessibility scanning tools
@@ -44,4 +62,5 @@ These tests help ensure compliance with WCAG 2.1 Level A requirement that pages 
 ## References
 
 - [Deque University: Page Has Heading One](https://dequeuniversity.com/rules/axe/4.11/page-has-heading-one)
+- [Deque University: Landmark One Main](https://dequeuniversity.com/rules/axe/4.11/landmark-one-main)
 - [WCAG 2.1 Guidelines](https://www.w3.org/WAI/WCAG21/quickref/)
