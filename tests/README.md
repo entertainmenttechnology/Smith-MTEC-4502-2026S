@@ -17,6 +17,19 @@ Tests that `student-work/STUDENT-FOLDER-TEMPLATE.md` contains a level-one headin
 ✅ student-work/STUDENT-FOLDER-TEMPLATE.md has a level-one heading
 ```
 
+### check-markdown-landmarks.sh
+Checks that specific markdown files have HTML landmark regions (e.g., `<main>`, `<nav>`, `<article>`) to satisfy the axe `region` rule: "All page content should be contained by landmarks."
+
+**Usage:**
+```bash
+./tests/check-markdown-landmarks.sh
+```
+
+**Expected Output:**
+```
+✅ resources/02_emerging_media_careers.md has HTML landmark region(s)
+```
+
 ### check-markdown-accessibility.sh
 Checks all markdown files in the repository for level-one headings.
 
@@ -32,6 +45,7 @@ To run all accessibility tests:
 cd /path/to/repository
 ./tests/test-student-folder-template-heading.sh
 ./tests/check-markdown-accessibility.sh
+./tests/check-markdown-landmarks.sh
 ```
 
 ## WCAG 2.1 Compliance

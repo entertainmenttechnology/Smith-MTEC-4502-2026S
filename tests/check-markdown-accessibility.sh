@@ -25,16 +25,17 @@ while IFS= read -r -d '' file; do
     
     FILES_CHECKED=$((FILES_CHECKED + 1))
     
-    # Check if first non-empty line starts with "# " (level-one heading)
-    first_line=$(head -20 "$file" | grep -v '^[[:space:]]*$' | head -1)
-    
-    if [[ "$first_line" =~ ^#[[:space:]]+ ]]; then
+    # Check if any of the first 30 lines starts with "# " (level-one heading)
+    # Searches within first 30 lines to allow for HTML landmark tags (e.g. <main>)
+    # that may precede the heading while still maintaining proper structure
+    if head -n 30 "$file" | grep -q "^# "; then
         echo "✅ $file"
         FILES_PASSED=$((FILES_PASSED + 1))
     else
+        first_line=$(head -20 "$file" | grep -v '^[[:space:]]*$' | head -1)
         echo "❌ $file"
         echo "   First non-empty line: ${first_line:0:80}"
-        echo "   Expected: Line starting with '# ' (level-one heading)"
+        echo "   Expected: Line starting with '# ' (level-one heading) within first 30 lines"
         EXIT_CODE=1
     fi
 done < <(find . -name "*.md" -type f -print0 | grep -zv ".git")
@@ -48,8 +49,9 @@ if [ $EXIT_CODE -eq 0 ]; then
 else
     echo "❌ Some markdown files are missing level-one headings"
     echo ""
-    echo "To fix: Add a level-one heading (starting with '# ') as the first non-empty line"
+    echo "To fix: Add a level-one heading (starting with '# ') within the first 30 lines"
     echo "Example: # Page Title"
+    echo "Note: HTML landmark tags (e.g. <main>) may precede the heading"
 fi
 
 exit $EXIT_CODE
