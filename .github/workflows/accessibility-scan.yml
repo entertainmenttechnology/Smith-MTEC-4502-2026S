@@ -58,3 +58,12 @@ jobs:
           token: ${{ secrets.GH_TOKEN }}
           cache_key: a11y-scan-mtec4502-${{ github.ref_name }}
           skip_copilot_assignment: false  # Set to true if you don't want Copilot to propose fixes
+          # Authenticate so the scanner sees pages as a logged-in user.
+          # This prevents GitHub's own unauthenticated UI (e.g. the "Signing in" notice
+          # banner with insufficient link contrast) from triggering false-positive
+          # link-in-text-block violations (WCAG 1.4.1 / axe rule link-in-text-block).
+          # Add GITHUB_SCAN_USERNAME and GITHUB_SCAN_PASSWORD as repository secrets to enable.
+          # See .github/workflows/README.md for setup instructions.
+          login_url: https://github.com/login
+          username: ${{ secrets.GITHUB_SCAN_USERNAME }}
+          password: ${{ secrets.GITHUB_SCAN_PASSWORD }}

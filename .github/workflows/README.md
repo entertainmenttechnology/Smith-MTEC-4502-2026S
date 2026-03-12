@@ -60,6 +60,28 @@ The workflow automatically finds and scans:
    - Go to repository Settings → Features
    - Check the box for "Issues"
 
+### Optional: Authenticate the scanner (recommended)
+
+When the scanner runs without authentication it sees GitHub's own "unauthenticated" UI.
+This includes a notice banner that contains a **"Signing in"** link (`<a href="/login">Signing in</a>`).
+That link triggers a false-positive `link-in-text-block` axe violation (WCAG 1.4.1) because:
+
+- The link colour (`#0366d6`) has only **1.29:1 contrast** against the surrounding grey text (`#7b7c7d`) — the required minimum is 3:1.
+- GitHub does not apply an underline to the link, so there is no non-colour visual distinction.
+- The element lives in **GitHub's own platform UI** and cannot be fixed by editing repository content.
+
+**To eliminate these false positives**, provide GitHub credentials so the scanner browses pages as an authenticated user:
+
+1. Create a **dedicated GitHub account** (or use an existing bot/service account) whose only purpose is accessibility scanning.
+2. Add two repository secrets:
+   - **`GITHUB_SCAN_USERNAME`** — the GitHub username of the scan account
+   - **`GITHUB_SCAN_PASSWORD`** — the password of the scan account
+3. The workflow already references these secrets via `username` / `password` / `login_url` parameters; no further changes are needed.
+
+When these secrets are set the scanner logs in before scanning, so GitHub never renders the login notice banner, and the false-positive `link-in-text-block` violation will not appear.
+
+> **Security note:** Use a purpose-built scanning account rather than a personal account. The account only needs read access to public repositories.
+
 ### Optional: Disable Copilot assignment
 
 If you don't have GitHub Copilot or prefer to handle issues manually, edit the workflow file and change:
