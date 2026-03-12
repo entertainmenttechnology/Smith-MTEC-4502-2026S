@@ -25,6 +25,20 @@ Checks all markdown files in the repository for level-one headings.
 ./tests/check-markdown-accessibility.sh
 ```
 
+### check-color-contrast.sh
+Checks all markdown files for potential color contrast accessibility issues:
+- Inline HTML with explicit low-contrast color styles (e.g., `color:#7b7c7d`)
+- Plain blockquotes that may render with muted foreground color on GitHub's blob view,
+  which can produce a contrast ratio below the WCAG 2.1 AA minimum of 4.5:1
+
+**Usage:**
+```bash
+./tests/check-color-contrast.sh
+```
+
+Plain blockquotes should be converted to GitHub-Flavored Markdown (GFM) alerts
+(`> [!NOTE]`, `> [!IMPORTANT]`, `> [!WARNING]`, etc.) to ensure accessible contrast.
+
 ## Running Tests
 
 To run all accessibility tests:
@@ -32,6 +46,7 @@ To run all accessibility tests:
 cd /path/to/repository
 ./tests/test-student-folder-template-heading.sh
 ./tests/check-markdown-accessibility.sh
+./tests/check-color-contrast.sh
 ```
 
 ## WCAG 2.1 Compliance
