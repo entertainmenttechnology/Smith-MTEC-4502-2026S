@@ -1,3 +1,7 @@
+---
+lang: en
+---
+
 # **MTEC 4502 \- Career and Portfolio Seminar.  Assignment Week 3\.**
 
 ## **Integrating visualization resources into your project**
