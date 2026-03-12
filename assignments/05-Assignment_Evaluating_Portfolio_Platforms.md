@@ -81,4 +81,4 @@ Based on what you learned, you’ll soon:
 
 ---
 
-> “Exploring platforms isn’t about picking a template — it’s about discovering which space best tells your story.”
+*“Exploring platforms isn’t about picking a template — it’s about discovering which space best tells your story.”*

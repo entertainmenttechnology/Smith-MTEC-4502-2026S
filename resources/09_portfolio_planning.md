@@ -108,5 +108,5 @@ Capture notes on the board or shared doc (for example, “Best tools for customi
 - Encourage cross-disciplinary connections — designers learning from developers, etc.  
 - Revisit any standout examples next week to discuss site-building strategies.  
 
-> “A strong portfolio isn’t finished — it’s designed to evolve with you.”
+*“A strong portfolio isn’t finished — it’s designed to evolve with you.”*
 
