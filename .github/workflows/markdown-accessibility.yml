@@ -23,3 +23,24 @@ jobs:
           chmod +x .github/scripts/check-h1-headings.sh
           ./.github/scripts/check-h1-headings.sh
         shell: bash
+
+  check-link-accessibility:
+    runs-on: ubuntu-latest
+    name: Check Link Accessibility in Markdown Files
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check links are distinguishable without relying on color
+        run: |
+          chmod +x tests/check-markdown-link-accessibility.sh
+          ./tests/check-markdown-link-accessibility.sh
+        shell: bash
+
+      - name: Check speculative_future_careers.md link accessibility
+        run: |
+          chmod +x tests/test-speculative-future-careers-links.sh
+          ./tests/test-speculative-future-careers-links.sh
+        shell: bash
+
