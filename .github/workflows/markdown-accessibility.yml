@@ -23,3 +23,17 @@ jobs:
           chmod +x .github/scripts/check-h1-headings.sh
           ./.github/scripts/check-h1-headings.sh
         shell: bash
+
+  check-readme-region-landmarks:
+    runs-on: ubuntu-latest
+    name: Check README.md Landmark/Region Accessibility (axe region rule)
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check README.md for landmark/region compliance
+        run: |
+          chmod +x tests/test-readme-region-landmarks.sh
+          ./tests/test-readme-region-landmarks.sh
+        shell: bash
