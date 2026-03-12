@@ -23,3 +23,17 @@ jobs:
           chmod +x .github/scripts/check-h1-headings.sh
           ./.github/scripts/check-h1-headings.sh
         shell: bash
+
+  check-link-in-text-block:
+    runs-on: ubuntu-latest
+    name: Check Link-in-Text-Block Accessibility (student-information.md)
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check student-information.md for plain inline links in paragraph text
+        run: |
+          chmod +x tests/check-link-in-text-block.sh
+          ./tests/check-link-in-text-block.sh
+        shell: bash
