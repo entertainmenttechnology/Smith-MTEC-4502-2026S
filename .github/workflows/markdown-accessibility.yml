@@ -23,3 +23,17 @@ jobs:
           chmod +x .github/scripts/check-h1-headings.sh
           ./.github/scripts/check-h1-headings.sh
         shell: bash
+
+  check-link-accessibility:
+    runs-on: ubuntu-latest
+    name: Check Link Accessibility in Student Folder Template
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check link accessibility in STUDENT-FOLDER-TEMPLATE.md
+        run: |
+          chmod +x tests/test-student-folder-template-link-accessibility.sh
+          ./tests/test-student-folder-template-link-accessibility.sh
+        shell: bash

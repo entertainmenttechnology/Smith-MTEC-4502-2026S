@@ -1,6 +1,6 @@
-## Student Work Template
+# Student Work Template
 
-### How to Use This Folder
+## How to Use This Folder
 
 Each student who forks this repository should:
 
@@ -9,7 +9,7 @@ Each student who forks this repository should:
 3. **Keep this folder organized** with subfolders for different assignments or project types
 4. **Commit and push regularly** — your work is visible in version history
 
-#### Example Structure (for your folder):
+### Example Structure (for your folder):
 
 ```
 student-work/
@@ -25,7 +25,7 @@ student-work/
     └── portfolio-experiments/
 ```
 
-#### Guidelines
+### Guidelines
 
 - **All work is your responsibility** — this is your professional archive
 - **Commit messages should be clear** — describe what you've changed and why
@@ -35,3 +35,11 @@ student-work/
 ---
 
 **Note:** This template folder can be deleted once you've created your personal folder. Only keep your own workspace in `/student-work`.
+
+## Useful Links
+
+The following links use both color **and** underline to be accessible to all users (meeting WCAG 2.1 contrast requirements):
+
+- <u><strong><a href="https://docs.github.com/en/get-started">GitHub Docs – Getting Started</a></strong></u> — how to use GitHub
+- <u><strong><a href="../assignments/">MTEC 4502 Assignment Guide</a></strong></u> — all course assignments
+- <u><strong><a href="../student-information.md">Student Information</a></strong></u> — enrollment and course details
