@@ -29,8 +29,8 @@ jobs:
           BRANCH="${{ github.ref_name }}"
           BASE_URL="https://github.com/${REPO}/blob/${BRANCH}"
           
-          # Generate URL list (excluding .git directory)
-          URLS=$(find . -name "*.md" -type f | grep -v ".git" | sed 's|^\./||' | sort | while read -r file; do
+          # Generate URL list (excluding .git directory and workflow/meta files)
+          URLS=$(find . -name "*.md" -type f | grep -v ".git" | grep -v "^./.github/" | sed 's|^\./||' | sort | while read -r file; do
             # URL encode spaces and special characters
             encoded_file=$(echo "$file" | sed 's/ /%20/g')
             echo "${BASE_URL}/${encoded_file}"
@@ -58,3 +58,14 @@ jobs:
           token: ${{ secrets.GH_TOKEN }}
           cache_key: a11y-scan-mtec4502-${{ github.ref_name }}
           skip_copilot_assignment: false  # Set to true if you don't want Copilot to propose fixes
+          # Authenticate with GitHub so the scanner sees pages as a logged-in user.
+          # This prevents GitHub's own "Signing in" UI elements (shown only to unauthenticated
+          # visitors) from being flagged for the link-in-text-block axe violation:
+          #   Element: <a href="/login">Signing in</a>
+          #   Violation: link color #0366d6 vs surrounding gray text #7b7c7d (contrast 1.29:1)
+          #   Fix: run scanner as authenticated user so this UI element is not shown.
+          # To enable: add GITHUB_SCAN_USERNAME and GITHUB_SCAN_PASSWORD as repository secrets.
+          # The scanner action will only attempt authentication when all three inputs are non-empty.
+          login_url: https://github.com/login
+          username: ${{ secrets.GITHUB_SCAN_USERNAME }}
+          password: ${{ secrets.GITHUB_SCAN_PASSWORD }}
