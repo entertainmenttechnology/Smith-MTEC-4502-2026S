@@ -52,4 +52,29 @@ else
     echo "Example: # Page Title"
 fi
 
+echo ""
+echo "Checking color contrast: blockquote usage in Living Job Taxonomy.md..."
+echo "======================================================================="
+echo "GitHub renders blockquote text with a muted color (~#7b7c7d) that fails"
+echo "WCAG 2 AA contrast against the page background (#f6f8fa). Blockquotes"
+echo "must not be used for non-quoted content in this file."
+echo ""
+
+TAXONOMY_FILE="resources/Living Job Taxonomy.md"
+if [ -f "$TAXONOMY_FILE" ]; then
+    if grep -qP '^>\s' "$TAXONOMY_FILE"; then
+        echo "❌ $TAXONOMY_FILE contains blockquote syntax (lines starting with '>')"
+        echo "   Blockquotes render with muted text color (#7b7c7d) on GitHub, which"
+        echo "   fails WCAG 2 AA color contrast (3.92:1 vs required 4.5:1)."
+        echo "   Replace blockquote syntax with regular paragraph text."
+        EXIT_CODE=1
+    else
+        echo "✅ $TAXONOMY_FILE has no blockquote syntax (color contrast safe)"
+    fi
+else
+    echo "⚠️  $TAXONOMY_FILE not found — skipping blockquote check"
+fi
+
+echo ""
+
 exit $EXIT_CODE
