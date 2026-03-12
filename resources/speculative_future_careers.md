@@ -17,37 +17,37 @@ Each role includes a **short description**, **possible skills/tools**, and an op
 ## 🌐 Speculative Roles from CHI / BBS Framework
 
 ### 1. **Reality Composer**
-*Designs layered mixed-reality environments where physical, virtual, and conceptual spaces blend seamlessly.*
+Designs layered mixed-reality environments where physical, virtual, and conceptual spaces blend seamlessly.
 - Skills: Unity, Unreal Engine, AR/VR platforms, spatial sound, projection mapping
 - CHI/BBS Note: Direct alignment with BRPS and BBS mediation pathways
 
 ### 2. **AI Collaborator Coach**
-*Trains others in effectively partnering with AI across creative, technical, and strategic projects.*
+Trains others in effectively partnering with AI across creative, technical, and strategic projects.
 - Skills: Prompt engineering, ethics of automation, cognitive psychology, UI/UX
 - CHI/BBS Note: Central to CHI Collaborative AI pedagogy
 
 ### 3. **Symbolic Systems Architect**
-*Develops symbolic communication grammars for use between human, machine, and hybrid agents.*
+Develops symbolic communication grammars for use between human, machine, and hybrid agents.
 - Skills: Linguistics, semiotics, computational logic, AI model training
 - CHI/BBS Note: Connects directly to BBS Syntax design
 
 ### 4. **Human-Context Synthesist**
-*Aggregates situational context from human interaction to enhance AI decision-making in real-time.*
+Aggregates situational context from human interaction to enhance AI decision-making in real-time.
 - Skills: Sensor data interpretation, narrative modeling, emotion detection
 - CHI/BBS Note: Supports speculative AI ethics and narrative-based systems
 
 ### 5. **Reality Weaving Engineer**
-*Constructs infrastructural bridges between physical stage components and virtual control systems.*
+Constructs infrastructural bridges between physical stage components and virtual control systems.
 - Skills: CAN bus, OSC, embedded systems, robotics, fabrication
 - CHI/BBS Note: Ties into BSP and BRPS implementation strategies
 
 ### 6. **Narrative Systems Curator**
-*Designs branching, adaptive story ecosystems for interactive performance or educational experiences.*
+Designs branching, adaptive story ecosystems for interactive performance or educational experiences.
 - Skills: Game engines, nonlinear scripting, dramaturgy, metadata management
 - CHI/BBS Note: Applies to Puppet Game, Elana Universe, and CHIIDS narratives
 
 ### 7. **Project Taxonomist**
-*Creates and maintains structured ontologies and classification schemes for complex project environments.*
+Creates and maintains structured ontologies and classification schemes for complex project environments.
 - Skills: Metadata tagging, Zotero/Obsidian, semantic web tools, archival systems
 - CHI/BBS Note: Could maintain BBS Living Taxonomy
 
@@ -58,15 +58,15 @@ Each role includes a **short description**, **possible skills/tools**, and an op
 **Selected Roles That Align with or Extend CHI Themes:**
 
 ### 8. **AI Character Education Specialist**
-*Teaches AI how to "perform" more humanlike roles through training and feedback loops.*
+Teaches AI how to "perform" more humanlike roles through training and feedback loops.
 - Related to CHI's performative AI agents
 
 ### 9. **Synthetic Media Ethicist**
-*Ensures ethical usage of generated media in journalism, politics, and entertainment.*
+Ensures ethical usage of generated media in journalism, politics, and entertainment.
 - May overlap with CHI's work on deepfake transparency and provenance
 
 ### 10. **AI Prompt Librarian**
-*Organizes and maintains prompt databases for institutional or creative use.*
+Organizes and maintains prompt databases for institutional or creative use.
 - Strong overlap with CHI's intent to build structured prompt repositories
 
 ---
