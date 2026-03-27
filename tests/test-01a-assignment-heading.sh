@@ -1,10 +1,11 @@
 #!/bin/bash
-# Specific test for student-work/STUDENT-FOLDER-TEMPLATE.md accessibility
+# Specific test for assignments/01a_Reflective_essay_draft_speculation_phase.md accessibility
 # Ensures the file has a level-one heading as required by WCAG 2.1
+# This test prevents regression of the axe violation: page-has-heading-one
 
 set -e
 
-FILE="student-work/STUDENT-FOLDER-TEMPLATE.md"
+FILE="assignments/01a_Reflective_essay_draft_speculation_phase.md"
 
 echo "Testing $FILE for level-one heading..."
 
