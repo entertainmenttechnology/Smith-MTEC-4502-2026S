@@ -108,7 +108,7 @@ After completing the first draft of your Strategic Framework, seek feedback from
 * **Due Date**: \[Insert due date here\]  
   ---
 
-## Optional Extra Credit:
+### Optional Extra Credit:
 
 For extra credit, consider creating a **visual career path** that incorporates:
 
