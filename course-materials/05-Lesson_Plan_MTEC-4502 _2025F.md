@@ -1,4 +1,4 @@
-# MTEC 4502 – Career and Portfolio Seminar  
+# MTEC 4502 – Career and Portfolio Seminar
 ## Week 5: Strategic Framework Consolidation & Visualization Review  
 **Instructor:** Dr. David B. Smith  
 **Class Time:** Wednesday 2:30–5:00 PM  
