@@ -25,6 +25,21 @@ Checks all markdown files in the repository for level-one headings.
 ./tests/check-markdown-accessibility.sh
 ```
 
+### check-markdown-link-names.sh
+Checks all markdown files in the repository for links with discernible text.
+Flags links where the link text is a bare URL (e.g., `[https://example.com](https://example.com)`),
+which fails the WCAG 2.1 / axe `link-name` rule.
+
+**Usage:**
+```bash
+./tests/check-markdown-link-names.sh
+```
+
+**Expected Output:**
+```
+✅ All markdown links have discernible text
+```
+
 ## Running Tests
 
 To run all accessibility tests:
@@ -32,6 +47,7 @@ To run all accessibility tests:
 cd /path/to/repository
 ./tests/test-student-folder-template-heading.sh
 ./tests/check-markdown-accessibility.sh
+./tests/check-markdown-link-names.sh
 ```
 
 ## WCAG 2.1 Compliance
