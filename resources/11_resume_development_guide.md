@@ -108,4 +108,4 @@ For inclusion in AI Collaboration Report or journal:
 
 ---
 
-> “Your resume should read like a story of momentum — not a list of what you’ve done, but a map of where you’re going.”
+<blockquote style="color: #24292f;">“Your resume should read like a story of momentum — not a list of what you’ve done, but a map of where you’re going.”</blockquote>
