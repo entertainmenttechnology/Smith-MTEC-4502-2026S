@@ -25,6 +25,19 @@ Checks all markdown files in the repository for level-one headings.
 ./tests/check-markdown-accessibility.sh
 ```
 
+### check-heading-order.sh
+Checks all markdown files in the repository for valid heading order (no skipped levels). Ensures that heading levels only increase by one, as required by the axe `heading-order` rule.
+
+**Usage:**
+```bash
+./tests/check-heading-order.sh
+```
+
+**Expected Output:**
+```
+✅ All markdown files have valid heading order
+```
+
 ## Running Tests
 
 To run all accessibility tests:
@@ -32,6 +45,7 @@ To run all accessibility tests:
 cd /path/to/repository
 ./tests/test-student-folder-template-heading.sh
 ./tests/check-markdown-accessibility.sh
+./tests/check-heading-order.sh
 ```
 
 ## WCAG 2.1 Compliance
@@ -44,4 +58,5 @@ These tests help ensure compliance with WCAG 2.1 Level A requirement that pages 
 ## References
 
 - [Deque University: Page Has Heading One](https://dequeuniversity.com/rules/axe/4.11/page-has-heading-one)
+- [Deque University: Heading Order](https://dequeuniversity.com/rules/axe/4.11/heading-order)
 - [WCAG 2.1 Guidelines](https://www.w3.org/WAI/WCAG21/quickref/)
