@@ -103,6 +103,8 @@ Capture notes on the board or shared doc (for example, “Best tools for customi
 ---
 
 ## 🧠 Instructor Notes
+
+### Facilitation Tips
 - Keep timing consistent; display a timer during presentations.  
 - Take quick notes for follow-up feedback.  
 - Encourage cross-disciplinary connections — designers learning from developers, etc.  
