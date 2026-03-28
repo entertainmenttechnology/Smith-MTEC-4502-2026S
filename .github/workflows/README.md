@@ -93,3 +93,42 @@ The workflow runs automatically on push/PR, or you can trigger it manually:
 - The scanner uses axe-core, which detects ~30-40% of accessibility issues
 - Manual testing is still recommended for comprehensive accessibility evaluation
 - Results are cached to avoid duplicate issue creation
+
+## Heading Order Check
+
+The `heading-order-check.yml` workflow automatically validates that all markdown files follow proper heading hierarchy for WCAG 2.1 compliance.
+
+### What it checks:
+
+- **Heading level progression**: Ensures headings only increase by one level (e.g., H1 → H2 → H3, not H1 → H3)
+- **Document structure**: Warns if documents don't start with H1
+- **WCAG 2.1 compliance**: Follows [WCAG 2.1 heading order guidelines](https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships.html)
+
+### When it runs:
+
+- On every push to `main` branch (if markdown files changed)
+- On every pull request to `main` branch (if markdown files changed)
+
+### Running manually:
+
+You can also run the heading order checker locally:
+
+```bash
+python3 .github/scripts/check-heading-order.py
+```
+
+### Example issues caught:
+
+❌ **Invalid**: H1 → H3 (skips H2)
+```markdown
+# Main Title
+### Subsection  ← Error: Should be H2
+```
+
+✅ **Valid**: H1 → H2 → H3
+```markdown
+# Main Title
+## Section
+### Subsection
+```
+
