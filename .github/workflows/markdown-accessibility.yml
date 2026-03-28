@@ -23,3 +23,17 @@ jobs:
           chmod +x .github/scripts/check-h1-headings.sh
           ./.github/scripts/check-h1-headings.sh
         shell: bash
+
+  check-color-contrast:
+    runs-on: ubuntu-latest
+    name: Check Color Contrast in Markdown Files
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check for color contrast issues
+        run: |
+          chmod +x tests/check-color-contrast.sh
+          ./tests/check-color-contrast.sh
+        shell: bash
