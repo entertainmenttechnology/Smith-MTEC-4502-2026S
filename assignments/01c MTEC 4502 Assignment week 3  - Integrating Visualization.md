@@ -4,7 +4,7 @@
 
 ## **Part 0: Read and consider about the future of work**
 
-[https://workofthefuture-taskforce.mit.edu/](https://workofthefuture-taskforce.mit.edu/)
+[MIT Work of the Future Task Force](https://workofthefuture-taskforce.mit.edu/)
 
 You may wish to speculate with the AI of your choice about how your particular career path will be changing over the next decade.
 
