@@ -1,7 +1,7 @@
 **MTEC 4502 Career and Portfolio Seminar**  
 *(Last update 2025-09-03 dbs)*
 
-**Assignment part 1b: Strategic Framework for Career Path Planning**
+# Assignment part 1b: Strategic Framework for Career Path Planning
 
 ## Objective:
 
