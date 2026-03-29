@@ -1,4 +1,6 @@
-## Student Work Template
+# Student Work Template
+
+<main>
 
 ### How to Use This Folder
 
@@ -35,3 +37,5 @@ student-work/
 ---
 
 **Note:** This template folder can be deleted once you've created your personal folder. Only keep your own workspace in `/student-work`.
+
+</main>
