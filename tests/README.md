@@ -25,6 +25,23 @@ Checks all markdown files in the repository for level-one headings.
 ./tests/check-markdown-accessibility.sh
 ```
 
+### test-01c-visualization-landmark.sh
+Tests that `assignments/01c MTEC 4502 Assignment week 3  - Integrating Visualization.md` satisfies the `landmark-one-main` axe accessibility rule. Verifies the file has a level-one heading, that it appears near the top of the document, and that the document has a proper heading hierarchy.
+
+**Usage:**
+```bash
+./tests/test-01c-visualization-landmark.sh
+```
+
+**Expected Output:**
+```
+✅ File exists
+✅ Has level-one heading (H1): # **MTEC 4502 \- Career and Portfolio Seminar.  Assignment Week 3\.**
+✅ Level-one heading appears near the top of the document
+✅ Has 7 H2 section heading(s) for content structure
+✅ assignments/01c MTEC 4502 Assignment week 3  - Integrating Visualization.md passes landmark-one-main accessibility check
+```
+
 ## Running Tests
 
 To run all accessibility tests:
@@ -32,6 +49,7 @@ To run all accessibility tests:
 cd /path/to/repository
 ./tests/test-student-folder-template-heading.sh
 ./tests/check-markdown-accessibility.sh
+./tests/test-01c-visualization-landmark.sh
 ```
 
 ## WCAG 2.1 Compliance
