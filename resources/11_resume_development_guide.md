@@ -100,7 +100,7 @@ Use AI as a **collaborator**, not a ghostwriter.
 ---
 
 ## X. Reflection Prompts
-For inclusion in AI Collaboration Report or journal:
+### For Inclusion in AI Collaboration Report or Journal
 - How did aligning your resume’s tone with your portfolio change its impact?  
 - Which feedback (human or AI) most improved your clarity or identity?  
 - Does your resume communicate trajectory as well as skill?  
