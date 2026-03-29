@@ -20,6 +20,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Verify markdown files have H1 headings
+        run: |
+          echo "Testing markdown files for required H1 headings..."
+          python3 .github/scripts/test-h1-headings.py
+
       - name: Auto-discover all markdown files
         id: discover
         shell: bash
