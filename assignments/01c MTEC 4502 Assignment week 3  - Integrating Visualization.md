@@ -70,4 +70,6 @@ You may wish to speculate with the AI of your choice about how your particular c
 
 ## **Optional Extra Credit:**
 
+### **Steps:**
+
 * For extra credit, **test another platform** that you didn’t choose and submit a short **review (100 words)** on how it compares to the one you selected for your final visualization.
