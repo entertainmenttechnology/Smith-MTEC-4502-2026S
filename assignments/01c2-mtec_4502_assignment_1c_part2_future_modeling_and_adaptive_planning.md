@@ -47,7 +47,7 @@ You will:
 
 All students must install the **Zotero Connector** before next class.
 
-We will join the [shared course Zotero library](https://www.zotero.org/groups/6416274/mtec/library) together in class next week.
+We will join the **[shared course Zotero library](https://www.zotero.org/groups/6416274/mtec/library)** together in class next week.
 
 ## Part 1 – Future of Work Research Expansion (Core Component)
 

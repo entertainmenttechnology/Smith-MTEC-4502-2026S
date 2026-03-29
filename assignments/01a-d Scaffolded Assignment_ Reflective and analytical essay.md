@@ -213,7 +213,7 @@ The integration of Artificial Intelligence (AI) into your assignment offers a un
 
 ### **No AI Use** {#no-ai-use}
 
-If you decide that you do not wish to use the AI part of this assignment, then, state this clearly, as well as your reason for doing so. There will be no grade penalty, but of course it still falls under the principles outlined in the [CUNY Academic Integrity Policy for Artificial Intelligence](https://www1.cuny.edu/sites/cunyufs/2023/06/08/ufs-passes-academic-integrity-update-for-artificial-intelligence/), emphasizing the need for originality and proper citation.
+If you decide that you do not wish to use the AI part of this assignment, then, state this clearly, as well as your reason for doing so. There will be no grade penalty, but of course it still falls under the principles outlined in the **[CUNY Academic Integrity Policy for Artificial Intelligence](https://www1.cuny.edu/sites/cunyufs/2023/06/08/ufs-passes-academic-integrity-update-for-artificial-intelligence/)**, emphasizing the need for originality and proper citation.
 
 ## 
 
@@ -221,7 +221,7 @@ If you decide that you do not wish to use the AI part of this assignment, then, 
 
 In developing this assignment, I utilized ChatGPT, an AI language model, as a collaborative tool to enhance the assignment's design and structure. 
 
-The entire conversation can be accessed at [this link](https://chat.openai.com/share/f3ee4d53-a0dc-43f8-a5ed-79733858beee).
+The entire conversation can be accessed at **[this link](https://chat.openai.com/share/f3ee4d53-a0dc-43f8-a5ed-79733858beee)**.
 
 My interaction with ChatGPT involved several key steps:
 

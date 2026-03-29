@@ -55,7 +55,7 @@ Reference materials, templates, guides, and curated research (career taxonomy, e
 - Portfolio experiments
 - Career planning documents
 
-See [student-work/STUDENT-FOLDER-TEMPLATE.md](student-work/STUDENT-FOLDER-TEMPLATE.md) for folder structure guidelines.
+See **[student-work/STUDENT-FOLDER-TEMPLATE.md](student-work/STUDENT-FOLDER-TEMPLATE.md)** for folder structure guidelines.
 
 ## Getting Started
 
@@ -65,7 +65,7 @@ See [student-work/STUDENT-FOLDER-TEMPLATE.md](student-work/STUDENT-FOLDER-TEMPLA
 4. **Read assignments** in `/assignments` and submit work in your personal folder
 5. **Commit and push regularly** — your process is part of the evaluation
 
-See [course-materials/05-Lesson_Plan_MTEC-4502_2025F.md](course-materials/05-Lesson_Plan_MTEC-4502_2025F.md) for the full course outline and schedule.
+See **[course-materials/05-Lesson_Plan_MTEC-4502_2025F.md](course-materials/05-Lesson_Plan_MTEC-4502_2025F.md)** for the full course outline and schedule.
 
 ### Careers Are Not Static
 
