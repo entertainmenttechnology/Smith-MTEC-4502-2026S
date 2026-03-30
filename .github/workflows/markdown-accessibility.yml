@@ -23,3 +23,17 @@ jobs:
           chmod +x .github/scripts/check-h1-headings.sh
           ./.github/scripts/check-h1-headings.sh
         shell: bash
+
+  check-region-landmarks:
+    runs-on: ubuntu-latest
+    name: Check Landmark Structure in Markdown Files (axe region rule)
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check for landmark-compliant structure
+        run: |
+          chmod +x tests/check-region-landmark-structure.sh
+          ./tests/check-region-landmark-structure.sh
+        shell: bash
