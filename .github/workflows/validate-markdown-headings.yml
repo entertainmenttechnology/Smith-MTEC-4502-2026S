@@ -1,0 +1,23 @@
+name: Markdown Heading Validation
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate-headings:
+    runs-on: ubuntu-latest
+    name: Validate Markdown Heading Order
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Validate markdown heading order
+        run: |
+          chmod +x .github/scripts/validate-markdown-headings.sh
+          ./.github/scripts/validate-markdown-headings.sh
