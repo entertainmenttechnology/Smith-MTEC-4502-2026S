@@ -2,7 +2,7 @@
 
 This evolving document explores emerging and speculative roles in a world shaped by **Balanced Blended Space (BBS)**, **Collaborative AI**, and **Holistic Integration**. Many of these roles reflect the unique blending of physical, virtual, and conceptual environments enabled by CHI meta-projects.
 
-> 🧭 **Purpose**: To identify, name, and describe new forms of labor, research, and design that arise from co-agency between human and machine intelligences.
+🧭 **Purpose**: To identify, name, and describe new forms of labor, research, and design that arise from co-agency between human and machine intelligences.
 
 ---
 
