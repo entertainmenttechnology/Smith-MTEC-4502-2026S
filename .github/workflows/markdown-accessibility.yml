@@ -23,3 +23,9 @@ jobs:
           chmod +x .github/scripts/check-h1-headings.sh
           ./.github/scripts/check-h1-headings.sh
         shell: bash
+
+      - name: Check links have discernible text
+        run: |
+          chmod +x tests/check-links-accessible.sh
+          ./tests/check-links-accessible.sh
+        shell: bash
