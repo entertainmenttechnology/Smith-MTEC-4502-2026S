@@ -91,9 +91,7 @@ Conclusion with Initial Strategic Thoughts
 
 The objective of this part of the exercise is to **design an actionable plan to help guide you to where you want to be in your professional future**. This framework is designed to build upon the self-reflection and insights gained in Part 1, focusing on how to strategically acquire necessary skills, navigate potential career paths, increase networking, and align your professional goals with your personal strengths and sources of fulfillment.  Your framework should attempt to address the following
 
-* 
-
-* ### **Guidelines** {#guidelines-1}
+### **Guidelines** {#guidelines-1}
 
 * **Strategic Planning:**   
 * Articulate a clear, detailed strategy that outlines the steps you will take to achieve your career goals. This involves setting specific, measurable objectives; identifying necessary skills and knowledge; and planning how to acquire or develop these competencies within a defined timeline.  
@@ -123,8 +121,6 @@ Based on the refined insights from your Part 1 essay, create a draft of your str
 ### **Final Submission of Part 2:** {#final-submission-of-part-2:}
 
 After submitting your draft for Part 2, further instructions will be provided for revising your strategic framework, incorporating feedback, and preparing a final submission.
-
-## 
 
 ## **Part 1c: Using Visual Aids in Your Assignment** {#part-1c-using-visual-aids-in-your-assignment}
 
@@ -166,8 +162,6 @@ Different people intake information in different ways. Incorporating diagrams or
 * Usefulness: A roadmap makes it easier to see how each learning opportunity fits into your overall strategy, ensuring a coherent approach to skill and knowledge development.
 
 Incorporating these visual aids into your Strategic Framework not only aids in your understanding and planning but also makes it easier to communicate your strategy to mentors, advisors, or potential employers. Visuals can convey at a glance the thoughtfulness, thoroughness, and strategic nature of your career planning efforts, enhancing both the clarity and impact of your plan.
-
-## 
 
 ## **Part 1d: Using Artificial Intelligence in Your Assignment** {#part-1d-using-artificial-intelligence-in-your-assignment}
 
@@ -215,13 +209,13 @@ The integration of Artificial Intelligence (AI) into your assignment offers a un
 
 If you decide that you do not wish to use the AI part of this assignment, then, state this clearly, as well as your reason for doing so. There will be no grade penalty, but of course it still falls under the principles outlined in the [CUNY Academic Integrity Policy for Artificial Intelligence](https://www1.cuny.edu/sites/cunyufs/2023/06/08/ufs-passes-academic-integrity-update-for-artificial-intelligence/), emphasizing the need for originality and proper citation.
 
-## 
-
 ## **Documentation of AI Use for creating this Assignment** {#documentation-of-ai-use-for-creating-this-assignment}
 
 In developing this assignment, I utilized ChatGPT, an AI language model, as a collaborative tool to enhance the assignment's design and structure. 
 
 The entire conversation can be accessed at [this link](https://chat.openai.com/share/f3ee4d53-a0dc-43f8-a5ed-79733858beee).
+
+### Steps Taken
 
 My interaction with ChatGPT involved several key steps:
 
