@@ -1,3 +1,5 @@
+<main>
+
 # CLASS SESSION 2 RESOURCES  
 These links provide additional material for your assignment  
 
@@ -14,4 +16,6 @@ This site lists a variety of different job boards, mailing lists, organizations 
 
 [SPECULATIVE JOBS](https://github.com/entertainmenttechnology/Smith-MTEC-4502-2025F/blob/main/documents/02_emerging_media_careers.md)  
 Here is a list of possible types of jobs, some predictive, some already existing etc.  Feel free to explore this to see if there may be other types of employment possibilities that meet your capabilities and interests: one never knows!  
+
+</main>
 
