@@ -4,7 +4,9 @@ This guide organizes career pathways in Emerging Media by **skill-based categori
 
 ---
 
-## Creative & Interactive Media Careers
+## Career Categories
+
+### Creative & Interactive Media Careers
 
 | **Job Title** | **Description** | **Most Important Skills** | **Job Search Keywords** |
 |---------------|-----------------|---------------------------|--------------------------|
@@ -19,7 +21,7 @@ This guide organizes career pathways in Emerging Media by **skill-based categori
 
 ---
 
-## Music Composition & Sound Design Careers
+### Music Composition & Sound Design Careers
 
 | **Job Title** | **Description** | **Most Important Skills** | **Job Search Keywords** |
 |---------------|-----------------|---------------------------|--------------------------|
@@ -32,7 +34,7 @@ This guide organizes career pathways in Emerging Media by **skill-based categori
 
 ---
 
-## Software & Technology-Focused Careers
+### Software & Technology-Focused Careers
 
 | **Job Title** | **Description** | **Most Important Skills** | **Job Search Keywords** |
 |---------------|-----------------|---------------------------|--------------------------|
@@ -45,7 +47,7 @@ This guide organizes career pathways in Emerging Media by **skill-based categori
 
 ---
 
-## AI & Generative Media Careers
+### AI & Generative Media Careers
 
 | **Job Title** | **Description** | **Most Important Skills** | **Job Search Keywords** |
 |---------------|-----------------|---------------------------|--------------------------|
@@ -56,7 +58,7 @@ This guide organizes career pathways in Emerging Media by **skill-based categori
 
 ---
 
-## Audio-Visual & Media Production Careers
+### Audio-Visual & Media Production Careers
 
 | **Job Title** | **Description** | **Most Important Skills** | **Job Search Keywords** |
 |---------------|-----------------|---------------------------|--------------------------|
@@ -67,7 +69,7 @@ This guide organizes career pathways in Emerging Media by **skill-based categori
 
 ---
 
-## IoT, Embedded Systems, & Fabrication Careers
+### IoT, Embedded Systems, & Fabrication Careers
 
 | **Job Title** | **Description** | **Most Important Skills** | **Job Search Keywords** |
 |---------------|-----------------|---------------------------|--------------------------|
@@ -80,7 +82,7 @@ This guide organizes career pathways in Emerging Media by **skill-based categori
 
 ---
 
-## Research, Development & Entrepreneurship Careers
+### Research, Development & Entrepreneurship Careers
 
 | **Job Title** | **Description** | **Most Important Skills** | **Job Search Keywords** |
 |---------------|-----------------|---------------------------|--------------------------|
@@ -92,7 +94,7 @@ This guide organizes career pathways in Emerging Media by **skill-based categori
 
 ---
 
-## Sustainability & Emerging Media Careers
+### Sustainability & Emerging Media Careers
 
 | **Job Title** | **Description** | **Most Important Skills** | **Job Search Keywords** |
 |---------------|-----------------|---------------------------|--------------------------|
