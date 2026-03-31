@@ -1,0 +1,25 @@
+name: Heading Order Check
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:  # Allow manual triggering
+
+permissions:
+  contents: read
+
+jobs:
+  check-heading-order:
+    runs-on: ubuntu-latest
+    name: Check Heading Order in Markdown Files
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check heading order compliance
+        run: |
+          chmod +x tests/check-heading-order.sh
+          ./tests/check-heading-order.sh
+        shell: bash
