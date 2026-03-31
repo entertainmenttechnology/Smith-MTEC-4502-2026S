@@ -17,6 +17,22 @@ Tests that `student-work/STUDENT-FOLDER-TEMPLATE.md` contains a level-one headin
 ✅ student-work/STUDENT-FOLDER-TEMPLATE.md has a level-one heading
 ```
 
+### test-color-contrast-student-folder-template.sh
+Tests that `student-work/STUDENT-FOLDER-TEMPLATE.md` does not contain structural patterns that cause low-contrast `<p>` rendering on GitHub. Specifically checks:
+
+- The file has a level-one heading (H1).
+- No plain paragraph immediately follows a `---` horizontal-rule separator, which GitHub can render with its muted foreground color (`#7b7c7d`) on a subtle-canvas background (`#f6f8fa`), failing the WCAG 2.1 AA 4.5:1 contrast requirement.
+
+**Usage:**
+```bash
+./tests/test-color-contrast-student-folder-template.sh
+```
+
+**Expected Output:**
+```
+✅ student-work/STUDENT-FOLDER-TEMPLATE.md passes color-contrast structural checks
+```
+
 ### check-markdown-accessibility.sh
 Checks all markdown files in the repository for level-one headings.
 
@@ -31,6 +47,7 @@ To run all accessibility tests:
 ```bash
 cd /path/to/repository
 ./tests/test-student-folder-template-heading.sh
+./tests/test-color-contrast-student-folder-template.sh
 ./tests/check-markdown-accessibility.sh
 ```
 
