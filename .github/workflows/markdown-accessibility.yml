@@ -23,3 +23,17 @@ jobs:
           chmod +x .github/scripts/check-h1-headings.sh
           ./.github/scripts/check-h1-headings.sh
         shell: bash
+
+  check-link-accessibility:
+    runs-on: ubuntu-latest
+    name: Check Link Accessibility in Markdown Files
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check for accessible link text
+        run: |
+          chmod +x tests/check-link-accessibility.sh
+          ./tests/check-link-accessibility.sh
+        shell: bash
