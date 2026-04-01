@@ -97,7 +97,7 @@ Each essay should include **nine components** and meet the following criteria:
 
 ---
 
-### 🧰 Materials
+## 🧰 Materials
 - Student visualization links or screenshots  
 - Shared Google Doc tabs  
 - Slide deck: *From Future Work to Visual Strategy*  
@@ -106,7 +106,7 @@ Each essay should include **nine components** and meet the following criteria:
 
 ---
 
-### 💡 Instructor Notes
+## 💡 Instructor Notes
 - Begin with a Q&A to surface any confusion about essay integration.  
 - Use the checklist as a shared visual on screen — have students mark progress.  
 - Reinforce the **continuum**:  
