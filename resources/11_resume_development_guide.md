@@ -31,6 +31,7 @@
 ---
 
 ## III. Structural Elements
+### Resume Section Reference
 | Section | Purpose | Notes |
 |----------|----------|-------|
 | **Contact Info** | Establish identity and reachability | Include name, email, portfolio link, city, optional phone |
@@ -45,6 +46,7 @@
 ---
 
 ## IV. Language and Tone
+### Writing Guidelines
 - Use **strong action verbs**: developed, produced, coordinated, designed, implemented, analyzed.  
 - Quantify results where possible (“Reduced editing time by 30%”).  
 - Avoid vague phrasing (“Responsible for…”).  
@@ -54,6 +56,7 @@
 ---
 
 ## V. Tailoring and Customization
+### Customization Strategies
 - Each resume should be **targeted** to a specific job or context.  
 - Reorder or emphasize sections based on purpose (creative, technical, academic).  
 - Extract keywords and core skills from job descriptions.  
@@ -62,6 +65,7 @@
 ---
 
 ## VI. Integration with AI Tools (Ethical Use)
+### Using AI Responsibly
 Use AI as a **collaborator**, not a ghostwriter.  
 - Evaluate tone and clarity.  
 - Identify missing keywords or redundant phrasing.  
@@ -73,6 +77,7 @@ Use AI as a **collaborator**, not a ghostwriter.
 ---
 
 ## VII. Creative and Technical Field Considerations
+### Field-Specific Guidance
 - **Design / Media:** May use light visual accents, icons, or subtle color; ensure legibility.  
 - **Technical / Development:** Prioritize skills and project outcomes; emphasize problem-solving.  
 - **Hybrid Roles:** Showcase adaptability, teamwork, and interdisciplinary understanding.  
@@ -80,6 +85,7 @@ Use AI as a **collaborator**, not a ghostwriter.
 ---
 
 ## VIII. Common Mistakes to Avoid
+### Mistakes to Watch For
 - Typos, inconsistent formatting, or broken links.  
 - Walls of text with no white space.  
 - Overused buzzwords (“innovative,” “team player”).  
@@ -89,6 +95,7 @@ Use AI as a **collaborator**, not a ghostwriter.
 ---
 
 ## IX. Evaluation Checklist
+### Self-Review Checklist
 | Category | Question | Goal |
 |-----------|-----------|------|
 | **Readability** | Is the resume easy to scan? | Recruiter grasps core info in <10 seconds |
@@ -101,6 +108,8 @@ Use AI as a **collaborator**, not a ghostwriter.
 
 ## X. Reflection Prompts
 For inclusion in AI Collaboration Report or journal:
+
+### Journal Questions
 - How did aligning your resume’s tone with your portfolio change its impact?  
 - Which feedback (human or AI) most improved your clarity or identity?  
 - Does your resume communicate trajectory as well as skill?  
