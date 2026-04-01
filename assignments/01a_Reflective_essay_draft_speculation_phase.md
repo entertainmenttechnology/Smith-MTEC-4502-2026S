@@ -9,6 +9,7 @@ This assignment represents the **Speculation phase** of the course’s project-d
 
 You are being asked to slow down and articulate assumptions that often remain implicit: what you think you want, what you believe matters, and how you currently understand your own capabilities.
 
+> [!IMPORTANT]
 > **Important constraint:** For this assignment, you must not use outside resources of any kind. No job listings, no portfolio sites, no LinkedIn, no AI tools. This document should reflect only your present thinking, intuition, and lived experience.
 
 You will have ample opportunity to revise, expand, and challenge these ideas later. The value of this draft lies precisely in its *incompleteness*.
