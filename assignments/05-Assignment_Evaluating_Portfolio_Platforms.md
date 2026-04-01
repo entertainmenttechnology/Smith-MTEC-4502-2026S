@@ -1,10 +1,10 @@
-#  Assignment: Exploring and Evaluating Portfolio Platforms  
+# Assignment: Exploring and Evaluating Portfolio Platforms
 **MTEC 4502 – Career and Portfolio Seminar**  
 **Instructor:** Dr. David B. Smith  
 
 ---
 
-##  Overview
+## Overview
 This activity introduces students to a wide range of professional portfolio platforms across creative, technical, and hybrid domains.  
 You will research several platforms, fill out an evaluation chart, and present your findings during class.  
 Your goal is to understand **which platform best fits your professional goals, creative identity, and career direction**.
@@ -13,7 +13,7 @@ This assignment emphasizes exploration, evaluation, and discussion, along with v
 
 ---
 
-##  Resource
+## Resource
 Use the shared document as your primary guide:  
 👉 **[MTEC 4502 – Common Portfolio Platforms (Google Doc)](https://docs.google.com/document/d/1yAUXT7PS-UqmYrYAnWGZzVd5BFZk9ffURuGBU7ewljg/edit?usp=sharing)**  
 
@@ -22,7 +22,7 @@ You will not explore every platform — instead, focus on **about half the list*
 
 ---
 
-##  Objectives
+## Objectives
 By the end of this activity, you will:
 1. Evaluate and compare **at least 3–5 platforms**.  
 2. Identify **who uses** each platform and for what purpose.  
@@ -32,7 +32,7 @@ By the end of this activity, you will:
 
 ---
 
-##  Steps
+## Steps
 
 ### **Part 1 – Research and Evaluation**
 Individually review **3–5 platforms** from the provided list.  
@@ -60,7 +60,7 @@ If possible, **show the website** (briefly) to demonstrate features you found us
 
 ---
 
-##  Evaluation Criteria
+## Evaluation Criteria
 
 | Criteria | Description |
 |-----------|-------------|
@@ -72,7 +72,7 @@ If possible, **show the website** (briefly) to demonstrate features you found us
 
 ---
 
-##  Next Steps
+## Next Steps
 Your findings today will inform your **Portfolio Development** phase.  
 Based on what you learned, you’ll soon:
 - Select your final platform.  
