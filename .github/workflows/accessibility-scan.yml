@@ -20,6 +20,12 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Test markdown files for level-one headings
+        shell: bash
+        run: |
+          chmod +x test-accessibility.sh
+          ./test-accessibility.sh
+
       - name: Auto-discover all markdown files
         id: discover
         shell: bash
