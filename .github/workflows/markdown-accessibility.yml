@@ -23,3 +23,17 @@ jobs:
           chmod +x .github/scripts/check-h1-headings.sh
           ./.github/scripts/check-h1-headings.sh
         shell: bash
+
+  check-main-landmark:
+    runs-on: ubuntu-latest
+    name: Check Main Landmark in 01a Assignment
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check for main landmark element
+        run: |
+          chmod +x .github/scripts/check-main-landmark.sh
+          ./.github/scripts/check-main-landmark.sh
+        shell: bash
