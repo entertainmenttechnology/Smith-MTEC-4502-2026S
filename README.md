@@ -126,8 +126,6 @@ You are not expected to already be fluent in GitHub. Learning to work comfortabl
 
 ---
 
----
-
 ## Repository Structure
 
 ```text
