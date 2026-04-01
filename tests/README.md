@@ -25,6 +25,22 @@ Checks all markdown files in the repository for level-one headings.
 ./tests/check-markdown-accessibility.sh
 ```
 
+### check-link-names.sh
+Checks all markdown files in the repository for links without discernible text.
+This addresses the WCAG 2.1 `link-name` axe rule, ensuring every link has visible text, `aria-label`, or `aria-labelledby` so screen readers can identify link destinations.
+
+**Usage:**
+```bash
+./tests/check-link-names.sh
+```
+
+**Detects:**
+- Markdown links with empty text: `[](url)`
+- HTML `<a>` tags with no text content: `<a href="..."></a>`
+- Self-closing `<a>` tags without an `aria-label`: `<a href="..."/>`
+
+**Reference:** [Deque University: Link Name](https://dequeuniversity.com/rules/axe/4.11/link-name)
+
 ## Running Tests
 
 To run all accessibility tests:
@@ -32,6 +48,7 @@ To run all accessibility tests:
 cd /path/to/repository
 ./tests/test-student-folder-template-heading.sh
 ./tests/check-markdown-accessibility.sh
+./tests/check-link-names.sh
 ```
 
 ## WCAG 2.1 Compliance
