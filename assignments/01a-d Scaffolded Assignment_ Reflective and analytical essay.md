@@ -124,8 +124,6 @@ Based on the refined insights from your Part 1 essay, create a draft of your str
 
 After submitting your draft for Part 2, further instructions will be provided for revising your strategic framework, incorporating feedback, and preparing a final submission.
 
-## 
-
 ## **Part 1c: Using Visual Aids in Your Assignment** {#part-1c-using-visual-aids-in-your-assignment}
 
 Different people intake information in different ways. Incorporating diagrams or charts into the Strategic Framework for Career Path Planning can significantly enhance comprehension and effectiveness. Visual aids help in organizing information, illustrating complex ideas simply, and highlighting relationships between different components of your plan. They can serve as a powerful tool for the communication of your strategic ideas. Here are several types of diagrams or charts that could be useful graphics for this assignment:
@@ -166,8 +164,6 @@ Different people intake information in different ways. Incorporating diagrams or
 * Usefulness: A roadmap makes it easier to see how each learning opportunity fits into your overall strategy, ensuring a coherent approach to skill and knowledge development.
 
 Incorporating these visual aids into your Strategic Framework not only aids in your understanding and planning but also makes it easier to communicate your strategy to mentors, advisors, or potential employers. Visuals can convey at a glance the thoughtfulness, thoroughness, and strategic nature of your career planning efforts, enhancing both the clarity and impact of your plan.
-
-## 
 
 ## **Part 1d: Using Artificial Intelligence in Your Assignment** {#part-1d-using-artificial-intelligence-in-your-assignment}
 
@@ -214,8 +210,6 @@ The integration of Artificial Intelligence (AI) into your assignment offers a un
 ### **No AI Use** {#no-ai-use}
 
 If you decide that you do not wish to use the AI part of this assignment, then, state this clearly, as well as your reason for doing so. There will be no grade penalty, but of course it still falls under the principles outlined in the [CUNY Academic Integrity Policy for Artificial Intelligence](https://www1.cuny.edu/sites/cunyufs/2023/06/08/ufs-passes-academic-integrity-update-for-artificial-intelligence/), emphasizing the need for originality and proper citation.
-
-## 
 
 ## **Documentation of AI Use for creating this Assignment** {#documentation-of-ai-use-for-creating-this-assignment}
 
