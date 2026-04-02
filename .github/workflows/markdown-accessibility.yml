@@ -23,3 +23,17 @@ jobs:
           chmod +x .github/scripts/check-h1-headings.sh
           ./.github/scripts/check-h1-headings.sh
         shell: bash
+
+  check-landmark-one-main:
+    runs-on: ubuntu-latest
+    name: Check Landmark-One-Main in Markdown Files
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check for landmark-one-main compliance
+        run: |
+          chmod +x tests/check-landmark-one-main.sh
+          ./tests/check-landmark-one-main.sh
+        shell: bash
