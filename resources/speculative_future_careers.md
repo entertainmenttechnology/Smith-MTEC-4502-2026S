@@ -72,6 +72,8 @@ Each role includes a **short description**, **possible skills/tools**, and an op
 ---
 
 ## 🧠 Prompting Student Research
+
+### Steps
 To use this taxonomy:
 - Choose 1–2 roles and **speculate how you might enter that field**
 - Determine what skills or **competencies you already have**
@@ -83,6 +85,8 @@ You may also create **entirely new roles** that extend or blend these ideas.
 ---
 
 ## ✨ Related Documents to Develop
+
+### Planned Resources
 - [ ] Future Job Roles Board (GitHub Project View)
 - [ ] Student Self-Positioning Templates
 - [ ] AI + Markdown + Career Tools Cheatsheet
