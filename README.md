@@ -130,7 +130,7 @@ You are not expected to already be fluent in GitHub. Learning to work comfortabl
 
 ## Repository Structure
 
-```text
+```
 ├── assignments/          # Assignment prompts and deliverables
 ├── course-materials/     # Syllabus, lesson plans, slides, readings
 ├── resources/            # Guides, templates, reference materials
