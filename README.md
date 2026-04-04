@@ -1,3 +1,5 @@
+<main>
+
 # MTEC 4502 – Career and Portfolio Seminar
 
 ## 📋 Current Assignments
@@ -162,4 +164,6 @@ This repository is not an endpoint.
 It is a **working archive** you may return to, revise, fork, or extend long after the course ends — as your career continues to evolve.
 
 Welcome to MTEC 4502.
+
+</main>
 
