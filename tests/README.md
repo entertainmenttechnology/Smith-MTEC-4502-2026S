@@ -17,6 +17,20 @@ Tests that `student-work/STUDENT-FOLDER-TEMPLATE.md` contains a level-one headin
 ✅ student-work/STUDENT-FOLDER-TEMPLATE.md has a level-one heading
 ```
 
+### test-course-materials-heading-order.sh
+Tests that `course-materials/README.md` has a level-one heading and that heading levels only increase by one at a time, as required by the WCAG 2.1 / axe `heading-order` rule.
+
+**Usage:**
+```bash
+./tests/test-course-materials-heading-order.sh
+```
+
+**Expected Output:**
+```
+✅ course-materials/README.md has a level-one heading
+✅ course-materials/README.md has valid heading order
+```
+
 ### check-markdown-accessibility.sh
 Checks all markdown files in the repository for level-one headings.
 
