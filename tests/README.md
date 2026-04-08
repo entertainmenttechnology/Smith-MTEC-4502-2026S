@@ -25,6 +25,20 @@ Checks all markdown files in the repository for level-one headings.
 ./tests/check-markdown-accessibility.sh
 ```
 
+### test-01b-assignment-lang.sh
+Tests that `assignments/01b MTEC 4502 Strategic Framework Assignment.md` has a level-one heading, satisfying the `page-has-heading-one` WCAG 2.1 accessibility requirement for the file flagged with an `html-has-lang` accessibility violation.
+
+**Usage:**
+```bash
+./tests/test-01b-assignment-lang.sh
+```
+
+**Expected Output:**
+```
+✅ Has level-one heading (page-has-heading-one): # MTEC 4502 Strategic Framework Assignment
+✅ All accessibility checks passed for assignments/01b MTEC 4502 Strategic Framework Assignment.md
+```
+
 ## Running Tests
 
 To run all accessibility tests:
@@ -32,6 +46,7 @@ To run all accessibility tests:
 cd /path/to/repository
 ./tests/test-student-folder-template-heading.sh
 ./tests/check-markdown-accessibility.sh
+./tests/test-01b-assignment-lang.sh
 ```
 
 ## WCAG 2.1 Compliance
