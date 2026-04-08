@@ -1,0 +1,47 @@
+name: Markdown Heading Check
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check-headings:
+    runs-on: ubuntu-latest
+    name: Check Markdown Files for Level-One Headings
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check for level-one headings
+        shell: bash
+        run: |
+          # Find all markdown files (excluding .git directory and README.md in root)
+          ERRORS=0
+          
+          echo "Checking markdown files for level-one headings..."
+          echo ""
+          
+          # Find all markdown files in assignments directory
+          while IFS= read -r file; do
+            # Check if file contains a level-one heading (line starting with single #)
+            if ! grep -q '^# ' "$file"; then
+              echo "❌ ERROR: $file is missing a level-one heading"
+              ERRORS=$((ERRORS + 1))
+            else
+              echo "✅ OK: $file"
+            fi
+          done < <(find assignments -name "*.md" -type f | sort)
+          
+          echo ""
+          if [ $ERRORS -gt 0 ]; then
+            echo "Found $ERRORS file(s) without level-one headings"
+            exit 1
+          else
+            echo "All assignment files have level-one headings!"
+          fi
