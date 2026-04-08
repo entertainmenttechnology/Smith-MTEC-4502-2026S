@@ -1,4 +1,5 @@
-**MTEC 4502 Career and Portfolio Seminar**  
+# MTEC 4502 Career and Portfolio Seminar
+
 *(Last update 2025-09-03 dbs)*
 
 **Assignment part 1b: Strategic Framework for Career Path Planning**
@@ -102,7 +103,7 @@ After completing the first draft of your Strategic Framework, seek feedback from
 * A reflection (100-150 words) on how you incorporated feedback into your Strategic Framework.  
   ---
 
-  #### **Next Steps and Submission Requirements:**
+### Next Steps and Submission Requirements
 
 * **Submission Format**: Submit a **750-1000 word strategic framework** in a shareable Google Doc or PDF. Ensure each section is clearly labeled and follows the structure outlined above.  
 * **Due Date**: \[Insert due date here\]  
