@@ -1,6 +1,6 @@
-## Student Work Template
+# Student Work Template
 
-### How to Use This Folder
+## How to Use This Folder
 
 Each student who forks this repository should:
 

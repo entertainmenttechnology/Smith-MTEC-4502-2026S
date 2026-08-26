@@ -50,8 +50,9 @@ All students must have a laptop suitable for performing classwork. Laptops are r
 * **Software:** GitHub, GitHub Desktop
   * **Link:** https://github.com/apps/desktop
   * **Notes:** Our GitHub repository is here: https://github.com/entertainmenttechnology/Smith-MTEC-4502-2026S
-* **Software:** Zotero, Zotero Connector, Zotero Desktop
+* **Software:** Zotero Desktop, Zotero Connector
   * **Link:** https://www.zotero.org/
+  * **Notes:** Mandatory citation and research management tool. All external research, job postings, articles, and documentation used in this course must be saved to Zotero and cited. Join our [Shared Course Zotero Library](https://www.zotero.org/groups/6416274/mtec/library).
 
 ### Student-Selected Productivity and Creative Tools
 Students will also use productivity and creative software to complete course projects. These tools are not limited to one required application; each student should select tools appropriate to their goals, access, and workflow. Possible tools include applications for writing and document creation, image creation and editing, chart and visualization development, portfolio-page creation, coding, resume and cover-letter preparation, and budgeting.
@@ -73,7 +74,7 @@ For the successful completion of this course, the student should be able to:
 4. **Present a professional pitch** (introducing their work, services, or career identity).
    * *Evaluation methods:* In-class rehearsals and final presentation of a timed professional pitch supported by portfolio materials.
 5. **Evaluate resource trade-offs** and demonstrate how budgeting informs professional decision-making and career development.
-   * *Evaluation methods:* Budgeting Reflection + Budget Artifact integrated into portfolio; demonstration of budgeting philosophy.
+   * *Evaluation methods:* Budgeting Reflection + Standalone Budget Artifact (optional portfolio inclusion for management/production tracks); demonstration of budgeting philosophy.
 6. **Effectively collaborate with AI resources** to explore, draft, and refine professional materials in an ethical and transparent way.
    * *Evaluation methods:* Documentation of AI use in essays, résumé drafts, portfolio development, and reflections.
 
@@ -86,7 +87,7 @@ For the successful completion of this course, the student should be able to:
 3. **Acquire and adapt tools for lifelong learning** and professional growth.
    * *Evaluation methods:* Research on industry expectations; matching skills to opportunities; creation of strategic framework.
 4. **Evaluate the role of resource management** and decision-making in professional readiness.
-   * *Evaluation methods:* Budgeting assignment; reflection on trade-offs; integration into portfolio.
+   * *Evaluation methods:* Budgeting assignment; reflection on trade-offs; standalone class deliverable (optional portfolio inclusion).
 
 ---
 
@@ -94,8 +95,8 @@ For the successful completion of this course, the student should be able to:
 
 | Assignment / Component | Weight |
 | :--- | :--- |
-| Online Portfolio (platform of choice, iterative updates, final presentation) | 50% |
-| Reflective & Analytical Essay (strategic career planning scaffold) | 10% |
+| Online Portfolio (platform of choice, iterative updates, final presentation) | 40% |
+| Reflective & Analytical Essay (strategic career planning scaffold) | 20% |
 | Résumé & Cover Letter (professional application materials) | 10% |
 | Budgeting as Professional Practice | 10% |
 | AI Collaboration (documentation of ethical, transparent use across assignments) | 10% |
@@ -119,31 +120,27 @@ For the successful completion of this course, the student should be able to:
 
 | Week | Date | Format | Topic / Focus | Assignment / Deliverable |
 | :--- | :--- | :--- | :--- | :--- |
-| **1** | September 2 | I | Course Introduction: Career Development & Professional Placement. *In-Class: Journal Entry #1 (Speculative Reflection).* | Begin Reflective Essay Draft (Assignment 1, Part 1) |
-| **2** | September 9 | H | Charting a Career Path | Reflective Essay Draft Due (Assignment 1, Part 1) |
-| **3** | September 16 | I | Self-Analysis & Career Strategy | Final Reflective Essay + Strategic Framework Draft (Assignment 1, Part 2) |
-| **4** | September 23 | H | Matching Skills and Opportunities | Visual Aids Draft (Assignment 1, Part 3) |
-| **5** | September 30 | I | Presenting Frameworks | Final Strategic Framework (Assignment 1, Part 4) |
+| **1** | September 2 | I | Course Introduction: Career Development & Professional Placement. *In-Class: Journal Entry #1 (Speculative Reflection).* | Begin Reflective Essay Draft (Assignment 1a) |
+| **2** | September 9 | H | Charting a Career Path | Reflective Essay Draft Due (Assignment 1a) |
+| **3** | September 16 | I | Self-Analysis & Career Strategy | Strategic Framework & Gap Analysis Due (Assignment 1b) |
+| **4** | September 23 | H | Matching Skills and Opportunities | Integrating Visualization Draft Due (Assignment 1c) |
+| **5** | September 30 | I | Presenting Frameworks | Future Modeling (1d) & AI Reflection (1e) / Final Framework Package Due |
 | **6** | October 7 | H | The Résumé | Résumé Draft Due |
 | **7** | October 14 | I | Résumé & Portfolio Item Evaluation | Portfolio item list + platform selection |
 | **8** | October 21 | H | Portfolio Implementation | Updated résumé + portfolio draft |
 | **9** | October 28 | I | Portfolio Feedback (Round 1) | Portfolio update |
 | **10** | November 4 | H | Portfolio Feedback (Round 2) | — |
-| **11** | November 11 | I | Cover Letters | Cover Letter Draft Due |
-| **12** | November 18 | H | Cover Letter Feedback + Workplace Ethics | Updated Cover Letter |
+| **11** | November 11 | H | Cover Letters | Cover Letter Draft Due |
+| **12** | November 18 | I | Cover Letter Feedback + Workplace Ethics | Updated Cover Letter |
 | — | **November 25** | — | **NO CLASSES SCHEDULED** | — |
-| **13** | December 2 | H | Budgeting as Professional Practice | Budget Reflection + Artifact added to Portfolio |
+| **13** | December 2 | H | Budgeting as Professional Practice | Budget Reflection + Standalone Artifact Deliverable |
 | **14** | December 9 | I | Portfolio Integration & Professional Pitch | Portfolio Pitch Rehearsal |
-| **15** | December 16 | I | Final Presentations and Pitch | Final Portfolio (Essay, Résumé, Cover Letter, Budgeting section) |
+| **15** | December 16 | I | Final Presentations and Pitch | Final Portfolio & Course Package (Essay, Résumé, Cover Letter, Budgeting Artifact) |
 
 ---
 
 ## Course Policies
 
-### AI Statement
-All borrowed text, code, or media used for this course must be attributed to the original creator, whether human or AI. Any direct text quotes from another source must be specified with quotes and appropriately cited. Code borrowed from another source at more than four lines in length must be attributed as a comment within the code itself. If you are unsure of whether or not your work may constitute plagiarism, please check with your instructor before submitting. Any instance of plagiarism will be reported to the MTEC Program Director, Chair of ENT, and City Tech’s Academic Integrity Officer.
-
-For more information, please visit: [City Tech's AI Guidance](https://citytech-cuny.simplesyllabus.com)
 
 ### Late Work Policy
 The materials you create in this course — résumé, portfolio, cover letter, reflective/strategic essay, and budgeting framework — are professional development documents that will continue to evolve throughout your career. Because of this, none are ever "complete", and thus class assessment is always based on the materials as they exist at the time of the final pitch presentation.

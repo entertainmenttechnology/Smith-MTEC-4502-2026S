@@ -2,8 +2,6 @@ name: Accessibility Scanner
 on:
   push:
     branches: [main]
-  pull_request:
-    branches: [main]
   workflow_dispatch:  # Allow manual triggering
 
 permissions:
@@ -57,4 +55,4 @@ jobs:
           repository: ${{ github.repository }}
           token: ${{ secrets.GH_TOKEN }}
           cache_key: a11y-scan-mtec4502-${{ github.ref_name }}
-          skip_copilot_assignment: false  # Set to true if you don't want Copilot to propose fixes
+          skip_copilot_assignment: true  # Prevent automated Copilot PR creation

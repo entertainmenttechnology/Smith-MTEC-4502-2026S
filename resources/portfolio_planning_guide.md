@@ -1,9 +1,8 @@
-# MTEC 4502 – Career and Portfolio Seminar  
-## Week 9: Portfolio Planning & Student Presentations  
-**Assignment Context:** Assignment 3.2 – The Portfolio  
+# Portfolio Planning & Mid-Stage Presentations Guide
+
+**Course:** MTEC 4502 – Career and Portfolio Seminar  
+**Assignment Context:** Linked to Assignment 03 (Portfolio Platforms) & Assignment 06 (Online Portfolio & Pitch)  
 **Instructor:** Dr. David B. Smith  
-**Duration:** 2 hours 30 minutes  
-**Format:** In-person / Google Doc tabs or short slide decks  
 
 ---
 
@@ -18,9 +17,8 @@ By the end of this session, students will:
 
 ## 🧩 Pre-Class Preparation
 Students should have:  
-- Completed Assignment 3.2 – The Portfolio (Part 1: Concept & Platform Selection).  
-- Entered their portfolio platform link or outline in a shared Google Doc tab.  
-- Prepared to show any early mockups, wireframes, or example sites.  
+- Completed Assignment 03 (Platform Selection & Portfolio Outline).  
+- Prepared to share their chosen platform link, structural outline, or early mockups.  
 - Optional: one slide or visual mood board summarizing design intent.  
 
 ---
