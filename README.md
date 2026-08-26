@@ -1,11 +1,16 @@
-# MTEC 4502 – Career and Portfolio Seminar
+# MTEC 4502 - Career and Portfolio Seminar
 
-## 📋 Current Assignments
+Welcome to the MTEC 4502 course repository.
 
-Students are currently working on:
+This repository is your working space for developing a career strategy, researching emerging opportunities, and building a portfolio of professional evidence throughout the semester. Start here, then use the assignment prompts and course materials to guide your work week by week.
 
-1. [**Assignment 1C – Integrating Visualization**](assignments/01c%20MTEC%204502%20Assignment%20week%203%20%20-%20Integrating%20Visualization.md) – Build and refine a strategic framework with gap analysis and visualization
-2. [**Assignment 1C – Part 2: Future Modeling and Adaptive Planning**](assignments/01c2-mtec_4502_assignment_1c_part2_future_modeling_and_adaptive_planning.md) – Stress-test the framework using future-of-work research, prioritized goals, and adaptive planning
+## Start Here
+
+1. Read the [course materials](course-materials/README.md), including the current syllabus and schedule.
+2. Create your personal workspace by copying [student-work/STUDENT-FOLDER-TEMPLATE.md](student-work/STUDENT-FOLDER-TEMPLATE.md) into a folder named with your name or GitHub username.
+3. Review the [assignments](assignments/) and begin with the first assignment listed on the current course schedule.
+4. Read the relevant [resources](resources/) before beginning each assignment.
+5. Commit and push your work regularly so that your process and revisions remain visible.
 
 ---
 
@@ -30,7 +35,7 @@ Nothing here is considered final in an absolute sense. Instead, this repository 
 
 ---
 
-## How to Navigate This Repository
+## Repository Map
 
 Each folder has a specific purpose:
 
@@ -57,15 +62,18 @@ Reference materials, templates, guides, and curated research (career taxonomy, e
 
 See [student-work/STUDENT-FOLDER-TEMPLATE.md](student-work/STUDENT-FOLDER-TEMPLATE.md) for folder structure guidelines.
 
-## Getting Started
+## Semester Roadmap
 
-1. **Fork this repository** to your personal GitHub account
-2. **Clone your fork** to your local machine
-3. **Create a folder** in `/student-work` with your name (e.g., `student-work/firstname-lastname/`)
-4. **Read assignments** in `/assignments` and submit work in your personal folder
-5. **Commit and push regularly** — your process is part of the evaluation
+The sequence below describes the general progression of the course. Use the current schedule in [course-materials](course-materials/) for dates, deliverables, and any changes to this order.
 
-See [course-materials/05-Lesson_Plan_MTEC-4502_2025F.md](course-materials/05-Lesson_Plan_MTEC-4502_2025F.md) for the full course outline and schedule.
+1. Reflect on your interests, experience, and possible career directions.
+2. Research emerging media careers, industries, tools, and transferable skills.
+3. Build and visualize a strategic framework for your development.
+4. Use future modeling and adaptive planning to test and revise that framework.
+5. Develop professional materials, including a resume and portfolio direction.
+6. Evaluate platforms and present a current version of your professional story.
+
+Each stage builds on the previous one. Keep earlier drafts and document what changed as your thinking develops.
 
 ### Careers Are Not Static
 
