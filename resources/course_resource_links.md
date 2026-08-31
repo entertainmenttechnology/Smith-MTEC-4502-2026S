@@ -9,6 +9,6 @@ This article is from Dell (it is always critical to identify your source, and th
 [ENT TECH JOB LISTINGS](https://openlab.citytech.cuny.edu/groups/entertainment-technology-student-resources/docs/entertainment-technology-jobs-and-internships/)  
 This site lists a variety of different job boards, mailing lists, organizations, and other entities that hire. You will want to deep dive into this: explore the different boards and identify opportunities that match your interests.  
 
-[SPECULATIVE JOBS](02_emerging_media_careers.md)  
+[SPECULATIVE JOBS](emerging_media_careers.md)  
 Here is a list of possible types of jobs, some predictive, some already existing, etc. Feel free to explore this to see if there may be other types of employment possibilities that meet your capabilities and interests!  
 
